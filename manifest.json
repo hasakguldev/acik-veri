@@ -1,39 +1,35 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "updatedAt": "2026-08-19",
-  "description": "Turkiye egitim, sinav, finans ve mevzuat verilerini iceren merkezi acik veri deposu.",
+  "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
   "datasets": {
     "yks": {
-      "name": "YKS Universite Yerlestirme Verileri",
-      "description": "OSYM YKS merkezi yerlestirme taban/tavan puanlari, kontenjanlar, bolum istatistikleri ve basar\u0131 siralama trendleri",
-      "years": ["2025", "2026"],
-      "latestYear": "2026",
-      "source": "OSYM",
+      "name": "YKS Üniversite Yerleştirme Verileri (Birleşik Model)",
+      "description": "ÖSYM YKS merkezi yerleştirme taban/tavan puanları, kontenjanlar, 5 yıllık sıralama geçmişi (2022-2026) ve bölüm istatistikleri",
+      "model": "unique-program-history-array",
+      "yearsIncluded": [2022, 2023, 2024, 2025, 2026],
+      "latestYear": 2026,
+      "source": "ÖSYM",
       "basePath": "yks/",
-      "files": {
-        "perYear": [
-          "meta.json",
-          "programs_tyt.json",
-          "programs_say.json",
-          "programs_ea.json",
-          "programs_soz.json",
-          "programs_dil.json",
-          "departments.json"
-        ],
-        "optional": ["rank_history.json"]
-      }
+      "files": [
+        "meta.json",
+        "programs_tyt.json",
+        "programs_say.json",
+        "programs_ea.json",
+        "programs_soz.json",
+        "programs_dil.json",
+        "departments.json"
+      ]
     },
     "parametreler": {
       "name": "Yasal ve Mali Parametreler",
-      "description": "Asgari ucret, vergi dilimleri, SGK tavani, kidem tazminati tavani, MTV, KDV, kredi oranlari vb.",
+      "description": "Asgari ücret, vergi dilimleri, SGK tavanı, kıdem tazminatı tavanı, MTV, KDV, faiz oranları vb.",
       "years": ["2025"],
       "latestYear": "2025",
-      "source": "Resmi Gazete, GIB, SGK, TCMB",
+      "source": "Resmî Gazete, GİB, SGK, TCMB",
       "basePath": "parametreler/",
-      "files": {
-        "perYear": ["{year}.json"]
-      }
+      "files": ["2025.json"]
     }
   }
 }

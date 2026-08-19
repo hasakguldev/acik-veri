@@ -1,36 +1,40 @@
 {
-  "name": "YKS Universite Yerlestirme Verileri",
-  "source": "OSYM",
-  "years": ["2025", "2026"],
-  "latestYear": "2026",
+  "name": "YKS Üniversite Yerleştirme Verileri",
+  "source": "ÖSYM",
+  "yearsIncluded": [2022, 2023, 2024, 2025, 2026],
+  "latestYear": 2026,
   "schema": {
     "program": {
-      "code": "Program kodu (OSYM)",
-      "univType": "Universite turu (DEVLET | VAKIF | KKTC)",
-      "university": "Universite adi",
-      "city": "Sehir",
-      "faculty": "Fakulte / Yuksekokul adi",
-      "program": "Program adi (temizlenmis)",
-      "scoreType": "Puan turu (TYT | SAY | EA | SOZ | DIL)",
-      "quota": "Kontenjan",
-      "placed": "Yerlesen",
-      "minScore": "En kucuk (taban) puan",
-      "maxScore": "En buyuk (tavan) puan",
-      "minRank": "En son bilinen basari sirasi (siralama)",
-      "projectedRank": "Tahmini basari sirasi",
-      "rankTrend": "Siralama degisim trendi (up | down | flat)",
-      "ranks": "Gecmis yillarin basari siralari (orn: {'2022': ..., '2023': ..., '2024': ...})",
+      "code": "Program kodu (ÖSYM)",
+      "univType": "Üniversite türü (DEVLET | VAKIF | KKTC)",
+      "university": "Üniversite adı",
+      "city": "Şehir",
+      "faculty": "Fakülte / Yüksekokul adı",
+      "program": "Program adı (temizlenmiş)",
+      "scoreType": "Puan türü (TYT | SAY | EA | SOZ | DIL)",
       "scholarship": "Burs durumu (none | full | 50 | 25 | 75)",
-      "language": "Ogretim dili ISO kodu (tr | en | de | fr ...)",
-      "eduType": "Ogretim turu (formal | distance | evening)"
+      "language": "Öğretim dili ISO kodu (tr | en | de | fr ...)",
+      "eduType": "Öğretim türü (formal | distance | evening)",
+      "latest": {
+        "year": "En son yerleştirme yılı (ör: 2026)",
+        "quota": "Kontenjan",
+        "placed": "Yerleşen sayısı",
+        "minScore": "En küçük (taban) puan",
+        "maxScore": "En büyük (tavan) puan",
+        "minRank": "En son bilinen başarı sırası (sıralama)"
+      },
+      "history": "Yıllara göre (2026, 2025, 2024, 2023, 2022) sıralı dizi: [ { year, quota, placed, minScore, maxScore, minRank } ]",
+      "rankTrend": "Sıralama değişim trendi (up | down | flat)",
+      "projectedRank": "Tahmini başarı sırası"
     },
     "department": {
-      "name": "Bolum adi (kanonik)",
-      "count": "Kac programda acilmis",
-      "scoreTypes": "Hangi puan turlerinde",
-      "faculty": "En yaygin fakulte",
-      "minMin": "Tum programlar icinde en dusuk taban",
-      "maxMax": "Tum programlar icinde en yuksek tavan"
+      "name": "Bölüm adı (kanonik)",
+      "count": "Kaç programda açılmış",
+      "scoreTypes": "Hangi puan türlerinde",
+      "faculty": "En yaygın fakülte",
+      "minMin": "Tüm programlar içinde en düşük taban puan",
+      "maxMax": "Tüm programlar içinde en yüksek tavan puan",
+      "bestRank": "Tüm programlar içinde en iyi taban sıralama"
     }
   }
 }
