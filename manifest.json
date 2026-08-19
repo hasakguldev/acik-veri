@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "updatedAt": "2026-08-19",
+  "version": "2.1.0",
+  "updatedAt": "2026-08-20",
   "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
   "datasets": {
@@ -19,6 +19,23 @@
         "programs_ea.json",
         "programs_soz.json",
         "programs_dil.json",
+        "departments.json"
+      ]
+    },
+    "lgs": {
+      "name": "LGS Lise Taban Puanları ve Tercih Veri Seti",
+      "description": "MEB Merkezi Sınav Puanı ile Öğrenci Alan Ortaöğretim Kurumları taban puanları, pansiyon, öğretim şekli ve boş kontenjanları",
+      "latestYear": 2026,
+      "source": "T.C. Millî Eğitim Bakanlığı (MEB) e-Okul",
+      "basePath": "lgs/",
+      "files": [
+        "meta.json",
+        "schools.json",
+        "schools_fen.json",
+        "schools_anadolu.json",
+        "schools_imamhatip.json",
+        "schools_meslek.json",
+        "schools_sosyal.json",
         "departments.json"
       ]
     },
