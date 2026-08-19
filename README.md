@@ -34,7 +34,7 @@ Asgari ücret, vergi dilimleri, SGK tavanı, kıdem tazminatı tavanı, MTV, KDV
 ### jsDelivr CDN ile (Önerilen)
 
 ```javascript
-const CDN = 'https://cdn.jsdelivr.net/gh/KULLANICI/acik-veri@main';
+const CDN = 'https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main';
 
 // YKS 2026 SAY programları
 const res = await fetch(`${CDN}/yks/2026/programs_say.json`);
@@ -47,7 +47,7 @@ const params = await fetch(`${CDN}/parametreler/2025.json`).then(r => r.json());
 ### Ham GitHub URL ile (Fallback)
 
 ```javascript
-const RAW = 'https://raw.githubusercontent.com/KULLANICI/acik-veri/main';
+const RAW = 'https://raw.githubusercontent.com/hasakguldev/acik-veri/main';
 const data = await fetch(`${RAW}/yks/2026/meta.json`).then(r => r.json());
 ```
 

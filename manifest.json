@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "updatedAt": "2026-08-19",
   "description": "Turkiye egitim, sinav, finans ve mevzuat verilerini iceren merkezi acik veri deposu.",
-  "cdn": "https://cdn.jsdelivr.net/gh/KULLANICI/acik-veri@main",
+  "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
   "datasets": {
     "yks": {
       "name": "YKS Universite Yerlestirme Verileri",

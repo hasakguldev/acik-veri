@@ -16,6 +16,10 @@
       "placed": "Yerlesen",
       "minScore": "En kucuk (taban) puan",
       "maxScore": "En buyuk (tavan) puan",
+      "minRank": "En son bilinen basari sirasi (siralama)",
+      "projectedRank": "Tahmini basari sirasi",
+      "rankTrend": "Siralama degisim trendi (up | down | flat)",
+      "ranks": "Gecmis yillarin basari siralari (orn: {'2022': ..., '2023': ..., '2024': ...})",
       "scholarship": "Burs durumu (none | full | 50 | 25 | 75)",
       "language": "Ogretim dili ISO kodu (tr | en | de | fr ...)",
       "eduType": "Ogretim turu (formal | distance | evening)"
