@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "updatedAt": "2026-08-20",
   "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
@@ -8,7 +8,13 @@
       "name": "YKS Üniversite Yerleştirme Verileri (Birleşik Model)",
       "description": "ÖSYM YKS merkezi yerleştirme taban/tavan puanları, kontenjanlar, 5 yıllık sıralama geçmişi (2022-2026) ve bölüm istatistikleri",
       "model": "unique-program-history-array",
-      "yearsIncluded": [2022, 2023, 2024, 2025, 2026],
+      "yearsIncluded": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "latestYear": 2026,
       "source": "ÖSYM",
       "basePath": "yks/",
@@ -20,7 +26,20 @@
         "programs_soz.json",
         "programs_dil.json",
         "departments.json"
-      ]
+      ],
+      "light": {
+        "description": "Sözlük kodlamalı hafif indeks — tercih ve karşılaştırma araçları için (tam veriden ~%90 küçük)",
+        "basePath": "yks/light/",
+        "format": "dict-encoded-rows",
+        "files": [
+          "index.json",
+          "say.json",
+          "ea.json",
+          "soz.json",
+          "dil.json",
+          "tyt.json"
+        ]
+      }
     },
     "lgs": {
       "name": "LGS Lise Taban Puanları ve Özel Yetenek Okulları Veri Seti",
@@ -41,16 +60,30 @@
         "yetenek_guzelsanatlar.json",
         "yetenek_imamhatip.json",
         "departments.json"
-      ]
+      ],
+      "light": {
+        "description": "Sözlük kodlamalı hafif indeks — lise tercih araçları için",
+        "basePath": "lgs/light/",
+        "format": "dict-encoded-rows",
+        "files": [
+          "index.json",
+          "schools.json",
+          "yetenek.json"
+        ]
+      }
     },
     "parametreler": {
       "name": "Yasal ve Mali Parametreler",
       "description": "Asgari ücret, vergi dilimleri, SGK tavanı, kıdem tazminatı tavanı, MTV, KDV, faiz oranları vb.",
-      "years": ["2025"],
+      "years": [
+        "2025"
+      ],
       "latestYear": "2025",
       "source": "Resmî Gazete, GİB, SGK, TCMB",
       "basePath": "parametreler/",
-      "files": ["2025.json"]
+      "files": [
+        "2025.json"
+      ]
     }
   }
 }

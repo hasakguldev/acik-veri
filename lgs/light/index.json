@@ -1,0 +1,1 @@
+{"format":"dict-encoded-rows","description":"Tercih araçları için sıkıştırılmış LGS okul indeksi","datasets":{"schools":{"file":"light/schools.json","count":3154,"bytes":337155},"yetenek":{"file":"light/yetenek.json","count":504,"bytes":35403}}}
