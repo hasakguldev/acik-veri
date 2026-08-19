@@ -1,0 +1,32 @@
+{
+  "name": "YKS Universite Yerlestirme Verileri",
+  "source": "OSYM",
+  "years": ["2025", "2026"],
+  "latestYear": "2026",
+  "schema": {
+    "program": {
+      "code": "Program kodu (OSYM)",
+      "univType": "Universite turu (DEVLET | VAKIF | KKTC)",
+      "university": "Universite adi",
+      "city": "Sehir",
+      "faculty": "Fakulte / Yuksekokul adi",
+      "program": "Program adi (temizlenmis)",
+      "scoreType": "Puan turu (TYT | SAY | EA | SOZ | DIL)",
+      "quota": "Kontenjan",
+      "placed": "Yerlesen",
+      "minScore": "En kucuk (taban) puan",
+      "maxScore": "En buyuk (tavan) puan",
+      "scholarship": "Burs durumu (none | full | 50 | 25 | 75)",
+      "language": "Ogretim dili ISO kodu (tr | en | de | fr ...)",
+      "eduType": "Ogretim turu (formal | distance | evening)"
+    },
+    "department": {
+      "name": "Bolum adi (kanonik)",
+      "count": "Kac programda acilmis",
+      "scoreTypes": "Hangi puan turlerinde",
+      "faculty": "En yaygin fakulte",
+      "minMin": "Tum programlar icinde en dusuk taban",
+      "maxMax": "Tum programlar icinde en yuksek tavan"
+    }
+  }
+}
