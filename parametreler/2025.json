@@ -1,7 +1,7 @@
 {
-  "donem": "2025",
-  "guncelleme": "2025-07-01",
-  "kaynakNotu": "Oranlar ve tutarlar resmi tarifelere dayanir. Yeni yil tarifeleri yayimlandiginda bu dosya guncellenir.",
+  "donem": "2025/2026",
+  "guncelleme": "2025-08-20",
+  "kaynakNotu": "Oranlar ve tutarlar resmî tebliğler, TCMB/BDDK verileri ve kanuni tarifelere dayanır.",
 
   "asgariUcret": {
     "brut": 26005.50,
@@ -16,10 +16,13 @@
     "isverenPayi": 0.205,
     "issizlikIsveren": 0.02,
     "tabanAylik": 26005.50,
-    "tavanAylik": 195041.40
+    "tavanAylik": 195041.40,
+    "gunlukTaban": 866.85,
+    "gunlukTavan": 6501.38
   },
 
   "damgaVergisiOrani": 0.00759,
+  "damgaVergisiTavani": 24237338.30,
 
   "gelirVergisiTarifesi": {
     "ucret": [
@@ -42,80 +45,54 @@
   "kurumlarVergisiFinansal": 0.30,
   "kidemTazminatiTavani": 53919.68,
 
-  "ihbarSureleri": [
-    { "ayMin": 0, "ayMax": 6, "hafta": 2 },
-    { "ayMin": 6, "ayMax": 18, "hafta": 4 },
-    { "ayMin": 18, "ayMax": 36, "hafta": 6 },
-    { "ayMin": 36, "ayMax": null, "hafta": 8 }
-  ],
-
-  "yillikIzinSureleri": [
-    { "yilMin": 1, "yilMax": 5, "gun": 14 },
-    { "yilMin": 5, "yilMax": 15, "gun": 20 },
-    { "yilMin": 15, "yilMax": null, "gun": 26 }
-  ],
-
   "issizlikMaasi": {
     "oran": 0.40,
     "tavanOrani": 0.80,
-    "damga": 0.00759,
-    "sureler": [
-      { "gun": 600, "odemeAy": 6 },
-      { "gun": 900, "odemeAy": 8 },
-      { "gun": 1080, "odemeAy": 10 }
-    ]
+    "tabanTutar": 10402.20,
+    "tavanTutar": 20804.40,
+    "damga": 0.00759
   },
 
   "kdvOranlari": [1, 10, 20],
   "tapuHarciOrani": 0.02,
-
-  "emlakVergisiOranlari": {
-    "normal": { "mesken": 0.001, "isyeri": 0.002, "arsa": 0.003, "arazi": 0.001 },
-    "buyuksehir": { "mesken": 0.002, "isyeri": 0.004, "arsa": 0.006, "arazi": 0.002 }
-  },
-
-  "mtvTarifesi": {
-    "motorAraliklari": [
-      "1300 cc ve asagisi", "1301-1600 cc", "1601-1800 cc", "1801-2000 cc",
-      "2001-2500 cc", "2501-3000 cc", "3001-3500 cc", "3501-4000 cc", "4001 cc ve yukarisi"
-    ],
-    "yasAraliklari": ["1-3 yas", "4-6 yas", "7-11 yas", "12-15 yas", "16 ve uzeri"],
-    "tutarlar": [
-      [3359, 2343, 1310, 989, 350],
-      [5850, 4385, 2544, 1798, 691],
-      [10345, 8083, 4754, 2901, 1121],
-      [16292, 12554, 7381, 4385, 1731],
-      [24443, 17740, 11082, 6626, 2623],
-      [34093, 29655, 18529, 9968, 3657],
-      [51913, 46703, 28136, 14047, 5155],
-      [81625, 70521, 41522, 18529, 7211],
-      [133587, 100177, 59319, 26652, 10345]
-    ],
-    "elektrikliKatsayi": 0.25
-  },
-
-  "krediKarti": {
-    "aylikAkdiFaiz": 0.0425,
-    "aylikGecikmeFaizi": 0.0455,
-    "asgariOdemeOrani": { "limitAlti": 0.20, "limitUstu": 0.40 },
-    "asgariOdemeLimitSiniri": 50000
-  },
+  "degerliKonutVergisiIstisna": 15709000,
 
   "gecikmeZammiAylik": 0.045,
   "yasalFaizYillik": 0.24,
   "ticariTemerrutFaizi": 0.4875,
+  "yenidenDegerlemeOrani": 0.4383,
+
+  "krediKarti": {
+    "aylikAkdiFaiz": 0.0425,
+    "aylikGecikmeFaizi": 0.0455,
+    "nakitAvansFaizi": 0.0425,
+    "asgariOdemeOrani": { "limitAlti": 0.20, "limitUstu": 0.40 },
+    "asgariOdemeLimitSiniri": 50000
+  },
 
   "aracMuayene": {
-    "otomobil": 2410,
-    "motosiklet": 1350,
-    "traktor": 1120,
-    "kamyonOtobus": 3540,
+    "otomobilMinibusKamyonet": 2621.80,
+    "motosikletMotorluBisikletTraktor": 1335.60,
+    "otobusKamyonCekiciTanker": 3544.80,
     "gecikmeAylikOrani": 0.05
   },
 
-  "zekat": { "nisapAltinGr": 80.18, "nisapGumusGr": 561, "oran": 0.025 },
-  "fitre": { "varsayilanTutar": 130 },
-  "gebelik": { "normalGun": 280, "tupBebekGun": 266, "dongu": 28 },
-  "taksi": { "acilis": 46.90, "kmUcreti": 33.50, "minUcret": 135, "beklemeSaat": 210 },
-  "yakit": { "benzin": 51.20, "motorin": 53.40, "lpg": 27.30, "elektrik": 4.20 }
+  "zekat": { "nisapAltinGr": 80.18, "nisapGumusGr": 561.00, "oran": 0.025 },
+  "fitre": { "varsayilanTutar": 180 },
+
+  "taksi": {
+    "acilis": 54.50,
+    "kmUcreti": 38.50,
+    "minUcret": 175.00,
+    "beklemeSaat": 280.00
+  },
+
+  "yakit": {
+    "benzin": 52.40,
+    "motorin": 54.80,
+    "lpg": 28.50,
+    "elektrik": 6.50
+  },
+
+  "sigara": { "paketFiyati": 100 }
 }
