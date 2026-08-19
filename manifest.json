@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "updatedAt": "2026-08-20",
   "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
@@ -23,8 +23,8 @@
       ]
     },
     "lgs": {
-      "name": "LGS Lise Taban Puanları ve Tercih Veri Seti",
-      "description": "MEB Merkezi Sınav Puanı ile Öğrenci Alan Ortaöğretim Kurumları taban puanları, pansiyon, öğretim şekli ve boş kontenjanları",
+      "name": "LGS Lise Taban Puanları ve Özel Yetenek Okulları Veri Seti",
+      "description": "MEB Merkezi Sınav ve Yetenek Sınavı ile Öğrenci Alan Liseler (Fen, Anadolu, Güzel Sanatlar, Spor, Proje İmam Hatip)",
       "latestYear": 2026,
       "source": "T.C. Millî Eğitim Bakanlığı (MEB) e-Okul",
       "basePath": "lgs/",
@@ -36,6 +36,10 @@
         "schools_imamhatip.json",
         "schools_meslek.json",
         "schools_sosyal.json",
+        "yetenek_okullari.json",
+        "yetenek_spor.json",
+        "yetenek_guzelsanatlar.json",
+        "yetenek_imamhatip.json",
         "departments.json"
       ]
     },
