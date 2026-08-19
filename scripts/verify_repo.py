@@ -29,20 +29,33 @@ meta_path = os.path.join(ydir, 'meta.json')
 with open(meta_path, 'r', encoding='utf-8') as f:
     meta = json.load(f)
 
-print(f"YKS Birleşik Veri Seti ({len(yfiles)} dosya, {ysize:.2f} MB):")
-print(f"  Kapsanan Yıllar: {meta['yearsIncluded']}")
-print(f"  En Güncel Yıl: {meta['latestYear']}")
-print(f"  Toplam Benzersiz Program: {meta['totalUniquePrograms']}")
-print(f"  Bölüm Sayısı: {meta['totalDepartments']}")
-print(f"  Üniversite: {len(meta['universities'])}, Şehir: {len(meta['cities'])}\n")
+print(f"1. YKS Birleşik Veri Seti ({len(yfiles)} dosya, {ysize:.2f} MB):")
+print(f"   Kapsanan Yıllar: {meta['yearsIncluded']}")
+print(f"   Toplam Benzersiz Program: {meta['totalUniquePrograms']}")
+print(f"   Bölüm Sayısı: {meta['totalDepartments']}")
+print(f"   Üniversite: {len(meta['universities'])}, Şehir: {len(meta['cities'])}\n")
+
+# LGS
+ldir = os.path.join(base, 'lgs')
+lfiles = [f for f in os.listdir(ldir) if os.path.isfile(os.path.join(ldir, f))]
+lsize = dir_size(ldir) / (1024 * 1024)
+
+lgs_meta_path = os.path.join(ldir, 'meta.json')
+with open(lgs_meta_path, 'r', encoding='utf-8') as f:
+    lgs_meta = json.load(f)
+
+print(f"2. LGS Lise Taban Puanları Veri Seti ({len(lfiles)} dosya, {lsize:.2f} MB):")
+print(f"   Toplam Okul/Program: {lgs_meta['totalSchools']}")
+print(f"   Kategori Dağılımı: {lgs_meta['countsByCategory']}")
+print(f"   Kapsam: {lgs_meta['totalCities']} İl, {sum(len(v) for v in lgs_meta['districtsByCity'].values())} İlçe\n")
 
 # Parametreler
 pdir = os.path.join(base, 'parametreler')
 pfiles = [f for f in os.listdir(pdir) if os.path.isfile(os.path.join(pdir, f))]
 psize = dir_size(pdir) / 1024
-print(f"Parametreler ({len(pfiles)} dosya, {psize:.1f} KB):")
+print(f"3. Parametreler ({len(pfiles)} dosya, {psize:.1f} KB):")
 for pf in pfiles:
-    print(f"  - {pf}")
+    print(f"   - {pf}")
 print()
 
 # Toplam
@@ -54,4 +67,4 @@ for root, dirs, files in os.walk(base):
         total_bytes += os.path.getsize(os.path.join(root, f))
 
 print(f"Toplam Depo Boyutu: {total_bytes / (1024*1024):.2f} MB")
-print("\n[OK] Depo bütünlüğü doğrulandı.")
+print("\n[OK] Depo bütünlüğü başarıyla doğrulandı.")
