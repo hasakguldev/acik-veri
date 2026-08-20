@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "updatedAt": "2026-08-20",
   "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
@@ -28,7 +28,7 @@
         "departments.json"
       ],
       "light": {
-        "description": "Sözlük kodlamalı hafif indeks — tercih ve karşılaştırma araçları için (tam veriden ~%90 küçük)",
+        "description": "Sözlük kodlamalı hafif indeks — tercih ve karşılaştırma araçları için (tam veriden ~%86 küçük). Satır başına scoreYear/rankYear etiketleri, öngörülen sıra (proj) ve trend taşır.",
         "basePath": "yks/light/",
         "format": "dict-encoded-rows",
         "files": [

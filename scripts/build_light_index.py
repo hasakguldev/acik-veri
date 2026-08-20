@@ -12,9 +12,14 @@ Biçim:
     {
       "year": 2026,
       "dicts": { "univ": [...], "city": [...], "program": [...] },
-      "fields": ["code", "u", "c", "p", "sch", "lang", "minScore", "minRank", "quota"],
-      "rows": [ ["106510077", 0, 0, 12, 0, 0, 443.23, 46890, 80], ... ]
+      "fields": ["code", "u", "c", "p", "sch", "lang", "minScore", "minRank",
+                 "quota", "scoreYear", "rankYear", "proj", "trend"],
+      "rows": [ ["106510077", 0, 0, 12, 0, 0, 443.23, 46890, 80, 2026, 2024, ...], ... ]
     }
+
+Taban puan ile başarı sırası AYRI yıllara ait olabilir: ÖSYM sıra verisi her yıl
+aynı anda yayımlanmaz. Bu yüzden her satır kendi `scoreYear` ve `rankYear`
+etiketini taşır; tüketici hangi yılı gösterdiğini uydurmak zorunda kalmaz.
 
 Sözlük alanları tamsayı indeks olarak saklanır; tekrar eden üniversite, şehir ve
 program adları bir kez yazılır. Tipik kazanç: %75-85 boyut düşüşü.
@@ -85,12 +90,37 @@ def yks_indeksi(puan_turu: str):
         if yil is None:
             yil = son.get("year")
 
-        # Bir önceki yılın taban puanı — trend göstermek için
+        # --- taban puan: en güncel yıl + ondan önceki ölçüm -------------------
+        puan_yil = son.get("year")
         onceki = None
-        for h in gecmis[1:]:
+        for h in gecmis:
+            if h is son or h.get("year") == puan_yil:
+                continue
             if h.get("minScore") is not None:
                 onceki = h
                 break
+
+        # --- başarı sırası: puandan bağımsız izlenir --------------------------
+        # Kaynakta 2024 sırası 2025 ve 2026'ya da kopyalanmıştır; aynı değeri
+        # iki ayrı yıl gibi göstermemek için sıra serisi, DEĞERİ değişen en
+        # yakın iki ölçümden kurulur ve her ikisinin de yılı satıra yazılır.
+        sira_kayitlari = [h for h in gecmis if h.get("minRank") is not None]
+        sira = sira_kayitlari[0] if sira_kayitlari else None
+        onceki_sira = None
+        if sira is not None:
+            for h in sira_kayitlari[1:]:
+                if h.get("minRank") != sira.get("minRank"):
+                    onceki_sira = h
+                    break
+            # Aynı değerin kopyalandığı ardışık yılların en eskisi, sıranın
+            # gerçekten ölçüldüğü yıldır (kopyalar ondan sonra üretilmiştir).
+            gercek_yil = sira.get("year")
+            for h in sira_kayitlari[1:]:
+                if h.get("minRank") != sira.get("minRank"):
+                    break
+                gercek_yil = h.get("year")
+        else:
+            gercek_yil = None
 
         satirlar.append([
             p.get("code"),
@@ -103,10 +133,16 @@ def yks_indeksi(puan_turu: str):
             p.get("eduType") or "formal",
             0 if p.get("univType") == "DEVLET" else (1 if p.get("univType") == "VAKIF" else 2),
             yuvarla(son.get("minScore"), 3),
-            son.get("minRank"),
+            sira.get("minRank") if sira else None,
             son.get("quota"),
             yuvarla(onceki.get("minScore"), 3) if onceki else None,
-            onceki.get("minRank") if onceki else None,
+            onceki_sira.get("minRank") if onceki_sira else None,
+            puan_yil,
+            onceki.get("year") if onceki else None,
+            gercek_yil,
+            onceki_sira.get("year") if onceki_sira else None,
+            p.get("projectedRank"),
+            p.get("rankTrend"),
         ])
 
     veri = {
@@ -122,6 +158,8 @@ def yks_indeksi(puan_turu: str):
         "fields": [
             "code", "u", "c", "p", "f", "sch", "lang", "edu", "type",
             "minScore", "minRank", "quota", "prevScore", "prevRank",
+            "scoreYear", "prevScoreYear", "rankYear", "prevRankYear",
+            "proj", "trend",
         ],
         "rows": satirlar,
     }

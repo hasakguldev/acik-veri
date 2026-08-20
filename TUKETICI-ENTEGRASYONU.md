@@ -21,7 +21,7 @@ Alan adı hiçbir yerde sabit yazılmaz; tek bir yapılandırma değişkeninden 
 
 | İhtiyaç | Dosya | Boyut |
 |---|---|---|
-| Tercih listesi, filtreleme, sıralama | `yks/light/<tur>.json` | 60 KB – 843 KB |
+| Tercih listesi, filtreleme, sıralama | `yks/light/<tur>.json` | 80 KB – 1,12 MB |
 | Tek programın tüm geçmişi, detay ekranı | `yks/programs_<tur>.json` | 0,55 – 7,65 MB |
 | Lise tercih listesi | `lgs/light/schools.json` | 337 KB |
 | Yetenek sınavı okulları | `lgs/light/yetenek.json` | 35 KB |
@@ -51,16 +51,36 @@ Tam veriden **%75-90 küçüktür**.
     "faculty": ["MÜHENDİSLİK FAKÜLTESİ", "…"]
   },
   "fields": ["code","u","c","p","f","sch","lang","edu","type",
-             "minScore","minRank","quota","prevScore","prevRank"],
+             "minScore","minRank","quota","prevScore","prevRank",
+             "scoreYear","prevScoreYear","rankYear","prevRankYear",
+             "proj","trend"],
   "rows": [
-    ["106510077", 0, 0, 12, 3, "none", "en", "formal", 0,
-     443.23, 46890, 80, 442.53, 46890]
+    ["106510077", 0, 0, 0, 0, "none", "en", "formal", 0,
+     443.23, 46890, 80, 442.53, 40125, 2026, 2025, 2024, 2022, 46890, "flat"]
   ]
 }
 ```
 
 `u`, `c`, `p`, `f` sütunları `dicts` içindeki **indekstir** (`-1` = null).
-`type`: `0` DEVLET, `1` VAKIF, `2` KKTC.
+`type`: `0` DEVLET, `1` VAKIF, `2` KKTC **veya yurt dışı** — ayrımı şehir
+adından yapın (`KKTC-` ile başlıyorsa KKTC).
+
+### Yıl sütunları — uydurmayın, okuyun
+
+ÖSYM taban puanı ile başarı sırasını aynı takvimde yayımlamaz. Bu yüzden bir
+satırın puanı ile sırası **farklı yıllara** ait olabilir:
+
+| Sütun | Anlamı |
+|---|---|
+| `scoreYear` | `minScore` / `quota` hangi yıla ait |
+| `prevScoreYear` | `prevScore` hangi yıla ait |
+| `rankYear` | `minRank` hangi yıla ait |
+| `prevRankYear` | `prevRank` hangi yıla ait |
+| `proj` | çok yıllı trendden üretilmiş öngörülen sıra |
+| `trend` | `"up"` (zorlaşıyor) / `"down"` (kolaylaşıyor) / `"flat"` |
+
+Arayüzde yıl etiketini **daima bu sütunlardan** basın. `year` alanı yalnızca
+indeksin genel yılıdır; satır bazında `scoreYear` bağlayıcıdır.
 
 LGS indeksi aynı mantıkta: `dicts.{city,district,school,type,field}` ve
 `fields: ["code","c","d","s","t","f","cat","minScore","quota","lang","boarding"]`.
@@ -99,6 +119,8 @@ Hazır uygulama: `public/js/core/acikVeri.js` (Sitematik).
 | Anahtar adı farkı | `sgk.isciPayi` (uzak) ≠ `sgk.iscipayi` (yerel) | Normalizasyon katmanında eşleme haritası tutun |
 | Uzak parametreler alt küme | 26 anahtar var, tüketicide ~70 | Uzak veri yereli **değiştirmez, üzerine yazar**; eksik anahtarlar korunur |
 | Şehir alanı boş olabilir | Bazı programlarda `city` null | Arayüzde `—` gösterin, filtrede boşları dışlayın |
+| Puan yılı ≠ sıra yılı | 2026 taban puanının yanında 2024 sırası | `scoreYear` / `rankYear` sütunlarını okuyun; ikisini tek yıl gibi göstermeyin |
+| Yurt dışı programlar KKTC kovasında | `type: 2` hem KKTC hem yurt dışı | Şehir `KKTC-` ile başlıyorsa KKTC, değilse yurt dışı |
 
 ---
 
