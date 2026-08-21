@@ -1,6 +1,6 @@
 {
-  "version": "2.4.0",
-  "updatedAt": "2026-08-20",
+  "version": "2.5.0",
+  "updatedAt": "2026-08-21",
   "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
   "datasets": {
@@ -84,6 +84,17 @@
       "files": [
         "2025.json"
       ]
+    },
+    "finans": {
+      "name": "Tarihsel Fiyat Serileri",
+      "description": "TCMB EVDS kaynaklı aylık döviz, altın, gümüş ve TÜFE serileri. Gram altın, resmî ons/USD serilerinden USD/TRY ile türetildi. TÜFE 1982/1987/1994/2003 bazları zincirlenerek tek seriye bağlandı. 2005 para reformu denetimi yapıldı; seriler yeni TL cinsindendir.",
+      "source": "TCMB EVDS (Elektronik Veri Dağıtım Sistemi)",
+      "basePath": "finans/",
+      "files": [
+        "tarihsel-fiyatlar.json"
+      ],
+      "periyot": "aylik",
+      "kapsam": "1980-01 – 2026-08"
     }
   }
 }
