@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "VI",
+    "ad": "ABD Virjin Adaları",
+    "baskent": "Charlotte Amalie",
+    "kita": "Amerika",
+    "lat": 18.3,
+    "lon": -64.9,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/vi.png"
+  },
+  {
+    "id": "AF",
+    "ad": "Afganistan",
+    "baskent": "Kabil",
+    "kita": "Asya",
+    "lat": 33.9,
+    "lon": 67.7,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/af.png"
+  },
+  {
+    "id": "AX",
+    "ad": "Åland Adaları",
+    "baskent": "Mariehamn",
+    "kita": "Avrupa",
+    "lat": 60.1,
+    "lon": 19.9,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ax.png"
+  },
+  {
+    "id": "DE",
+    "ad": "Almanya",
+    "baskent": "Berlin",
+    "kita": "Avrupa",
+    "lat": 51.2,
+    "lon": 10.4,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/de.png"
+  },
+  {
+    "id": "US",
+    "ad": "Amerika Birleşik Devletleri",
+    "baskent": "Washington",
+    "kita": "Amerika",
+    "lat": 37.1,
+    "lon": -95.7,
+    "toleransKm": 1300,
+    "bayrakCdn": "https://flagcdn.com/w320/us.png"
+  },
+  {
+    "id": "AS",
+    "ad": "Amerikan Samoası",
+    "baskent": "Pago Pago",
+    "kita": "Okyanusya",
+    "lat": -14.3,
+    "lon": -170.7,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/as.png"
+  },
+  {
+    "id": "AD",
+    "ad": "Andorra",
+    "baskent": "Andorra la Vella",
+    "kita": "Avrupa",
+    "lat": 42.5,
+    "lon": 1.5,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ad.png"
+  },
+  {
+    "id": "AO",
+    "ad": "Angola",
+    "baskent": "Luanda",
+    "kita": "Afrika",
+    "lat": -11.2,
+    "lon": 17.9,
+    "toleransKm": 650,
+    "bayrakCdn": "https://flagcdn.com/w320/ao.png"
+  },
+  {
+    "id": "AI",
+    "ad": "Anguilla",
+    "baskent": "The Valley",
+    "kita": "Amerika",
+    "lat": 18.2,
+    "lon": -63.1,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ai.png"
+  },
+  {
+    "id": "AQ",
+    "ad": "Antarktika",
+    "baskent": "Araştırma İstasyonları",
+    "kita": "Antarktika",
+    "lat": -75,
+    "lon": 0,
+    "toleransKm": 1500,
+    "bayrakCdn": "https://flagcdn.com/w320/aq.png"
+  },
+  {
+    "id": "AG",
+    "ad": "Antigua ve Barbuda",
+    "baskent": "St. John's",
+    "kita": "Amerika",
+    "lat": 17.1,
+    "lon": -61.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ag.png"
+  },
+  {
+    "id": "AR",
+    "ad": "Arjantin",
+    "baskent": "Buenos Aires",
+    "kita": "Amerika",
+    "lat": -38.4,
+    "lon": -63.6,
+    "toleransKm": 850,
+    "bayrakCdn": "https://flagcdn.com/w320/ar.png"
+  },
+  {
+    "id": "AL",
+    "ad": "Arnavutluk",
+    "baskent": "Tiran",
+    "kita": "Avrupa",
+    "lat": 41.2,
+    "lon": 20.2,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/al.png"
+  },
+  {
+    "id": "AW",
+    "ad": "Aruba",
+    "baskent": "Oranjestad",
+    "kita": "Amerika",
+    "lat": 12.5,
+    "lon": -70,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/aw.png"
+  },
+  {
+    "id": "AU",
+    "ad": "Avustralya",
+    "baskent": "Canberra",
+    "kita": "Okyanusya",
+    "lat": -25.3,
+    "lon": 133.8,
+    "toleransKm": 1200,
+    "bayrakCdn": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "id": "AT",
+    "ad": "Avusturya",
+    "baskent": "Viyana",
+    "kita": "Avrupa",
+    "lat": 47.5,
+    "lon": 14.6,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/at.png"
+  },
+  {
+    "id": "AZ",
+    "ad": "Azerbaycan",
+    "baskent": "Bakü",
+    "kita": "Asya",
+    "lat": 40.1,
+    "lon": 47.6,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/az.png"
+  },
+  {
+    "id": "BS",
+    "ad": "Bahamalar",
+    "baskent": "Nassau",
+    "kita": "Amerika",
+    "lat": 25,
+    "lon": -77.4,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/bs.png"
+  },
+  {
+    "id": "BH",
+    "ad": "Bahreyn",
+    "baskent": "Manama",
+    "kita": "Asya",
+    "lat": 26.1,
+    "lon": 50.6,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/bh.png"
+  },
+  {
+    "id": "BD",
+    "ad": "Bangladeş",
+    "baskent": "Dakka",
+    "kita": "Asya",
+    "lat": 23.7,
+    "lon": 90.4,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/bd.png"
+  },
+  {
+    "id": "BB",
+    "ad": "Barbados",
+    "baskent": "Bridgetown",
+    "kita": "Amerika",
+    "lat": 13.2,
+    "lon": -59.5,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/bb.png"
+  },
+  {
+    "id": "EH",
+    "ad": "Batı Sahra",
+    "baskent": "Layun",
+    "kita": "Afrika",
+    "lat": 24.2,
+    "lon": -12.9,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/eh.png"
+  },
+  {
+    "id": "BY",
+    "ad": "Belarus",
+    "baskent": "Minsk",
+    "kita": "Avrupa",
+    "lat": 53.7,
+    "lon": 27.9,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/by.png"
+  },
+  {
+    "id": "BE",
+    "ad": "Belçika",
+    "baskent": "Brüksel",
+    "kita": "Avrupa",
+    "lat": 50.5,
+    "lon": 4.5,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/be.png"
+  },
+  {
+    "id": "BZ",
+    "ad": "Belize",
+    "baskent": "Belmopan",
+    "kita": "Amerika",
+    "lat": 17.2,
+    "lon": -88.5,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/bz.png"
+  },
+  {
+    "id": "BJ",
+    "ad": "Benin",
+    "baskent": "Porto-Novo",
+    "kita": "Afrika",
+    "lat": 9.3,
+    "lon": 2.3,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/bj.png"
+  },
+  {
+    "id": "BM",
+    "ad": "Bermuda",
+    "baskent": "Hamilton",
+    "kita": "Amerika",
+    "lat": 32.3,
+    "lon": -64.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/bm.png"
+  },
+  {
+    "id": "AE",
+    "ad": "Birleşik Arap Emirlikleri",
+    "baskent": "Abu Dabi",
+    "kita": "Asya",
+    "lat": 23.4,
+    "lon": 53.8,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/ae.png"
+  },
+  {
+    "id": "GB",
+    "ad": "Birleşik Krallık",
+    "baskent": "Londra",
+    "kita": "Avrupa",
+    "lat": 55.4,
+    "lon": -3.4,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "id": "BO",
+    "ad": "Bolivya",
+    "baskent": "Sucre",
+    "kita": "Amerika",
+    "lat": -16.3,
+    "lon": -63.6,
+    "toleransKm": 600,
+    "bayrakCdn": "https://flagcdn.com/w320/bo.png"
+  },
+  {
+    "id": "BA",
+    "ad": "Bosna-Hersek",
+    "baskent": "Saraybosna",
+    "kita": "Avrupa",
+    "lat": 43.9,
+    "lon": 17.7,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/ba.png"
+  },
+  {
+    "id": "BW",
+    "ad": "Botsvana",
+    "baskent": "Gaborone",
+    "kita": "Afrika",
+    "lat": -22.3,
+    "lon": 24.7,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/bw.png"
+  },
+  {
+    "id": "BV",
+    "ad": "Bouvet Adası",
+    "baskent": "Yerleşim Yok",
+    "kita": "Antarktika",
+    "lat": -54.4,
+    "lon": 3.4,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/bv.png"
+  },
+  {
+    "id": "BR",
+    "ad": "Brezilya",
+    "baskent": "Brasília",
+    "kita": "Amerika",
+    "lat": -14.2,
+    "lon": -51.9,
+    "toleransKm": 1200,
+    "bayrakCdn": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "id": "VG",
+    "ad": "Britanya Virjin Adaları",
+    "baskent": "Road Town",
+    "kita": "Amerika",
+    "lat": 18.4,
+    "lon": -64.6,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/vg.png"
+  },
+  {
+    "id": "BN",
+    "ad": "Brunei",
+    "baskent": "Bandar Seri Begavan",
+    "kita": "Asya",
+    "lat": 4.5,
+    "lon": 114.7,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/bn.png"
+  },
+  {
+    "id": "BG",
+    "ad": "Bulgaristan",
+    "baskent": "Sofya",
+    "kita": "Avrupa",
+    "lat": 42.7,
+    "lon": 25.5,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/bg.png"
+  },
+  {
+    "id": "BF",
+    "ad": "Burkina Faso",
+    "baskent": "Ouagadougou",
+    "kita": "Afrika",
+    "lat": 12.2,
+    "lon": -1.6,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/bf.png"
+  },
+  {
+    "id": "BI",
+    "ad": "Burundi",
+    "baskent": "Gitega",
+    "kita": "Afrika",
+    "lat": -3.4,
+    "lon": 29.9,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/bi.png"
+  },
+  {
+    "id": "BT",
+    "ad": "Butan",
+    "baskent": "Thimphu",
+    "kita": "Asya",
+    "lat": 27.5,
+    "lon": 90.4,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/bt.png"
+  },
+  {
+    "id": "CV",
+    "ad": "Cabo Verde",
+    "baskent": "Praia",
+    "kita": "Afrika",
+    "lat": 16,
+    "lon": -24,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/cv.png"
+  },
+  {
+    "id": "KY",
+    "ad": "Cayman Adaları",
+    "baskent": "George Town",
+    "kita": "Amerika",
+    "lat": 19.3,
+    "lon": -81.4,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ky.png"
+  },
+  {
+    "id": "GI",
+    "ad": "Cebelitarık",
+    "baskent": "Cebelitarık",
+    "kita": "Avrupa",
+    "lat": 36.1,
+    "lon": -5.3,
+    "toleransKm": 100,
+    "bayrakCdn": "https://flagcdn.com/w320/gi.png"
+  },
+  {
+    "id": "DZ",
+    "ad": "Cezayir",
+    "baskent": "Cezayir",
+    "kita": "Afrika",
+    "lat": 28,
+    "lon": 1.7,
+    "toleransKm": 850,
+    "bayrakCdn": "https://flagcdn.com/w320/dz.png"
+  },
+  {
+    "id": "CX",
+    "ad": "Christmas Adası",
+    "baskent": "Flying Fish Cove",
+    "kita": "Asya",
+    "lat": -10.4,
+    "lon": 105.7,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/cx.png"
+  },
+  {
+    "id": "DJ",
+    "ad": "Cibuti",
+    "baskent": "Cibuti",
+    "kita": "Afrika",
+    "lat": 11.8,
+    "lon": 42.6,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/dj.png"
+  },
+  {
+    "id": "CC",
+    "ad": "Cocos Adaları",
+    "baskent": "West Island",
+    "kita": "Asya",
+    "lat": -12.1,
+    "lon": 96.9,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/cc.png"
+  },
+  {
+    "id": "CK",
+    "ad": "Cook Adaları",
+    "baskent": "Avarua",
+    "kita": "Okyanusya",
+    "lat": -21.2,
+    "lon": -159.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ck.png"
+  },
+  {
+    "id": "CW",
+    "ad": "Curaçao",
+    "baskent": "Willemstad",
+    "kita": "Amerika",
+    "lat": 12.2,
+    "lon": -69,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/cw.png"
+  },
+  {
+    "id": "TD",
+    "ad": "Çad",
+    "baskent": "N'Djamena",
+    "kita": "Afrika",
+    "lat": 15.5,
+    "lon": 18.7,
+    "toleransKm": 650,
+    "bayrakCdn": "https://flagcdn.com/w320/td.png"
+  },
+  {
+    "id": "CZ",
+    "ad": "Çekya",
+    "baskent": "Prag",
+    "kita": "Avrupa",
+    "lat": 49.8,
+    "lon": 15.5,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/cz.png"
+  },
+  {
+    "id": "CN",
+    "ad": "Çin",
+    "baskent": "Pekin",
+    "kita": "Asya",
+    "lat": 35.9,
+    "lon": 104.2,
+    "toleransKm": 1300,
+    "bayrakCdn": "https://flagcdn.com/w320/cn.png"
+  },
+  {
+    "id": "DK",
+    "ad": "Danimarka",
+    "baskent": "Kopenhag",
+    "kita": "Avrupa",
+    "lat": 56.3,
+    "lon": 9.5,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/dk.png"
+  },
+  {
+    "id": "CD",
+    "ad": "Demokratik Kongo Cumhuriyeti",
+    "baskent": "Kinşasa",
+    "kita": "Afrika",
+    "lat": -4,
+    "lon": 21.8,
+    "toleransKm": 800,
+    "bayrakCdn": "https://flagcdn.com/w320/cd.png"
+  },
+  {
+    "id": "TL",
+    "ad": "Doğu Timor",
+    "baskent": "Dili",
+    "kita": "Asya",
+    "lat": -8.8,
+    "lon": 125.7,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/tl.png"
+  },
+  {
+    "id": "DO",
+    "ad": "Dominik Cumhuriyeti",
+    "baskent": "Santo Domingo",
+    "kita": "Amerika",
+    "lat": 18.7,
+    "lon": -70.2,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/do.png"
+  },
+  {
+    "id": "DM",
+    "ad": "Dominika",
+    "baskent": "Roseau",
+    "kita": "Amerika",
+    "lat": 15.4,
+    "lon": -61.4,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/dm.png"
+  },
+  {
+    "id": "EC",
+    "ad": "Ekvador",
+    "baskent": "Quito",
+    "kita": "Amerika",
+    "lat": -1.8,
+    "lon": -78.2,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/ec.png"
+  },
+  {
+    "id": "GQ",
+    "ad": "Ekvator Ginesi",
+    "baskent": "Malabo",
+    "kita": "Afrika",
+    "lat": 1.6,
+    "lon": 10.3,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/gq.png"
+  },
+  {
+    "id": "SV",
+    "ad": "El Salvador",
+    "baskent": "San Salvador",
+    "kita": "Amerika",
+    "lat": 13.8,
+    "lon": -88.9,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/sv.png"
+  },
+  {
+    "id": "ID",
+    "ad": "Endonezya",
+    "baskent": "Cakarta",
+    "kita": "Asya",
+    "lat": -0.8,
+    "lon": 113.9,
+    "toleransKm": 950,
+    "bayrakCdn": "https://flagcdn.com/w320/id.png"
+  },
+  {
+    "id": "ER",
+    "ad": "Eritre",
+    "baskent": "Asmara",
+    "kita": "Afrika",
+    "lat": 15.2,
+    "lon": 39.8,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/er.png"
+  },
+  {
+    "id": "AM",
+    "ad": "Ermenistan",
+    "baskent": "Erivan",
+    "kita": "Asya",
+    "lat": 40.1,
+    "lon": 45,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/am.png"
+  },
+  {
+    "id": "EE",
+    "ad": "Estonya",
+    "baskent": "Tallinn",
+    "kita": "Avrupa",
+    "lat": 58.6,
+    "lon": 25,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/ee.png"
+  },
+  {
+    "id": "SZ",
+    "ad": "Esvatini",
+    "baskent": "Mbabane",
+    "kita": "Afrika",
+    "lat": -26.5,
+    "lon": 31.5,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/sz.png"
+  },
+  {
+    "id": "ET",
+    "ad": "Etiyopya",
+    "baskent": "Addis Ababa",
+    "kita": "Afrika",
+    "lat": 9.1,
+    "lon": 40.5,
+    "toleransKm": 600,
+    "bayrakCdn": "https://flagcdn.com/w320/et.png"
+  },
+  {
+    "id": "FK",
+    "ad": "Falkland Adaları",
+    "baskent": "Stanley",
+    "kita": "Amerika",
+    "lat": -51.8,
+    "lon": -59.5,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/fk.png"
+  },
+  {
+    "id": "FO",
+    "ad": "Faroe Adaları",
+    "baskent": "Tórshavn",
+    "kita": "Avrupa",
+    "lat": 62,
+    "lon": -6.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/fo.png"
+  },
+  {
+    "id": "MA",
+    "ad": "Fas",
+    "baskent": "Rabat",
+    "kita": "Afrika",
+    "lat": 31.8,
+    "lon": -7.1,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/ma.png"
+  },
+  {
+    "id": "FJ",
+    "ad": "Fiji",
+    "baskent": "Suva",
+    "kita": "Okyanusya",
+    "lat": -17.7,
+    "lon": 178.1,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/fj.png"
+  },
+  {
+    "id": "CI",
+    "ad": "Fildişi Sahili",
+    "baskent": "Yamoussoukro",
+    "kita": "Afrika",
+    "lat": 7.5,
+    "lon": -5.5,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/ci.png"
+  },
+  {
+    "id": "PH",
+    "ad": "Filipinler",
+    "baskent": "Manila",
+    "kita": "Asya",
+    "lat": 12.9,
+    "lon": 121.8,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/ph.png"
+  },
+  {
+    "id": "PS",
+    "ad": "Filistin",
+    "baskent": "Kudüs",
+    "kita": "Asya",
+    "lat": 31.9,
+    "lon": 35.2,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ps.png"
+  },
+  {
+    "id": "FI",
+    "ad": "Finlandiya",
+    "baskent": "Helsinki",
+    "kita": "Avrupa",
+    "lat": 61.9,
+    "lon": 25.7,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/fi.png"
+  },
+  {
+    "id": "FR",
+    "ad": "Fransa",
+    "baskent": "Paris",
+    "kita": "Avrupa",
+    "lat": 46.2,
+    "lon": 2.2,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/fr.png"
+  },
+  {
+    "id": "GF",
+    "ad": "Fransız Guyanası",
+    "baskent": "Cayenne",
+    "kita": "Amerika",
+    "lat": 3.9,
+    "lon": -53.1,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/gf.png"
+  },
+  {
+    "id": "TF",
+    "ad": "Fransız Güney ve Antarktika Toprakları",
+    "baskent": "Port-aux-Français",
+    "kita": "Antarktika",
+    "lat": -49.3,
+    "lon": 70.2,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/tf.png"
+  },
+  {
+    "id": "PF",
+    "ad": "Fransız Polinezyası",
+    "baskent": "Papeete",
+    "kita": "Okyanusya",
+    "lat": -17.7,
+    "lon": -149.4,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/pf.png"
+  },
+  {
+    "id": "GA",
+    "ad": "Gabon",
+    "baskent": "Libreville",
+    "kita": "Afrika",
+    "lat": -0.8,
+    "lon": 11.6,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/ga.png"
+  },
+  {
+    "id": "GM",
+    "ad": "Gambiya",
+    "baskent": "Banjul",
+    "kita": "Afrika",
+    "lat": 13.4,
+    "lon": -15.3,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/gm.png"
+  },
+  {
+    "id": "GH",
+    "ad": "Gana",
+    "baskent": "Akra",
+    "kita": "Afrika",
+    "lat": 7.9,
+    "lon": -1,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/gh.png"
+  },
+  {
+    "id": "GN",
+    "ad": "Gine",
+    "baskent": "Konakri",
+    "kita": "Afrika",
+    "lat": 9.9,
+    "lon": -9.7,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/gn.png"
+  },
+  {
+    "id": "GW",
+    "ad": "Gine-Bissau",
+    "baskent": "Bissau",
+    "kita": "Afrika",
+    "lat": 11.8,
+    "lon": -15.2,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/gw.png"
+  },
+  {
+    "id": "GD",
+    "ad": "Grenada",
+    "baskent": "St. George's",
+    "kita": "Amerika",
+    "lat": 12.1,
+    "lon": -61.7,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/gd.png"
+  },
+  {
+    "id": "GL",
+    "ad": "Grönland",
+    "baskent": "Nuuk",
+    "kita": "Amerika",
+    "lat": 71.7,
+    "lon": -42.6,
+    "toleransKm": 900,
+    "bayrakCdn": "https://flagcdn.com/w320/gl.png"
+  },
+  {
+    "id": "GP",
+    "ad": "Guadeloupe",
+    "baskent": "Basse-Terre",
+    "kita": "Amerika",
+    "lat": 16.3,
+    "lon": -61.6,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/gp.png"
+  },
+  {
+    "id": "GU",
+    "ad": "Guam",
+    "baskent": "Hagåtña",
+    "kita": "Okyanusya",
+    "lat": 13.4,
+    "lon": 144.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/gu.png"
+  },
+  {
+    "id": "GT",
+    "ad": "Guatemala",
+    "baskent": "Guatemala City",
+    "kita": "Amerika",
+    "lat": 15.8,
+    "lon": -90.2,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/gt.png"
+  },
+  {
+    "id": "GG",
+    "ad": "Guernsey",
+    "baskent": "Saint Peter Port",
+    "kita": "Avrupa",
+    "lat": 49.5,
+    "lon": -2.6,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/gg.png"
+  },
+  {
+    "id": "GY",
+    "ad": "Guyana",
+    "baskent": "Georgetown",
+    "kita": "Amerika",
+    "lat": 4.9,
+    "lon": -58.9,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/gy.png"
+  },
+  {
+    "id": "ZA",
+    "ad": "Güney Afrika",
+    "baskent": "Pretoria",
+    "kita": "Afrika",
+    "lat": -30.6,
+    "lon": 22.9,
+    "toleransKm": 650,
+    "bayrakCdn": "https://flagcdn.com/w320/za.png"
+  },
+  {
+    "id": "GS",
+    "ad": "Güney Georgia ve Güney Sandwich Adaları",
+    "baskent": "Grytviken",
+    "kita": "Antarktika",
+    "lat": -54.4,
+    "lon": -36.6,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/gs.png"
+  },
+  {
+    "id": "KR",
+    "ad": "Güney Kore",
+    "baskent": "Seul",
+    "kita": "Asya",
+    "lat": 35.9,
+    "lon": 127.8,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/kr.png"
+  },
+  {
+    "id": "SS",
+    "ad": "Güney Sudan",
+    "baskent": "Juba",
+    "kita": "Afrika",
+    "lat": 6.9,
+    "lon": 31.3,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/ss.png"
+  },
+  {
+    "id": "GE",
+    "ad": "Gürcistan",
+    "baskent": "Tiflis",
+    "kita": "Asya",
+    "lat": 42.3,
+    "lon": 43.4,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/ge.png"
+  },
+  {
+    "id": "HT",
+    "ad": "Haiti",
+    "baskent": "Port-au-Prince",
+    "kita": "Amerika",
+    "lat": 19,
+    "lon": -72.3,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/ht.png"
+  },
+  {
+    "id": "HM",
+    "ad": "Heard Adası ve McDonald Adaları",
+    "baskent": "Yerleşim Yok",
+    "kita": "Antarktika",
+    "lat": -53.1,
+    "lon": 73.5,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/hm.png"
+  },
+  {
+    "id": "HR",
+    "ad": "Hırvatistan",
+    "baskent": "Zagreb",
+    "kita": "Avrupa",
+    "lat": 45.1,
+    "lon": 15.2,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/hr.png"
+  },
+  {
+    "id": "IN",
+    "ad": "Hindistan",
+    "baskent": "Yeni Delhi",
+    "kita": "Asya",
+    "lat": 20.6,
+    "lon": 79,
+    "toleransKm": 850,
+    "bayrakCdn": "https://flagcdn.com/w320/in.png"
+  },
+  {
+    "id": "NL",
+    "ad": "Hollanda",
+    "baskent": "Amsterdam",
+    "kita": "Avrupa",
+    "lat": 52.1,
+    "lon": 5.3,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/nl.png"
+  },
+  {
+    "id": "HN",
+    "ad": "Honduras",
+    "baskent": "Tegucigalpa",
+    "kita": "Amerika",
+    "lat": 15.2,
+    "lon": -86.2,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/hn.png"
+  },
+  {
+    "id": "HK",
+    "ad": "Hong Kong",
+    "baskent": "Hong Kong",
+    "kita": "Asya",
+    "lat": 22.4,
+    "lon": 114.1,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/hk.png"
+  },
+  {
+    "id": "IQ",
+    "ad": "Irak",
+    "baskent": "Bağdat",
+    "kita": "Asya",
+    "lat": 33.2,
+    "lon": 43.7,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/iq.png"
+  },
+  {
+    "id": "IR",
+    "ad": "İran",
+    "baskent": "Tahran",
+    "kita": "Asya",
+    "lat": 32.4,
+    "lon": 53.7,
+    "toleransKm": 700,
+    "bayrakCdn": "https://flagcdn.com/w320/ir.png"
+  },
+  {
+    "id": "IE",
+    "ad": "İrlanda",
+    "baskent": "Dublin",
+    "kita": "Avrupa",
+    "lat": 53.4,
+    "lon": -8.2,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/ie.png"
+  },
+  {
+    "id": "ES",
+    "ad": "İspanya",
+    "baskent": "Madrid",
+    "kita": "Avrupa",
+    "lat": 40.5,
+    "lon": -3.7,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/es.png"
+  },
+  {
+    "id": "IL",
+    "ad": "İsrail",
+    "baskent": "Tel Aviv",
+    "kita": "Asya",
+    "lat": 31,
+    "lon": 34.9,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/il.png"
+  },
+  {
+    "id": "SE",
+    "ad": "İsveç",
+    "baskent": "Stockholm",
+    "kita": "Avrupa",
+    "lat": 60.1,
+    "lon": 18.6,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/se.png"
+  },
+  {
+    "id": "CH",
+    "ad": "İsviçre",
+    "baskent": "Bern",
+    "kita": "Avrupa",
+    "lat": 46.8,
+    "lon": 8.2,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/ch.png"
+  },
+  {
+    "id": "IT",
+    "ad": "İtalya",
+    "baskent": "Roma",
+    "kita": "Avrupa",
+    "lat": 41.9,
+    "lon": 12.6,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "id": "IS",
+    "ad": "İzlanda",
+    "baskent": "Reykjavik",
+    "kita": "Avrupa",
+    "lat": 64.9,
+    "lon": -19,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/is.png"
+  },
+  {
+    "id": "JM",
+    "ad": "Jamaika",
+    "baskent": "Kingston",
+    "kita": "Amerika",
+    "lat": 18.1,
+    "lon": -77.3,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/jm.png"
+  },
+  {
+    "id": "JP",
+    "ad": "Japonya",
+    "baskent": "Tokyo",
+    "kita": "Asya",
+    "lat": 36.2,
+    "lon": 138.3,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/jp.png"
+  },
+  {
+    "id": "JE",
+    "ad": "Jersey",
+    "baskent": "Saint Helier",
+    "kita": "Avrupa",
+    "lat": 49.2,
+    "lon": -2.1,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/je.png"
+  },
+  {
+    "id": "KH",
+    "ad": "Kamboçya",
+    "baskent": "Phnom Penh",
+    "kita": "Asya",
+    "lat": 12.6,
+    "lon": 105,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/kh.png"
+  },
+  {
+    "id": "CM",
+    "ad": "Kamerun",
+    "baskent": "Yaoundé",
+    "kita": "Afrika",
+    "lat": 7.4,
+    "lon": 12.4,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/cm.png"
+  },
+  {
+    "id": "CA",
+    "ad": "Kanada",
+    "baskent": "Ottawa",
+    "kita": "Amerika",
+    "lat": 56.1,
+    "lon": -106.3,
+    "toleransKm": 1500,
+    "bayrakCdn": "https://flagcdn.com/w320/ca.png"
+  },
+  {
+    "id": "ME",
+    "ad": "Karadağ",
+    "baskent": "Podgorica",
+    "kita": "Avrupa",
+    "lat": 42.7,
+    "lon": 19.4,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/me.png"
+  },
+  {
+    "id": "BQ",
+    "ad": "Karayip Hollandası",
+    "baskent": "Kralendijk",
+    "kita": "Amerika",
+    "lat": 12.1,
+    "lon": -68.3,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/bq.png"
+  },
+  {
+    "id": "QA",
+    "ad": "Katar",
+    "baskent": "Doha",
+    "kita": "Asya",
+    "lat": 25.4,
+    "lon": 51.2,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/qa.png"
+  },
+  {
+    "id": "KZ",
+    "ad": "Kazakistan",
+    "baskent": "Astana",
+    "kita": "Asya",
+    "lat": 48,
+    "lon": 66.9,
+    "toleransKm": 1000,
+    "bayrakCdn": "https://flagcdn.com/w320/kz.png"
+  },
+  {
+    "id": "KE",
+    "ad": "Kenya",
+    "baskent": "Nairobi",
+    "kita": "Afrika",
+    "lat": 0,
+    "lon": 37.9,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/ke.png"
+  },
+  {
+    "id": "CY",
+    "ad": "Kıbrıs",
+    "baskent": "Lefkoşa",
+    "kita": "Avrupa/Asya",
+    "lat": 35.1,
+    "lon": 33.4,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/cy.png"
+  },
+  {
+    "id": "KG",
+    "ad": "Kırgızistan",
+    "baskent": "Bişkek",
+    "kita": "Asya",
+    "lat": 41.2,
+    "lon": 74.8,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/kg.png"
+  },
+  {
+    "id": "KI",
+    "ad": "Kiribati",
+    "baskent": "Tarawa",
+    "kita": "Okyanusya",
+    "lat": -3.4,
+    "lon": -168.7,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/ki.png"
+  },
+  {
+    "id": "CO",
+    "ad": "Kolombiya",
+    "baskent": "Bogotá",
+    "kita": "Amerika",
+    "lat": 4.6,
+    "lon": -74.3,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/co.png"
+  },
+  {
+    "id": "KM",
+    "ad": "Komorlar",
+    "baskent": "Moroni",
+    "kita": "Afrika",
+    "lat": -11.9,
+    "lon": 43.3,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/km.png"
+  },
+  {
+    "id": "CG",
+    "ad": "Kongo Cumhuriyeti",
+    "baskent": "Brazzaville",
+    "kita": "Afrika",
+    "lat": -0.2,
+    "lon": 15.8,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/cg.png"
+  },
+  {
+    "id": "XK",
+    "ad": "Kosova",
+    "baskent": "Priştine",
+    "kita": "Avrupa",
+    "lat": 42.6,
+    "lon": 20.9,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/xk.png"
+  },
+  {
+    "id": "CR",
+    "ad": "Kosta Rika",
+    "baskent": "San José",
+    "kita": "Amerika",
+    "lat": 9.7,
+    "lon": -83.8,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/cr.png"
+  },
+  {
+    "id": "KW",
+    "ad": "Kuveyt",
+    "baskent": "Kuveyt",
+    "kita": "Asya",
+    "lat": 29.3,
+    "lon": 47.5,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/kw.png"
+  },
+  {
+    "id": "KP",
+    "ad": "Kuzey Kore",
+    "baskent": "Pyongyang",
+    "kita": "Asya",
+    "lat": 40.3,
+    "lon": 127.5,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/kp.png"
+  },
+  {
+    "id": "MK",
+    "ad": "Kuzey Makedonya",
+    "baskent": "Üsküp",
+    "kita": "Avrupa",
+    "lat": 41.6,
+    "lon": 21.7,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/mk.png"
+  },
+  {
+    "id": "MP",
+    "ad": "Kuzey Mariana Adaları",
+    "baskent": "Saipan",
+    "kita": "Okyanusya",
+    "lat": 15.2,
+    "lon": 145.7,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/mp.png"
+  },
+  {
+    "id": "CU",
+    "ad": "Küba",
+    "baskent": "Havana",
+    "kita": "Amerika",
+    "lat": 21.5,
+    "lon": -77.8,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/cu.png"
+  },
+  {
+    "id": "LA",
+    "ad": "Laos",
+    "baskent": "Vientiane",
+    "kita": "Asya",
+    "lat": 19.9,
+    "lon": 102.5,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/la.png"
+  },
+  {
+    "id": "LS",
+    "ad": "Lesotho",
+    "baskent": "Maseru",
+    "kita": "Afrika",
+    "lat": -29.6,
+    "lon": 28.2,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/ls.png"
+  },
+  {
+    "id": "LV",
+    "ad": "Letonya",
+    "baskent": "Riga",
+    "kita": "Avrupa",
+    "lat": 56.9,
+    "lon": 24.6,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/lv.png"
+  },
+  {
+    "id": "LR",
+    "ad": "Liberya",
+    "baskent": "Monrovia",
+    "kita": "Afrika",
+    "lat": 6.4,
+    "lon": -9.4,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/lr.png"
+  },
+  {
+    "id": "LY",
+    "ad": "Libya",
+    "baskent": "Trablus",
+    "kita": "Afrika",
+    "lat": 26.3,
+    "lon": 17.2,
+    "toleransKm": 750,
+    "bayrakCdn": "https://flagcdn.com/w320/ly.png"
+  },
+  {
+    "id": "LI",
+    "ad": "Lihtenştayn",
+    "baskent": "Vaduz",
+    "kita": "Avrupa",
+    "lat": 47.2,
+    "lon": 9.5,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/li.png"
+  },
+  {
+    "id": "LT",
+    "ad": "Litvanya",
+    "baskent": "Vilnius",
+    "kita": "Avrupa",
+    "lat": 55.2,
+    "lon": 23.9,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/lt.png"
+  },
+  {
+    "id": "LB",
+    "ad": "Lübnan",
+    "baskent": "Beyrut",
+    "kita": "Asya",
+    "lat": 33.9,
+    "lon": 35.9,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/lb.png"
+  },
+  {
+    "id": "LU",
+    "ad": "Lüksemburg",
+    "baskent": "Lüksemburg",
+    "kita": "Avrupa",
+    "lat": 49.8,
+    "lon": 6.1,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/lu.png"
+  },
+  {
+    "id": "HU",
+    "ad": "Macaristan",
+    "baskent": "Budapeşte",
+    "kita": "Avrupa",
+    "lat": 47.2,
+    "lon": 19.5,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/hu.png"
+  },
+  {
+    "id": "MG",
+    "ad": "Madagaskar",
+    "baskent": "Antananarivo",
+    "kita": "Afrika",
+    "lat": -18.8,
+    "lon": 46.9,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/mg.png"
+  },
+  {
+    "id": "MO",
+    "ad": "Makao",
+    "baskent": "Makao",
+    "kita": "Asya",
+    "lat": 22.2,
+    "lon": 113.5,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/mo.png"
+  },
+  {
+    "id": "MW",
+    "ad": "Malavi",
+    "baskent": "Lilongwe",
+    "kita": "Afrika",
+    "lat": -13.3,
+    "lon": 34.3,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/mw.png"
+  },
+  {
+    "id": "MV",
+    "ad": "Maldivler",
+    "baskent": "Malé",
+    "kita": "Asya",
+    "lat": 3.2,
+    "lon": 73.2,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/mv.png"
+  },
+  {
+    "id": "MY",
+    "ad": "Malezya",
+    "baskent": "Kuala Lumpur",
+    "kita": "Asya",
+    "lat": 4.2,
+    "lon": 101.9,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/my.png"
+  },
+  {
+    "id": "ML",
+    "ad": "Mali",
+    "baskent": "Bamako",
+    "kita": "Afrika",
+    "lat": 17.6,
+    "lon": -4,
+    "toleransKm": 650,
+    "bayrakCdn": "https://flagcdn.com/w320/ml.png"
+  },
+  {
+    "id": "MT",
+    "ad": "Malta",
+    "baskent": "Valletta",
+    "kita": "Avrupa",
+    "lat": 35.9,
+    "lon": 14.4,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/mt.png"
+  },
+  {
+    "id": "IM",
+    "ad": "Man Adası",
+    "baskent": "Douglas",
+    "kita": "Avrupa",
+    "lat": 54.2,
+    "lon": -4.5,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/im.png"
+  },
+  {
+    "id": "MH",
+    "ad": "Marshall Adaları",
+    "baskent": "Majuro",
+    "kita": "Okyanusya",
+    "lat": 7.1,
+    "lon": 171.2,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/mh.png"
+  },
+  {
+    "id": "MQ",
+    "ad": "Martinik",
+    "baskent": "Fort-de-France",
+    "kita": "Amerika",
+    "lat": 14.6,
+    "lon": -61,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/mq.png"
+  },
+  {
+    "id": "MU",
+    "ad": "Mauritius",
+    "baskent": "Port Louis",
+    "kita": "Afrika",
+    "lat": -20.3,
+    "lon": 57.6,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/mu.png"
+  },
+  {
+    "id": "YT",
+    "ad": "Mayotte",
+    "baskent": "Mamoudzou",
+    "kita": "Afrika",
+    "lat": -12.8,
+    "lon": 45.2,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/yt.png"
+  },
+  {
+    "id": "MX",
+    "ad": "Meksika",
+    "baskent": "Mexico City",
+    "kita": "Amerika",
+    "lat": 23.6,
+    "lon": -102.5,
+    "toleransKm": 750,
+    "bayrakCdn": "https://flagcdn.com/w320/mx.png"
+  },
+  {
+    "id": "EG",
+    "ad": "Mısır",
+    "baskent": "Kahire",
+    "kita": "Afrika",
+    "lat": 26.8,
+    "lon": 30.8,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/eg.png"
+  },
+  {
+    "id": "FM",
+    "ad": "Mikronezya",
+    "baskent": "Palikir",
+    "kita": "Okyanusya",
+    "lat": 7.4,
+    "lon": 151.8,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/fm.png"
+  },
+  {
+    "id": "MN",
+    "ad": "Moğolistan",
+    "baskent": "Ulan Batur",
+    "kita": "Asya",
+    "lat": 46.9,
+    "lon": 103.8,
+    "toleransKm": 750,
+    "bayrakCdn": "https://flagcdn.com/w320/mn.png"
+  },
+  {
+    "id": "MD",
+    "ad": "Moldova",
+    "baskent": "Kişinev",
+    "kita": "Avrupa",
+    "lat": 47.4,
+    "lon": 28.4,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/md.png"
+  },
+  {
+    "id": "MC",
+    "ad": "Monako",
+    "baskent": "Monako",
+    "kita": "Avrupa",
+    "lat": 43.7,
+    "lon": 7.4,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/mc.png"
+  },
+  {
+    "id": "MS",
+    "ad": "Montserrat",
+    "baskent": "Plymouth",
+    "kita": "Amerika",
+    "lat": 16.7,
+    "lon": -62.2,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/ms.png"
+  },
+  {
+    "id": "MR",
+    "ad": "Moritanya",
+    "baskent": "Nouakchott",
+    "kita": "Afrika",
+    "lat": 21,
+    "lon": -10.9,
+    "toleransKm": 650,
+    "bayrakCdn": "https://flagcdn.com/w320/mr.png"
+  },
+  {
+    "id": "MZ",
+    "ad": "Mozambik",
+    "baskent": "Maputo",
+    "kita": "Afrika",
+    "lat": -18.7,
+    "lon": 35.5,
+    "toleransKm": 600,
+    "bayrakCdn": "https://flagcdn.com/w320/mz.png"
+  },
+  {
+    "id": "MM",
+    "ad": "Myanmar",
+    "baskent": "Naypyidaw",
+    "kita": "Asya",
+    "lat": 21.9,
+    "lon": 95.9,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/mm.png"
+  },
+  {
+    "id": "NA",
+    "ad": "Namibya",
+    "baskent": "Windhoek",
+    "kita": "Afrika",
+    "lat": -22.9,
+    "lon": 18.5,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/na.png"
+  },
+  {
+    "id": "NR",
+    "ad": "Nauru",
+    "baskent": "Yaren",
+    "kita": "Okyanusya",
+    "lat": -0.5,
+    "lon": 166.9,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/nr.png"
+  },
+  {
+    "id": "NP",
+    "ad": "Nepal",
+    "baskent": "Katmandu",
+    "kita": "Asya",
+    "lat": 28.4,
+    "lon": 84.1,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/np.png"
+  },
+  {
+    "id": "NE",
+    "ad": "Nijer",
+    "baskent": "Niamey",
+    "kita": "Afrika",
+    "lat": 17.6,
+    "lon": 8.1,
+    "toleransKm": 650,
+    "bayrakCdn": "https://flagcdn.com/w320/ne.png"
+  },
+  {
+    "id": "NG",
+    "ad": "Nijerya",
+    "baskent": "Abuja",
+    "kita": "Afrika",
+    "lat": 9.1,
+    "lon": 8.7,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/ng.png"
+  },
+  {
+    "id": "NI",
+    "ad": "Nikaragua",
+    "baskent": "Managua",
+    "kita": "Amerika",
+    "lat": 12.9,
+    "lon": -85.2,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/ni.png"
+  },
+  {
+    "id": "NU",
+    "ad": "Niue",
+    "baskent": "Alofi",
+    "kita": "Okyanusya",
+    "lat": -19,
+    "lon": -169.9,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/nu.png"
+  },
+  {
+    "id": "NF",
+    "ad": "Norfolk Adası",
+    "baskent": "Kingston",
+    "kita": "Okyanusya",
+    "lat": -29,
+    "lon": 167.9,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/nf.png"
+  },
+  {
+    "id": "NO",
+    "ad": "Norveç",
+    "baskent": "Oslo",
+    "kita": "Avrupa",
+    "lat": 60.5,
+    "lon": 8.5,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/no.png"
+  },
+  {
+    "id": "CF",
+    "ad": "Orta Afrika Cumhuriyeti",
+    "baskent": "Bangui",
+    "kita": "Afrika",
+    "lat": 6.6,
+    "lon": 20.9,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/cf.png"
+  },
+  {
+    "id": "UZ",
+    "ad": "Özbekistan",
+    "baskent": "Taşkent",
+    "kita": "Asya",
+    "lat": 41.4,
+    "lon": 64.6,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/uz.png"
+  },
+  {
+    "id": "PK",
+    "ad": "Pakistan",
+    "baskent": "İslamabad",
+    "kita": "Asya",
+    "lat": 30.4,
+    "lon": 69.3,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/pk.png"
+  },
+  {
+    "id": "PW",
+    "ad": "Palau",
+    "baskent": "Ngerulmud",
+    "kita": "Okyanusya",
+    "lat": 7.5,
+    "lon": 134.6,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/pw.png"
+  },
+  {
+    "id": "PA",
+    "ad": "Panama",
+    "baskent": "Panama City",
+    "kita": "Amerika",
+    "lat": 8.5,
+    "lon": -80.8,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/pa.png"
+  },
+  {
+    "id": "PG",
+    "ad": "Papua Yeni Gine",
+    "baskent": "Port Moresby",
+    "kita": "Okyanusya",
+    "lat": -6.3,
+    "lon": 143.9,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/pg.png"
+  },
+  {
+    "id": "PY",
+    "ad": "Paraguay",
+    "baskent": "Asunción",
+    "kita": "Amerika",
+    "lat": -23.4,
+    "lon": -58.4,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/py.png"
+  },
+  {
+    "id": "PE",
+    "ad": "Peru",
+    "baskent": "Lima",
+    "kita": "Amerika",
+    "lat": -9.2,
+    "lon": -75,
+    "toleransKm": 600,
+    "bayrakCdn": "https://flagcdn.com/w320/pe.png"
+  },
+  {
+    "id": "PN",
+    "ad": "Pitcairn Adaları",
+    "baskent": "Adamstown",
+    "kita": "Okyanusya",
+    "lat": -25.1,
+    "lon": -130.1,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/pn.png"
+  },
+  {
+    "id": "PL",
+    "ad": "Polonya",
+    "baskent": "Varşova",
+    "kita": "Avrupa",
+    "lat": 51.9,
+    "lon": 19.1,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/pl.png"
+  },
+  {
+    "id": "PT",
+    "ad": "Portekiz",
+    "baskent": "Lizbon",
+    "kita": "Avrupa",
+    "lat": 39.4,
+    "lon": -8.2,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/pt.png"
+  },
+  {
+    "id": "PR",
+    "ad": "Porto Riko",
+    "baskent": "San Juan",
+    "kita": "Amerika",
+    "lat": 18.2,
+    "lon": -66.6,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/pr.png"
+  },
+  {
+    "id": "RE",
+    "ad": "Réunion",
+    "baskent": "Saint-Denis",
+    "kita": "Afrika",
+    "lat": -21.1,
+    "lon": 55.5,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/re.png"
+  },
+  {
+    "id": "RO",
+    "ad": "Romanya",
+    "baskent": "Bükreş",
+    "kita": "Avrupa",
+    "lat": 45.9,
+    "lon": 24.9,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/ro.png"
+  },
+  {
+    "id": "RW",
+    "ad": "Ruanda",
+    "baskent": "Kigali",
+    "kita": "Afrika",
+    "lat": -1.9,
+    "lon": 29.9,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/rw.png"
+  },
+  {
+    "id": "RU",
+    "ad": "Rusya",
+    "baskent": "Moskova",
+    "kita": "Avrupa/Asya",
+    "lat": 61.5,
+    "lon": 105.3,
+    "toleransKm": 1800,
+    "bayrakCdn": "https://flagcdn.com/w320/ru.png"
+  },
+  {
+    "id": "BL",
+    "ad": "Saint Barthélemy",
+    "baskent": "Gustavia",
+    "kita": "Amerika",
+    "lat": 17.9,
+    "lon": -62.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/bl.png"
+  },
+  {
+    "id": "SH",
+    "ad": "Saint Helena",
+    "baskent": "Jamestown",
+    "kita": "Afrika",
+    "lat": -15.9,
+    "lon": -5.7,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/sh.png"
+  },
+  {
+    "id": "KN",
+    "ad": "Saint Kitts ve Nevis",
+    "baskent": "Basseterre",
+    "kita": "Amerika",
+    "lat": 17.4,
+    "lon": -62.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/kn.png"
+  },
+  {
+    "id": "LC",
+    "ad": "Saint Lucia",
+    "baskent": "Castries",
+    "kita": "Amerika",
+    "lat": 13.9,
+    "lon": -61,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/lc.png"
+  },
+  {
+    "id": "MF",
+    "ad": "Saint Martin (Fransa)",
+    "baskent": "Marigot",
+    "kita": "Amerika",
+    "lat": 18.1,
+    "lon": -63.1,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/mf.png"
+  },
+  {
+    "id": "PM",
+    "ad": "Saint Pierre ve Miquelon",
+    "baskent": "Saint-Pierre",
+    "kita": "Amerika",
+    "lat": 46.8,
+    "lon": -56.3,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/pm.png"
+  },
+  {
+    "id": "VC",
+    "ad": "Saint Vincent ve Grenadinler",
+    "baskent": "Kingstown",
+    "kita": "Amerika",
+    "lat": 13.3,
+    "lon": -61.2,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/vc.png"
+  },
+  {
+    "id": "WS",
+    "ad": "Samoa",
+    "baskent": "Apia",
+    "kita": "Okyanusya",
+    "lat": -13.8,
+    "lon": -172.1,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/ws.png"
+  },
+  {
+    "id": "SM",
+    "ad": "San Marino",
+    "baskent": "San Marino",
+    "kita": "Avrupa",
+    "lat": 43.9,
+    "lon": 12.5,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/sm.png"
+  },
+  {
+    "id": "ST",
+    "ad": "Sao Tome ve Principe",
+    "baskent": "São Tomé",
+    "kita": "Afrika",
+    "lat": 0.2,
+    "lon": 6.6,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/st.png"
+  },
+  {
+    "id": "SN",
+    "ad": "Senegal",
+    "baskent": "Dakar",
+    "kita": "Afrika",
+    "lat": 14.5,
+    "lon": -14.5,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/sn.png"
+  },
+  {
+    "id": "SC",
+    "ad": "Seyşeller",
+    "baskent": "Victoria",
+    "kita": "Afrika",
+    "lat": -4.7,
+    "lon": 55.5,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/sc.png"
+  },
+  {
+    "id": "RS",
+    "ad": "Sırbistan",
+    "baskent": "Belgrad",
+    "kita": "Avrupa",
+    "lat": 44,
+    "lon": 21,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/rs.png"
+  },
+  {
+    "id": "SL",
+    "ad": "Sierra Leone",
+    "baskent": "Freetown",
+    "kita": "Afrika",
+    "lat": 8.5,
+    "lon": -11.8,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/sl.png"
+  },
+  {
+    "id": "SG",
+    "ad": "Singapur",
+    "baskent": "Singapur",
+    "kita": "Asya",
+    "lat": 1.4,
+    "lon": 103.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/sg.png"
+  },
+  {
+    "id": "SX",
+    "ad": "Sint Maarten",
+    "baskent": "Philipsburg",
+    "kita": "Amerika",
+    "lat": 18,
+    "lon": -63.1,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/sx.png"
+  },
+  {
+    "id": "SK",
+    "ad": "Slovakya",
+    "baskent": "Bratislava",
+    "kita": "Avrupa",
+    "lat": 48.7,
+    "lon": 19.7,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/sk.png"
+  },
+  {
+    "id": "SI",
+    "ad": "Slovenya",
+    "baskent": "Ljubljana",
+    "kita": "Avrupa",
+    "lat": 46.2,
+    "lon": 15,
+    "toleransKm": 200,
+    "bayrakCdn": "https://flagcdn.com/w320/si.png"
+  },
+  {
+    "id": "SB",
+    "ad": "Solomon Adaları",
+    "baskent": "Honiara",
+    "kita": "Okyanusya",
+    "lat": -9.6,
+    "lon": 160.2,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/sb.png"
+  },
+  {
+    "id": "SO",
+    "ad": "Somali",
+    "baskent": "Mogadişu",
+    "kita": "Afrika",
+    "lat": 5.2,
+    "lon": 46.2,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/so.png"
+  },
+  {
+    "id": "LK",
+    "ad": "Sri Lanka",
+    "baskent": "Sri Jayawardenepura Kotte",
+    "kita": "Asya",
+    "lat": 7.9,
+    "lon": 80.8,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/lk.png"
+  },
+  {
+    "id": "SD",
+    "ad": "Sudan",
+    "baskent": "Hartum",
+    "kita": "Afrika",
+    "lat": 12.9,
+    "lon": 30.2,
+    "toleransKm": 700,
+    "bayrakCdn": "https://flagcdn.com/w320/sd.png"
+  },
+  {
+    "id": "SR",
+    "ad": "Surinam",
+    "baskent": "Paramaribo",
+    "kita": "Amerika",
+    "lat": 3.9,
+    "lon": -56,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/sr.png"
+  },
+  {
+    "id": "SY",
+    "ad": "Suriye",
+    "baskent": "Şam",
+    "kita": "Asya",
+    "lat": 34.8,
+    "lon": 39,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/sy.png"
+  },
+  {
+    "id": "SA",
+    "ad": "Suudi Arabistan",
+    "baskent": "Riyad",
+    "kita": "Asya",
+    "lat": 23.9,
+    "lon": 45.1,
+    "toleransKm": 750,
+    "bayrakCdn": "https://flagcdn.com/w320/sa.png"
+  },
+  {
+    "id": "SJ",
+    "ad": "Svalbard ve Jan Mayen",
+    "baskent": "Longyearbyen",
+    "kita": "Avrupa",
+    "lat": 78.2,
+    "lon": 15.6,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/sj.png"
+  },
+  {
+    "id": "CL",
+    "ad": "Şili",
+    "baskent": "Santiago",
+    "kita": "Amerika",
+    "lat": -35.7,
+    "lon": -71.5,
+    "toleransKm": 700,
+    "bayrakCdn": "https://flagcdn.com/w320/cl.png"
+  },
+  {
+    "id": "TJ",
+    "ad": "Tacikistan",
+    "baskent": "Duşanbe",
+    "kita": "Asya",
+    "lat": 38.9,
+    "lon": 71.3,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/tj.png"
+  },
+  {
+    "id": "TZ",
+    "ad": "Tanzanya",
+    "baskent": "Dodoma",
+    "kita": "Afrika",
+    "lat": -6.4,
+    "lon": 34.9,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/tz.png"
+  },
+  {
+    "id": "TH",
+    "ad": "Tayland",
+    "baskent": "Bangkok",
+    "kita": "Asya",
+    "lat": 15.9,
+    "lon": 100.9,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/th.png"
+  },
+  {
+    "id": "TW",
+    "ad": "Tayvan",
+    "baskent": "Taipei",
+    "kita": "Asya",
+    "lat": 23.7,
+    "lon": 121,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/tw.png"
+  },
+  {
+    "id": "TG",
+    "ad": "Togo",
+    "baskent": "Lomé",
+    "kita": "Afrika",
+    "lat": 8.6,
+    "lon": 0.8,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/tg.png"
+  },
+  {
+    "id": "TK",
+    "ad": "Tokelau",
+    "baskent": "Fakaofo",
+    "kita": "Okyanusya",
+    "lat": -9.2,
+    "lon": -171.8,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/tk.png"
+  },
+  {
+    "id": "TO",
+    "ad": "Tonga",
+    "baskent": "Nuku'alofa",
+    "kita": "Okyanusya",
+    "lat": -21.2,
+    "lon": -175.2,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/to.png"
+  },
+  {
+    "id": "TT",
+    "ad": "Trinidad ve Tobago",
+    "baskent": "Port of Spain",
+    "kita": "Amerika",
+    "lat": 10.7,
+    "lon": -61.2,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/tt.png"
+  },
+  {
+    "id": "TN",
+    "ad": "Tunus",
+    "baskent": "Tunus",
+    "kita": "Afrika",
+    "lat": 33.9,
+    "lon": 9.5,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/tn.png"
+  },
+  {
+    "id": "TC",
+    "ad": "Turks ve Caicos Adaları",
+    "baskent": "Cockburn Town",
+    "kita": "Amerika",
+    "lat": 21.7,
+    "lon": -71.8,
+    "toleransKm": 180,
+    "bayrakCdn": "https://flagcdn.com/w320/tc.png"
+  },
+  {
+    "id": "TV",
+    "ad": "Tuvalu",
+    "baskent": "Funafuti",
+    "kita": "Okyanusya",
+    "lat": -7.1,
+    "lon": 177.6,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/tv.png"
+  },
+  {
+    "id": "TR",
+    "ad": "Türkiye",
+    "baskent": "Ankara",
+    "kita": "Avrupa/Asya",
+    "lat": 39,
+    "lon": 35.2,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/tr.png"
+  },
+  {
+    "id": "TM",
+    "ad": "Türkmenistan",
+    "baskent": "Aşkabat",
+    "kita": "Asya",
+    "lat": 39,
+    "lon": 59.6,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/tm.png"
+  },
+  {
+    "id": "UG",
+    "ad": "Uganda",
+    "baskent": "Kampala",
+    "kita": "Afrika",
+    "lat": 1.4,
+    "lon": 32.3,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/ug.png"
+  },
+  {
+    "id": "UA",
+    "ad": "Ukrayna",
+    "baskent": "Kiev",
+    "kita": "Avrupa",
+    "lat": 48.4,
+    "lon": 31.2,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/ua.png"
+  },
+  {
+    "id": "OM",
+    "ad": "Umman",
+    "baskent": "Maskat",
+    "kita": "Asya",
+    "lat": 21.5,
+    "lon": 55.9,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/om.png"
+  },
+  {
+    "id": "UY",
+    "ad": "Uruguay",
+    "baskent": "Montevideo",
+    "kita": "Amerika",
+    "lat": -32.5,
+    "lon": -55.8,
+    "toleransKm": 350,
+    "bayrakCdn": "https://flagcdn.com/w320/uy.png"
+  },
+  {
+    "id": "JO",
+    "ad": "Ürdün",
+    "baskent": "Amman",
+    "kita": "Asya",
+    "lat": 30.6,
+    "lon": 36.2,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/jo.png"
+  },
+  {
+    "id": "VU",
+    "ad": "Vanuatu",
+    "baskent": "Port Vila",
+    "kita": "Okyanusya",
+    "lat": -15.4,
+    "lon": 166.9,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/vu.png"
+  },
+  {
+    "id": "VA",
+    "ad": "Vatikan",
+    "baskent": "Vatikan",
+    "kita": "Avrupa",
+    "lat": 41.9,
+    "lon": 12.4,
+    "toleransKm": 100,
+    "bayrakCdn": "https://flagcdn.com/w320/va.png"
+  },
+  {
+    "id": "VE",
+    "ad": "Venezuela",
+    "baskent": "Caracas",
+    "kita": "Amerika",
+    "lat": 6.4,
+    "lon": -66.6,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/ve.png"
+  },
+  {
+    "id": "VN",
+    "ad": "Vietnam",
+    "baskent": "Hanoi",
+    "kita": "Asya",
+    "lat": 14.1,
+    "lon": 108.3,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/vn.png"
+  },
+  {
+    "id": "WF",
+    "ad": "Wallis ve Futuna",
+    "baskent": "Mata-Utu",
+    "kita": "Okyanusya",
+    "lat": -13.3,
+    "lon": -176.2,
+    "toleransKm": 150,
+    "bayrakCdn": "https://flagcdn.com/w320/wf.png"
+  },
+  {
+    "id": "YE",
+    "ad": "Yemen",
+    "baskent": "Sana",
+    "kita": "Asya",
+    "lat": 15.6,
+    "lon": 48.5,
+    "toleransKm": 450,
+    "bayrakCdn": "https://flagcdn.com/w320/ye.png"
+  },
+  {
+    "id": "NC",
+    "ad": "Yeni Kaledonya",
+    "baskent": "Nouméa",
+    "kita": "Okyanusya",
+    "lat": -20.9,
+    "lon": 165.6,
+    "toleransKm": 250,
+    "bayrakCdn": "https://flagcdn.com/w320/nc.png"
+  },
+  {
+    "id": "NZ",
+    "ad": "Yeni Zelanda",
+    "baskent": "Wellington",
+    "kita": "Okyanusya",
+    "lat": -40.9,
+    "lon": 174.9,
+    "toleransKm": 550,
+    "bayrakCdn": "https://flagcdn.com/w320/nz.png"
+  },
+  {
+    "id": "GR",
+    "ad": "Yunanistan",
+    "baskent": "Atina",
+    "kita": "Avrupa",
+    "lat": 39.1,
+    "lon": 21.8,
+    "toleransKm": 300,
+    "bayrakCdn": "https://flagcdn.com/w320/gr.png"
+  },
+  {
+    "id": "ZM",
+    "ad": "Zambiya",
+    "baskent": "Lusaka",
+    "kita": "Afrika",
+    "lat": -13.1,
+    "lon": 27.8,
+    "toleransKm": 500,
+    "bayrakCdn": "https://flagcdn.com/w320/zm.png"
+  },
+  {
+    "id": "ZW",
+    "ad": "Zimbabve",
+    "baskent": "Harare",
+    "kita": "Afrika",
+    "lat": -19,
+    "lon": 29.2,
+    "toleransKm": 400,
+    "bayrakCdn": "https://flagcdn.com/w320/zw.png"
+  }
+]

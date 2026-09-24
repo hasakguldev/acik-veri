@@ -1,0 +1,24 @@
+{
+  "name": "Dünya Ülkeleri, Başkentleri, Kıtaları ve Koordinatları",
+  "version": "1.0.0",
+  "updatedAt": "2026-09-24",
+  "totalCountries": 248,
+  "sources": [
+    "Flagpedia.net (Bayrak kodları ve SVG/PNG CDN)",
+    "ISO 3166-1 alpha-2 (Resmî 2 harfli ülke kodları)",
+    "Birleşmiş Milletler Coğrafi Bölümleme ve Başkentler İndeksi"
+  ],
+  "schema": {
+    "id": "ISO 3166-1 alpha-2 büyük harfli 2 harfli kod (ör. TR, DE, US)",
+    "ad": "Türkçe resmî veya yaygın ülke/bölge adı",
+    "baskent": "Türkçe başkent adı",
+    "kita": "Kıta adı (Avrupa, Asya, Afrika, Amerika, Okyanusya, Antarktika)",
+    "lat": "Başkent veya coğrafi merkez enlem derecesi (-90 ile +90)",
+    "lon": "Başkent veya coğrafi merkez boylam derecesi (-180 ile +180)",
+    "toleransKm": "Harita oyunları ve coğrafi eşleme için yarıçap toleransı (km)",
+    "bayrakCdn": "Doğrudan kullanıma hazır CDN bayrak görsel bağlantı şablonu"
+  },
+  "files": {
+    "full": "ulkeler.json"
+  }
+}
