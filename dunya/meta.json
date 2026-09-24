@@ -1,12 +1,14 @@
 {
   "name": "Dünya Ülkeleri, Başkentleri, Kıtaları ve Koordinatları",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updatedAt": "2026-09-24",
   "totalCountries": 248,
   "sources": [
     "Flagpedia.net (Bayrak kodları ve SVG/PNG CDN)",
     "ISO 3166-1 alpha-2 (Resmî 2 harfli ülke kodları)",
-    "Birleşmiş Milletler Coğrafi Bölümleme ve Başkentler İndeksi"
+    "Birleşmiş Milletler Coğrafi Bölümleme ve Başkentler İndeksi",
+    "Unicode CLDR 46 (para birimleri ve Türkçe adları; Unicode Lisansı v3)",
+    "libphonenumber-js 1.13 metadata (uluslararası telefon kodları; MIT, Google libphonenumber türevi)"
   ],
   "schema": {
     "id": "ISO 3166-1 alpha-2 büyük harfli 2 harfli kod (ör. TR, DE, US)",
@@ -16,7 +18,9 @@
     "lat": "Başkent veya coğrafi merkez enlem derecesi (-90 ile +90)",
     "lon": "Başkent veya coğrafi merkez boylam derecesi (-180 ile +180)",
     "toleransKm": "Harita oyunları ve coğrafi eşleme için yarıçap toleransı (km)",
-    "bayrakCdn": "Doğrudan kullanıma hazır CDN bayrak görsel bağlantı şablonu"
+    "bayrakCdn": "Doğrudan kullanıma hazır CDN bayrak görsel bağlantı şablonu",
+    "telefonKodu": "Uluslararası arama kodu, + ile (ör. +90). Kodu olmayan yerleşimsiz bölgelerde null.",
+    "paraBirimleri": "Yürürlükteki yasal para birimleri: [{kod: ISO 4217, ad: Türkçe adı, sembol}]. Birden çok olabilir (ör. Panama: PAB ve USD)."
   },
   "files": {
     "full": "ulkeler.json"

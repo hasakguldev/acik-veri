@@ -7,7 +7,15 @@
     "lat": 18.3,
     "lon": -64.9,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/vi.png"
+    "bayrakCdn": "https://flagcdn.com/w320/vi.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AF",
@@ -17,7 +25,15 @@
     "lat": 33.9,
     "lon": 67.7,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/af.png"
+    "bayrakCdn": "https://flagcdn.com/w320/af.png",
+    "telefonKodu": "+93",
+    "paraBirimleri": [
+      {
+        "kod": "AFN",
+        "ad": "Afganistan afganisi",
+        "sembol": "؋"
+      }
+    ]
   },
   {
     "id": "AX",
@@ -27,7 +43,15 @@
     "lat": 60.1,
     "lon": 19.9,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ax.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ax.png",
+    "telefonKodu": "+358",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "DE",
@@ -37,7 +61,15 @@
     "lat": 51.2,
     "lon": 10.4,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/de.png"
+    "bayrakCdn": "https://flagcdn.com/w320/de.png",
+    "telefonKodu": "+49",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "US",
@@ -47,7 +79,15 @@
     "lat": 37.1,
     "lon": -95.7,
     "toleransKm": 1300,
-    "bayrakCdn": "https://flagcdn.com/w320/us.png"
+    "bayrakCdn": "https://flagcdn.com/w320/us.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AS",
@@ -57,7 +97,15 @@
     "lat": -14.3,
     "lon": -170.7,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/as.png"
+    "bayrakCdn": "https://flagcdn.com/w320/as.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AD",
@@ -67,7 +115,15 @@
     "lat": 42.5,
     "lon": 1.5,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ad.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ad.png",
+    "telefonKodu": "+376",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "AO",
@@ -77,7 +133,15 @@
     "lat": -11.2,
     "lon": 17.9,
     "toleransKm": 650,
-    "bayrakCdn": "https://flagcdn.com/w320/ao.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ao.png",
+    "telefonKodu": "+244",
+    "paraBirimleri": [
+      {
+        "kod": "AOA",
+        "ad": "Angola kvanzası",
+        "sembol": "Kz"
+      }
+    ]
   },
   {
     "id": "AI",
@@ -87,7 +151,15 @@
     "lat": 18.2,
     "lon": -63.1,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ai.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ai.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AQ",
@@ -97,7 +169,9 @@
     "lat": -75,
     "lon": 0,
     "toleransKm": 1500,
-    "bayrakCdn": "https://flagcdn.com/w320/aq.png"
+    "bayrakCdn": "https://flagcdn.com/w320/aq.png",
+    "telefonKodu": null,
+    "paraBirimleri": []
   },
   {
     "id": "AG",
@@ -107,7 +181,15 @@
     "lat": 17.1,
     "lon": -61.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ag.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ag.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AR",
@@ -117,7 +199,15 @@
     "lat": -38.4,
     "lon": -63.6,
     "toleransKm": 850,
-    "bayrakCdn": "https://flagcdn.com/w320/ar.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ar.png",
+    "telefonKodu": "+54",
+    "paraBirimleri": [
+      {
+        "kod": "ARS",
+        "ad": "Arjantin pesosu",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AL",
@@ -127,7 +217,15 @@
     "lat": 41.2,
     "lon": 20.2,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/al.png"
+    "bayrakCdn": "https://flagcdn.com/w320/al.png",
+    "telefonKodu": "+355",
+    "paraBirimleri": [
+      {
+        "kod": "ALL",
+        "ad": "Arnavutluk leki",
+        "sembol": "ALL"
+      }
+    ]
   },
   {
     "id": "AW",
@@ -137,7 +235,15 @@
     "lat": 12.5,
     "lon": -70,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/aw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/aw.png",
+    "telefonKodu": "+297",
+    "paraBirimleri": [
+      {
+        "kod": "AWG",
+        "ad": "Aruba florini",
+        "sembol": "AWG"
+      }
+    ]
   },
   {
     "id": "AU",
@@ -147,7 +253,15 @@
     "lat": -25.3,
     "lon": 133.8,
     "toleransKm": 1200,
-    "bayrakCdn": "https://flagcdn.com/w320/au.png"
+    "bayrakCdn": "https://flagcdn.com/w320/au.png",
+    "telefonKodu": "+61",
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AT",
@@ -157,7 +271,15 @@
     "lat": 47.5,
     "lon": 14.6,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/at.png"
+    "bayrakCdn": "https://flagcdn.com/w320/at.png",
+    "telefonKodu": "+43",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "AZ",
@@ -167,7 +289,15 @@
     "lat": 40.1,
     "lon": 47.6,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/az.png"
+    "bayrakCdn": "https://flagcdn.com/w320/az.png",
+    "telefonKodu": "+994",
+    "paraBirimleri": [
+      {
+        "kod": "AZN",
+        "ad": "Azerbaycan manatı",
+        "sembol": "₼"
+      }
+    ]
   },
   {
     "id": "BS",
@@ -177,7 +307,15 @@
     "lat": 25,
     "lon": -77.4,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/bs.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bs.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "BSD",
+        "ad": "Bahama doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "BH",
@@ -187,7 +325,15 @@
     "lat": 26.1,
     "lon": 50.6,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/bh.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bh.png",
+    "telefonKodu": "+973",
+    "paraBirimleri": [
+      {
+        "kod": "BHD",
+        "ad": "Bahreyn dinarı",
+        "sembol": "BHD"
+      }
+    ]
   },
   {
     "id": "BD",
@@ -197,7 +343,15 @@
     "lat": 23.7,
     "lon": 90.4,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/bd.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bd.png",
+    "telefonKodu": "+880",
+    "paraBirimleri": [
+      {
+        "kod": "BDT",
+        "ad": "Bangladeş takası",
+        "sembol": "৳"
+      }
+    ]
   },
   {
     "id": "BB",
@@ -207,7 +361,15 @@
     "lat": 13.2,
     "lon": -59.5,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/bb.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bb.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "BBD",
+        "ad": "Barbados doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "EH",
@@ -217,7 +379,15 @@
     "lat": 24.2,
     "lon": -12.9,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/eh.png"
+    "bayrakCdn": "https://flagcdn.com/w320/eh.png",
+    "telefonKodu": "+212",
+    "paraBirimleri": [
+      {
+        "kod": "MAD",
+        "ad": "Fas dirhemi",
+        "sembol": "MAD"
+      }
+    ]
   },
   {
     "id": "BY",
@@ -227,7 +397,15 @@
     "lat": 53.7,
     "lon": 27.9,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/by.png"
+    "bayrakCdn": "https://flagcdn.com/w320/by.png",
+    "telefonKodu": "+375",
+    "paraBirimleri": [
+      {
+        "kod": "BYN",
+        "ad": "Belarus rublesi",
+        "sembol": "р."
+      }
+    ]
   },
   {
     "id": "BE",
@@ -237,7 +415,15 @@
     "lat": 50.5,
     "lon": 4.5,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/be.png"
+    "bayrakCdn": "https://flagcdn.com/w320/be.png",
+    "telefonKodu": "+32",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "BZ",
@@ -247,7 +433,15 @@
     "lat": 17.2,
     "lon": -88.5,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/bz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bz.png",
+    "telefonKodu": "+501",
+    "paraBirimleri": [
+      {
+        "kod": "BZD",
+        "ad": "Belize doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "BJ",
@@ -257,7 +451,15 @@
     "lat": 9.3,
     "lon": 2.3,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/bj.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bj.png",
+    "telefonKodu": "+229",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "BM",
@@ -267,7 +469,15 @@
     "lat": 32.3,
     "lon": -64.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/bm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bm.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "BMD",
+        "ad": "Bermuda doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "AE",
@@ -277,7 +487,15 @@
     "lat": 23.4,
     "lon": 53.8,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/ae.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ae.png",
+    "telefonKodu": "+971",
+    "paraBirimleri": [
+      {
+        "kod": "AED",
+        "ad": "Birleşik Arap Emirlikleri dirhemi",
+        "sembol": "AED"
+      }
+    ]
   },
   {
     "id": "GB",
@@ -287,7 +505,15 @@
     "lat": 55.4,
     "lon": -3.4,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/gb.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gb.png",
+    "telefonKodu": "+44",
+    "paraBirimleri": [
+      {
+        "kod": "GBP",
+        "ad": "İngiliz sterlini",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "BO",
@@ -297,7 +523,15 @@
     "lat": -16.3,
     "lon": -63.6,
     "toleransKm": 600,
-    "bayrakCdn": "https://flagcdn.com/w320/bo.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bo.png",
+    "telefonKodu": "+591",
+    "paraBirimleri": [
+      {
+        "kod": "BOB",
+        "ad": "Bolivya bolivyanosu",
+        "sembol": "Bs"
+      }
+    ]
   },
   {
     "id": "BA",
@@ -307,7 +541,15 @@
     "lat": 43.9,
     "lon": 17.7,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/ba.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ba.png",
+    "telefonKodu": "+387",
+    "paraBirimleri": [
+      {
+        "kod": "BAM",
+        "ad": "Konvertibl Bosna Hersek markı",
+        "sembol": "KM"
+      }
+    ]
   },
   {
     "id": "BW",
@@ -317,7 +559,15 @@
     "lat": -22.3,
     "lon": 24.7,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/bw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bw.png",
+    "telefonKodu": "+267",
+    "paraBirimleri": [
+      {
+        "kod": "BWP",
+        "ad": "Botsvana pulası",
+        "sembol": "P"
+      }
+    ]
   },
   {
     "id": "BV",
@@ -327,7 +577,15 @@
     "lat": -54.4,
     "lon": 3.4,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/bv.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bv.png",
+    "telefonKodu": null,
+    "paraBirimleri": [
+      {
+        "kod": "NOK",
+        "ad": "Norveç kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "BR",
@@ -337,7 +595,15 @@
     "lat": -14.2,
     "lon": -51.9,
     "toleransKm": 1200,
-    "bayrakCdn": "https://flagcdn.com/w320/br.png"
+    "bayrakCdn": "https://flagcdn.com/w320/br.png",
+    "telefonKodu": "+55",
+    "paraBirimleri": [
+      {
+        "kod": "BRL",
+        "ad": "Brezilya reali",
+        "sembol": "R$"
+      }
+    ]
   },
   {
     "id": "VG",
@@ -347,7 +613,15 @@
     "lat": 18.4,
     "lon": -64.6,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/vg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/vg.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "BN",
@@ -357,7 +631,15 @@
     "lat": 4.5,
     "lon": 114.7,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/bn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bn.png",
+    "telefonKodu": "+673",
+    "paraBirimleri": [
+      {
+        "kod": "BND",
+        "ad": "Brunei doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "BG",
@@ -367,7 +649,15 @@
     "lat": 42.7,
     "lon": 25.5,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/bg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bg.png",
+    "telefonKodu": "+359",
+    "paraBirimleri": [
+      {
+        "kod": "BGN",
+        "ad": "Bulgar levası",
+        "sembol": "BGN"
+      }
+    ]
   },
   {
     "id": "BF",
@@ -377,7 +667,15 @@
     "lat": 12.2,
     "lon": -1.6,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/bf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bf.png",
+    "telefonKodu": "+226",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "BI",
@@ -387,7 +685,15 @@
     "lat": -3.4,
     "lon": 29.9,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/bi.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bi.png",
+    "telefonKodu": "+257",
+    "paraBirimleri": [
+      {
+        "kod": "BIF",
+        "ad": "Burundi frangı",
+        "sembol": "BIF"
+      }
+    ]
   },
   {
     "id": "BT",
@@ -397,7 +703,20 @@
     "lat": 27.5,
     "lon": 90.4,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/bt.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bt.png",
+    "telefonKodu": "+975",
+    "paraBirimleri": [
+      {
+        "kod": "BTN",
+        "ad": "Butan ngultrumu",
+        "sembol": "BTN"
+      },
+      {
+        "kod": "INR",
+        "ad": "Hindistan rupisi",
+        "sembol": "₹"
+      }
+    ]
   },
   {
     "id": "CV",
@@ -407,7 +726,15 @@
     "lat": 16,
     "lon": -24,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/cv.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cv.png",
+    "telefonKodu": "+238",
+    "paraBirimleri": [
+      {
+        "kod": "CVE",
+        "ad": "Cape Verde esküdosu",
+        "sembol": "CVE"
+      }
+    ]
   },
   {
     "id": "KY",
@@ -417,7 +744,15 @@
     "lat": 19.3,
     "lon": -81.4,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ky.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ky.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "KYD",
+        "ad": "Cayman Adaları doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "GI",
@@ -427,7 +762,15 @@
     "lat": 36.1,
     "lon": -5.3,
     "toleransKm": 100,
-    "bayrakCdn": "https://flagcdn.com/w320/gi.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gi.png",
+    "telefonKodu": "+350",
+    "paraBirimleri": [
+      {
+        "kod": "GIP",
+        "ad": "Cebelitarık lirası",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "DZ",
@@ -437,7 +780,15 @@
     "lat": 28,
     "lon": 1.7,
     "toleransKm": 850,
-    "bayrakCdn": "https://flagcdn.com/w320/dz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/dz.png",
+    "telefonKodu": "+213",
+    "paraBirimleri": [
+      {
+        "kod": "DZD",
+        "ad": "Cezayir dinarı",
+        "sembol": "DZD"
+      }
+    ]
   },
   {
     "id": "CX",
@@ -447,7 +798,15 @@
     "lat": -10.4,
     "lon": 105.7,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/cx.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cx.png",
+    "telefonKodu": "+61",
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "DJ",
@@ -457,7 +816,15 @@
     "lat": 11.8,
     "lon": 42.6,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/dj.png"
+    "bayrakCdn": "https://flagcdn.com/w320/dj.png",
+    "telefonKodu": "+253",
+    "paraBirimleri": [
+      {
+        "kod": "DJF",
+        "ad": "Cibuti frangı",
+        "sembol": "DJF"
+      }
+    ]
   },
   {
     "id": "CC",
@@ -467,7 +834,15 @@
     "lat": -12.1,
     "lon": 96.9,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/cc.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cc.png",
+    "telefonKodu": "+61",
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "CK",
@@ -477,7 +852,15 @@
     "lat": -21.2,
     "lon": -159.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ck.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ck.png",
+    "telefonKodu": "+682",
+    "paraBirimleri": [
+      {
+        "kod": "NZD",
+        "ad": "Yeni Zelanda doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "CW",
@@ -487,7 +870,15 @@
     "lat": 12.2,
     "lon": -69,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/cw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cw.png",
+    "telefonKodu": "+599",
+    "paraBirimleri": [
+      {
+        "kod": "XCG",
+        "ad": "XCG",
+        "sembol": "Cg."
+      }
+    ]
   },
   {
     "id": "TD",
@@ -497,7 +888,15 @@
     "lat": 15.5,
     "lon": 18.7,
     "toleransKm": 650,
-    "bayrakCdn": "https://flagcdn.com/w320/td.png"
+    "bayrakCdn": "https://flagcdn.com/w320/td.png",
+    "telefonKodu": "+235",
+    "paraBirimleri": [
+      {
+        "kod": "XAF",
+        "ad": "Orta Afrika CFA frangı",
+        "sembol": "FCFA"
+      }
+    ]
   },
   {
     "id": "CZ",
@@ -507,7 +906,15 @@
     "lat": 49.8,
     "lon": 15.5,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/cz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cz.png",
+    "telefonKodu": "+420",
+    "paraBirimleri": [
+      {
+        "kod": "CZK",
+        "ad": "Çek korunası",
+        "sembol": "Kč"
+      }
+    ]
   },
   {
     "id": "CN",
@@ -517,7 +924,15 @@
     "lat": 35.9,
     "lon": 104.2,
     "toleransKm": 1300,
-    "bayrakCdn": "https://flagcdn.com/w320/cn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cn.png",
+    "telefonKodu": "+86",
+    "paraBirimleri": [
+      {
+        "kod": "CNY",
+        "ad": "Çin yuanı",
+        "sembol": "¥"
+      }
+    ]
   },
   {
     "id": "DK",
@@ -527,7 +942,15 @@
     "lat": 56.3,
     "lon": 9.5,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/dk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/dk.png",
+    "telefonKodu": "+45",
+    "paraBirimleri": [
+      {
+        "kod": "DKK",
+        "ad": "Danimarka kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "CD",
@@ -537,7 +960,15 @@
     "lat": -4,
     "lon": 21.8,
     "toleransKm": 800,
-    "bayrakCdn": "https://flagcdn.com/w320/cd.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cd.png",
+    "telefonKodu": "+243",
+    "paraBirimleri": [
+      {
+        "kod": "CDF",
+        "ad": "Kongo frangı",
+        "sembol": "CDF"
+      }
+    ]
   },
   {
     "id": "TL",
@@ -547,7 +978,15 @@
     "lat": -8.8,
     "lon": 125.7,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/tl.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tl.png",
+    "telefonKodu": "+670",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "DO",
@@ -557,7 +996,15 @@
     "lat": 18.7,
     "lon": -70.2,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/do.png"
+    "bayrakCdn": "https://flagcdn.com/w320/do.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "DOP",
+        "ad": "Dominik pesosu",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "DM",
@@ -567,7 +1014,15 @@
     "lat": 15.4,
     "lon": -61.4,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/dm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/dm.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "EC",
@@ -577,7 +1032,15 @@
     "lat": -1.8,
     "lon": -78.2,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/ec.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ec.png",
+    "telefonKodu": "+593",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "GQ",
@@ -587,7 +1050,15 @@
     "lat": 1.6,
     "lon": 10.3,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/gq.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gq.png",
+    "telefonKodu": "+240",
+    "paraBirimleri": [
+      {
+        "kod": "XAF",
+        "ad": "Orta Afrika CFA frangı",
+        "sembol": "FCFA"
+      }
+    ]
   },
   {
     "id": "SV",
@@ -597,7 +1068,15 @@
     "lat": 13.8,
     "lon": -88.9,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/sv.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sv.png",
+    "telefonKodu": "+503",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "ID",
@@ -607,7 +1086,15 @@
     "lat": -0.8,
     "lon": 113.9,
     "toleransKm": 950,
-    "bayrakCdn": "https://flagcdn.com/w320/id.png"
+    "bayrakCdn": "https://flagcdn.com/w320/id.png",
+    "telefonKodu": "+62",
+    "paraBirimleri": [
+      {
+        "kod": "IDR",
+        "ad": "Endonezya rupisi",
+        "sembol": "Rp"
+      }
+    ]
   },
   {
     "id": "ER",
@@ -617,7 +1104,15 @@
     "lat": 15.2,
     "lon": 39.8,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/er.png"
+    "bayrakCdn": "https://flagcdn.com/w320/er.png",
+    "telefonKodu": "+291",
+    "paraBirimleri": [
+      {
+        "kod": "ERN",
+        "ad": "Eritre nakfası",
+        "sembol": "ERN"
+      }
+    ]
   },
   {
     "id": "AM",
@@ -627,7 +1122,15 @@
     "lat": 40.1,
     "lon": 45,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/am.png"
+    "bayrakCdn": "https://flagcdn.com/w320/am.png",
+    "telefonKodu": "+374",
+    "paraBirimleri": [
+      {
+        "kod": "AMD",
+        "ad": "Ermenistan dramı",
+        "sembol": "֏"
+      }
+    ]
   },
   {
     "id": "EE",
@@ -637,7 +1140,15 @@
     "lat": 58.6,
     "lon": 25,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/ee.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ee.png",
+    "telefonKodu": "+372",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "SZ",
@@ -647,7 +1158,15 @@
     "lat": -26.5,
     "lon": 31.5,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/sz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sz.png",
+    "telefonKodu": "+268",
+    "paraBirimleri": [
+      {
+        "kod": "SZL",
+        "ad": "Svaziland lilangenisi",
+        "sembol": "SZL"
+      }
+    ]
   },
   {
     "id": "ET",
@@ -657,7 +1176,15 @@
     "lat": 9.1,
     "lon": 40.5,
     "toleransKm": 600,
-    "bayrakCdn": "https://flagcdn.com/w320/et.png"
+    "bayrakCdn": "https://flagcdn.com/w320/et.png",
+    "telefonKodu": "+251",
+    "paraBirimleri": [
+      {
+        "kod": "ETB",
+        "ad": "Etiyopya birri",
+        "sembol": "ETB"
+      }
+    ]
   },
   {
     "id": "FK",
@@ -667,7 +1194,15 @@
     "lat": -51.8,
     "lon": -59.5,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/fk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/fk.png",
+    "telefonKodu": "+500",
+    "paraBirimleri": [
+      {
+        "kod": "FKP",
+        "ad": "Falkland Adaları lirası",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "FO",
@@ -677,7 +1212,15 @@
     "lat": 62,
     "lon": -6.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/fo.png"
+    "bayrakCdn": "https://flagcdn.com/w320/fo.png",
+    "telefonKodu": "+298",
+    "paraBirimleri": [
+      {
+        "kod": "DKK",
+        "ad": "Danimarka kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "MA",
@@ -687,7 +1230,15 @@
     "lat": 31.8,
     "lon": -7.1,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/ma.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ma.png",
+    "telefonKodu": "+212",
+    "paraBirimleri": [
+      {
+        "kod": "MAD",
+        "ad": "Fas dirhemi",
+        "sembol": "MAD"
+      }
+    ]
   },
   {
     "id": "FJ",
@@ -697,7 +1248,15 @@
     "lat": -17.7,
     "lon": 178.1,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/fj.png"
+    "bayrakCdn": "https://flagcdn.com/w320/fj.png",
+    "telefonKodu": "+679",
+    "paraBirimleri": [
+      {
+        "kod": "FJD",
+        "ad": "Fiji doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "CI",
@@ -707,7 +1266,15 @@
     "lat": 7.5,
     "lon": -5.5,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/ci.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ci.png",
+    "telefonKodu": "+225",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "PH",
@@ -717,7 +1284,15 @@
     "lat": 12.9,
     "lon": 121.8,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/ph.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ph.png",
+    "telefonKodu": "+63",
+    "paraBirimleri": [
+      {
+        "kod": "PHP",
+        "ad": "Filipinler pesosu",
+        "sembol": "₱"
+      }
+    ]
   },
   {
     "id": "PS",
@@ -727,7 +1302,20 @@
     "lat": 31.9,
     "lon": 35.2,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ps.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ps.png",
+    "telefonKodu": "+970",
+    "paraBirimleri": [
+      {
+        "kod": "ILS",
+        "ad": "Yeni İsrail şekeli",
+        "sembol": "₪"
+      },
+      {
+        "kod": "JOD",
+        "ad": "Ürdün dinarı",
+        "sembol": "JOD"
+      }
+    ]
   },
   {
     "id": "FI",
@@ -737,7 +1325,15 @@
     "lat": 61.9,
     "lon": 25.7,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/fi.png"
+    "bayrakCdn": "https://flagcdn.com/w320/fi.png",
+    "telefonKodu": "+358",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "FR",
@@ -747,7 +1343,15 @@
     "lat": 46.2,
     "lon": 2.2,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/fr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/fr.png",
+    "telefonKodu": "+33",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "GF",
@@ -757,7 +1361,15 @@
     "lat": 3.9,
     "lon": -53.1,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/gf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gf.png",
+    "telefonKodu": "+594",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "TF",
@@ -767,7 +1379,15 @@
     "lat": -49.3,
     "lon": 70.2,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/tf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tf.png",
+    "telefonKodu": null,
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "PF",
@@ -777,7 +1397,15 @@
     "lat": -17.7,
     "lon": -149.4,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/pf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pf.png",
+    "telefonKodu": "+689",
+    "paraBirimleri": [
+      {
+        "kod": "XPF",
+        "ad": "CFP frangı",
+        "sembol": "CFPF"
+      }
+    ]
   },
   {
     "id": "GA",
@@ -787,7 +1415,15 @@
     "lat": -0.8,
     "lon": 11.6,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/ga.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ga.png",
+    "telefonKodu": "+241",
+    "paraBirimleri": [
+      {
+        "kod": "XAF",
+        "ad": "Orta Afrika CFA frangı",
+        "sembol": "FCFA"
+      }
+    ]
   },
   {
     "id": "GM",
@@ -797,7 +1433,15 @@
     "lat": 13.4,
     "lon": -15.3,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/gm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gm.png",
+    "telefonKodu": "+220",
+    "paraBirimleri": [
+      {
+        "kod": "GMD",
+        "ad": "Gambiya dalasisi",
+        "sembol": "GMD"
+      }
+    ]
   },
   {
     "id": "GH",
@@ -807,7 +1451,15 @@
     "lat": 7.9,
     "lon": -1,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/gh.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gh.png",
+    "telefonKodu": "+233",
+    "paraBirimleri": [
+      {
+        "kod": "GHS",
+        "ad": "Gana sedisi",
+        "sembol": "GH₵"
+      }
+    ]
   },
   {
     "id": "GN",
@@ -817,7 +1469,15 @@
     "lat": 9.9,
     "lon": -9.7,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/gn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gn.png",
+    "telefonKodu": "+224",
+    "paraBirimleri": [
+      {
+        "kod": "GNF",
+        "ad": "Gine frangı",
+        "sembol": "FG"
+      }
+    ]
   },
   {
     "id": "GW",
@@ -827,7 +1487,15 @@
     "lat": 11.8,
     "lon": -15.2,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/gw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gw.png",
+    "telefonKodu": "+245",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "GD",
@@ -837,7 +1505,15 @@
     "lat": 12.1,
     "lon": -61.7,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/gd.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gd.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "GL",
@@ -847,7 +1523,15 @@
     "lat": 71.7,
     "lon": -42.6,
     "toleransKm": 900,
-    "bayrakCdn": "https://flagcdn.com/w320/gl.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gl.png",
+    "telefonKodu": "+299",
+    "paraBirimleri": [
+      {
+        "kod": "DKK",
+        "ad": "Danimarka kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "GP",
@@ -857,7 +1541,15 @@
     "lat": 16.3,
     "lon": -61.6,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/gp.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gp.png",
+    "telefonKodu": "+590",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "GU",
@@ -867,7 +1559,15 @@
     "lat": 13.4,
     "lon": 144.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/gu.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gu.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "GT",
@@ -877,7 +1577,15 @@
     "lat": 15.8,
     "lon": -90.2,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/gt.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gt.png",
+    "telefonKodu": "+502",
+    "paraBirimleri": [
+      {
+        "kod": "GTQ",
+        "ad": "Guatemala quetzalı",
+        "sembol": "Q"
+      }
+    ]
   },
   {
     "id": "GG",
@@ -887,7 +1595,15 @@
     "lat": 49.5,
     "lon": -2.6,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/gg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gg.png",
+    "telefonKodu": "+44",
+    "paraBirimleri": [
+      {
+        "kod": "GBP",
+        "ad": "İngiliz sterlini",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "GY",
@@ -897,7 +1613,15 @@
     "lat": 4.9,
     "lon": -58.9,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/gy.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gy.png",
+    "telefonKodu": "+592",
+    "paraBirimleri": [
+      {
+        "kod": "GYD",
+        "ad": "Guyana doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "ZA",
@@ -907,7 +1631,15 @@
     "lat": -30.6,
     "lon": 22.9,
     "toleransKm": 650,
-    "bayrakCdn": "https://flagcdn.com/w320/za.png"
+    "bayrakCdn": "https://flagcdn.com/w320/za.png",
+    "telefonKodu": "+27",
+    "paraBirimleri": [
+      {
+        "kod": "ZAR",
+        "ad": "Güney Afrika randı",
+        "sembol": "R"
+      }
+    ]
   },
   {
     "id": "GS",
@@ -917,7 +1649,15 @@
     "lat": -54.4,
     "lon": -36.6,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/gs.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gs.png",
+    "telefonKodu": null,
+    "paraBirimleri": [
+      {
+        "kod": "GBP",
+        "ad": "İngiliz sterlini",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "KR",
@@ -927,7 +1667,15 @@
     "lat": 35.9,
     "lon": 127.8,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/kr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/kr.png",
+    "telefonKodu": "+82",
+    "paraBirimleri": [
+      {
+        "kod": "KRW",
+        "ad": "Güney Kore wonu",
+        "sembol": "₩"
+      }
+    ]
   },
   {
     "id": "SS",
@@ -937,7 +1685,15 @@
     "lat": 6.9,
     "lon": 31.3,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/ss.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ss.png",
+    "telefonKodu": "+211",
+    "paraBirimleri": [
+      {
+        "kod": "SSP",
+        "ad": "Güney Sudan lirası",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "GE",
@@ -947,7 +1703,15 @@
     "lat": 42.3,
     "lon": 43.4,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/ge.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ge.png",
+    "telefonKodu": "+995",
+    "paraBirimleri": [
+      {
+        "kod": "GEL",
+        "ad": "Gürcistan larisi",
+        "sembol": "₾"
+      }
+    ]
   },
   {
     "id": "HT",
@@ -957,7 +1721,20 @@
     "lat": 19,
     "lon": -72.3,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/ht.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ht.png",
+    "telefonKodu": "+509",
+    "paraBirimleri": [
+      {
+        "kod": "HTG",
+        "ad": "Haiti gurdu",
+        "sembol": "HTG"
+      },
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "HM",
@@ -967,7 +1744,15 @@
     "lat": -53.1,
     "lon": 73.5,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/hm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/hm.png",
+    "telefonKodu": null,
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "HR",
@@ -977,7 +1762,15 @@
     "lat": 45.1,
     "lon": 15.2,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/hr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/hr.png",
+    "telefonKodu": "+385",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "IN",
@@ -987,7 +1780,15 @@
     "lat": 20.6,
     "lon": 79,
     "toleransKm": 850,
-    "bayrakCdn": "https://flagcdn.com/w320/in.png"
+    "bayrakCdn": "https://flagcdn.com/w320/in.png",
+    "telefonKodu": "+91",
+    "paraBirimleri": [
+      {
+        "kod": "INR",
+        "ad": "Hindistan rupisi",
+        "sembol": "₹"
+      }
+    ]
   },
   {
     "id": "NL",
@@ -997,7 +1798,15 @@
     "lat": 52.1,
     "lon": 5.3,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/nl.png"
+    "bayrakCdn": "https://flagcdn.com/w320/nl.png",
+    "telefonKodu": "+31",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "HN",
@@ -1007,7 +1816,15 @@
     "lat": 15.2,
     "lon": -86.2,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/hn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/hn.png",
+    "telefonKodu": "+504",
+    "paraBirimleri": [
+      {
+        "kod": "HNL",
+        "ad": "Honduras lempirası",
+        "sembol": "L"
+      }
+    ]
   },
   {
     "id": "HK",
@@ -1017,7 +1834,15 @@
     "lat": 22.4,
     "lon": 114.1,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/hk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/hk.png",
+    "telefonKodu": "+852",
+    "paraBirimleri": [
+      {
+        "kod": "HKD",
+        "ad": "Hong Kong doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "IQ",
@@ -1027,7 +1852,15 @@
     "lat": 33.2,
     "lon": 43.7,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/iq.png"
+    "bayrakCdn": "https://flagcdn.com/w320/iq.png",
+    "telefonKodu": "+964",
+    "paraBirimleri": [
+      {
+        "kod": "IQD",
+        "ad": "Irak dinarı",
+        "sembol": "IQD"
+      }
+    ]
   },
   {
     "id": "IR",
@@ -1037,7 +1870,15 @@
     "lat": 32.4,
     "lon": 53.7,
     "toleransKm": 700,
-    "bayrakCdn": "https://flagcdn.com/w320/ir.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ir.png",
+    "telefonKodu": "+98",
+    "paraBirimleri": [
+      {
+        "kod": "IRR",
+        "ad": "İran riyali",
+        "sembol": "IRR"
+      }
+    ]
   },
   {
     "id": "IE",
@@ -1047,7 +1888,15 @@
     "lat": 53.4,
     "lon": -8.2,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/ie.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ie.png",
+    "telefonKodu": "+353",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "ES",
@@ -1057,7 +1906,15 @@
     "lat": 40.5,
     "lon": -3.7,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/es.png"
+    "bayrakCdn": "https://flagcdn.com/w320/es.png",
+    "telefonKodu": "+34",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "IL",
@@ -1067,7 +1924,15 @@
     "lat": 31,
     "lon": 34.9,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/il.png"
+    "bayrakCdn": "https://flagcdn.com/w320/il.png",
+    "telefonKodu": "+972",
+    "paraBirimleri": [
+      {
+        "kod": "ILS",
+        "ad": "Yeni İsrail şekeli",
+        "sembol": "₪"
+      }
+    ]
   },
   {
     "id": "SE",
@@ -1077,7 +1942,15 @@
     "lat": 60.1,
     "lon": 18.6,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/se.png"
+    "bayrakCdn": "https://flagcdn.com/w320/se.png",
+    "telefonKodu": "+46",
+    "paraBirimleri": [
+      {
+        "kod": "SEK",
+        "ad": "İsveç kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "CH",
@@ -1087,7 +1960,15 @@
     "lat": 46.8,
     "lon": 8.2,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/ch.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ch.png",
+    "telefonKodu": "+41",
+    "paraBirimleri": [
+      {
+        "kod": "CHF",
+        "ad": "İsviçre frangı",
+        "sembol": "CHF"
+      }
+    ]
   },
   {
     "id": "IT",
@@ -1097,7 +1978,15 @@
     "lat": 41.9,
     "lon": 12.6,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/it.png"
+    "bayrakCdn": "https://flagcdn.com/w320/it.png",
+    "telefonKodu": "+39",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "IS",
@@ -1107,7 +1996,15 @@
     "lat": 64.9,
     "lon": -19,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/is.png"
+    "bayrakCdn": "https://flagcdn.com/w320/is.png",
+    "telefonKodu": "+354",
+    "paraBirimleri": [
+      {
+        "kod": "ISK",
+        "ad": "İzlanda kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "JM",
@@ -1117,7 +2014,15 @@
     "lat": 18.1,
     "lon": -77.3,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/jm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/jm.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "JMD",
+        "ad": "Jamaika doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "JP",
@@ -1127,7 +2032,15 @@
     "lat": 36.2,
     "lon": 138.3,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/jp.png"
+    "bayrakCdn": "https://flagcdn.com/w320/jp.png",
+    "telefonKodu": "+81",
+    "paraBirimleri": [
+      {
+        "kod": "JPY",
+        "ad": "Japon yeni",
+        "sembol": "¥"
+      }
+    ]
   },
   {
     "id": "JE",
@@ -1137,7 +2050,15 @@
     "lat": 49.2,
     "lon": -2.1,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/je.png"
+    "bayrakCdn": "https://flagcdn.com/w320/je.png",
+    "telefonKodu": "+44",
+    "paraBirimleri": [
+      {
+        "kod": "GBP",
+        "ad": "İngiliz sterlini",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "KH",
@@ -1147,7 +2068,15 @@
     "lat": 12.6,
     "lon": 105,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/kh.png"
+    "bayrakCdn": "https://flagcdn.com/w320/kh.png",
+    "telefonKodu": "+855",
+    "paraBirimleri": [
+      {
+        "kod": "KHR",
+        "ad": "Kamboçya rieli",
+        "sembol": "៛"
+      }
+    ]
   },
   {
     "id": "CM",
@@ -1157,7 +2086,15 @@
     "lat": 7.4,
     "lon": 12.4,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/cm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cm.png",
+    "telefonKodu": "+237",
+    "paraBirimleri": [
+      {
+        "kod": "XAF",
+        "ad": "Orta Afrika CFA frangı",
+        "sembol": "FCFA"
+      }
+    ]
   },
   {
     "id": "CA",
@@ -1167,7 +2104,15 @@
     "lat": 56.1,
     "lon": -106.3,
     "toleransKm": 1500,
-    "bayrakCdn": "https://flagcdn.com/w320/ca.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ca.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "CAD",
+        "ad": "Kanada doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "ME",
@@ -1177,7 +2122,15 @@
     "lat": 42.7,
     "lon": 19.4,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/me.png"
+    "bayrakCdn": "https://flagcdn.com/w320/me.png",
+    "telefonKodu": "+382",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "BQ",
@@ -1187,7 +2140,15 @@
     "lat": 12.1,
     "lon": -68.3,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/bq.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bq.png",
+    "telefonKodu": "+599",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "QA",
@@ -1197,7 +2158,15 @@
     "lat": 25.4,
     "lon": 51.2,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/qa.png"
+    "bayrakCdn": "https://flagcdn.com/w320/qa.png",
+    "telefonKodu": "+974",
+    "paraBirimleri": [
+      {
+        "kod": "QAR",
+        "ad": "Katar riyali",
+        "sembol": "QAR"
+      }
+    ]
   },
   {
     "id": "KZ",
@@ -1207,7 +2176,15 @@
     "lat": 48,
     "lon": 66.9,
     "toleransKm": 1000,
-    "bayrakCdn": "https://flagcdn.com/w320/kz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/kz.png",
+    "telefonKodu": "+7",
+    "paraBirimleri": [
+      {
+        "kod": "KZT",
+        "ad": "Kazakistan tengesi",
+        "sembol": "₸"
+      }
+    ]
   },
   {
     "id": "KE",
@@ -1217,7 +2194,15 @@
     "lat": 0,
     "lon": 37.9,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/ke.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ke.png",
+    "telefonKodu": "+254",
+    "paraBirimleri": [
+      {
+        "kod": "KES",
+        "ad": "Kenya şilini",
+        "sembol": "KES"
+      }
+    ]
   },
   {
     "id": "CY",
@@ -1227,7 +2212,15 @@
     "lat": 35.1,
     "lon": 33.4,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/cy.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cy.png",
+    "telefonKodu": "+357",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "KG",
@@ -1237,7 +2230,15 @@
     "lat": 41.2,
     "lon": 74.8,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/kg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/kg.png",
+    "telefonKodu": "+996",
+    "paraBirimleri": [
+      {
+        "kod": "KGS",
+        "ad": "Kırgızistan somu",
+        "sembol": "⃀"
+      }
+    ]
   },
   {
     "id": "KI",
@@ -1247,7 +2248,15 @@
     "lat": -3.4,
     "lon": -168.7,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/ki.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ki.png",
+    "telefonKodu": "+686",
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "CO",
@@ -1257,7 +2266,15 @@
     "lat": 4.6,
     "lon": -74.3,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/co.png"
+    "bayrakCdn": "https://flagcdn.com/w320/co.png",
+    "telefonKodu": "+57",
+    "paraBirimleri": [
+      {
+        "kod": "COP",
+        "ad": "Kolombiya pesosu",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "KM",
@@ -1267,7 +2284,15 @@
     "lat": -11.9,
     "lon": 43.3,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/km.png"
+    "bayrakCdn": "https://flagcdn.com/w320/km.png",
+    "telefonKodu": "+269",
+    "paraBirimleri": [
+      {
+        "kod": "KMF",
+        "ad": "Komorlar frangı",
+        "sembol": "CF"
+      }
+    ]
   },
   {
     "id": "CG",
@@ -1277,7 +2302,15 @@
     "lat": -0.2,
     "lon": 15.8,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/cg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cg.png",
+    "telefonKodu": "+242",
+    "paraBirimleri": [
+      {
+        "kod": "XAF",
+        "ad": "Orta Afrika CFA frangı",
+        "sembol": "FCFA"
+      }
+    ]
   },
   {
     "id": "XK",
@@ -1287,7 +2320,15 @@
     "lat": 42.6,
     "lon": 20.9,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/xk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/xk.png",
+    "telefonKodu": "+383",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "CR",
@@ -1297,7 +2338,15 @@
     "lat": 9.7,
     "lon": -83.8,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/cr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cr.png",
+    "telefonKodu": "+506",
+    "paraBirimleri": [
+      {
+        "kod": "CRC",
+        "ad": "Kosta Rika kolonu",
+        "sembol": "₡"
+      }
+    ]
   },
   {
     "id": "KW",
@@ -1307,7 +2356,15 @@
     "lat": 29.3,
     "lon": 47.5,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/kw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/kw.png",
+    "telefonKodu": "+965",
+    "paraBirimleri": [
+      {
+        "kod": "KWD",
+        "ad": "Kuveyt dinarı",
+        "sembol": "KWD"
+      }
+    ]
   },
   {
     "id": "KP",
@@ -1317,7 +2374,15 @@
     "lat": 40.3,
     "lon": 127.5,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/kp.png"
+    "bayrakCdn": "https://flagcdn.com/w320/kp.png",
+    "telefonKodu": "+850",
+    "paraBirimleri": [
+      {
+        "kod": "KPW",
+        "ad": "Kuzey Kore wonu",
+        "sembol": "₩"
+      }
+    ]
   },
   {
     "id": "MK",
@@ -1327,7 +2392,15 @@
     "lat": 41.6,
     "lon": 21.7,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/mk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mk.png",
+    "telefonKodu": "+389",
+    "paraBirimleri": [
+      {
+        "kod": "MKD",
+        "ad": "Makedonya dinarı",
+        "sembol": "MKD"
+      }
+    ]
   },
   {
     "id": "MP",
@@ -1337,7 +2410,15 @@
     "lat": 15.2,
     "lon": 145.7,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/mp.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mp.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "CU",
@@ -1347,7 +2428,15 @@
     "lat": 21.5,
     "lon": -77.8,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/cu.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cu.png",
+    "telefonKodu": "+53",
+    "paraBirimleri": [
+      {
+        "kod": "CUP",
+        "ad": "Küba pesosu",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "LA",
@@ -1357,7 +2446,15 @@
     "lat": 19.9,
     "lon": 102.5,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/la.png"
+    "bayrakCdn": "https://flagcdn.com/w320/la.png",
+    "telefonKodu": "+856",
+    "paraBirimleri": [
+      {
+        "kod": "LAK",
+        "ad": "Laos kipi",
+        "sembol": "₭"
+      }
+    ]
   },
   {
     "id": "LS",
@@ -1367,7 +2464,20 @@
     "lat": -29.6,
     "lon": 28.2,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/ls.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ls.png",
+    "telefonKodu": "+266",
+    "paraBirimleri": [
+      {
+        "kod": "LSL",
+        "ad": "Lesotho lotisi",
+        "sembol": "LSL"
+      },
+      {
+        "kod": "ZAR",
+        "ad": "Güney Afrika randı",
+        "sembol": "R"
+      }
+    ]
   },
   {
     "id": "LV",
@@ -1377,7 +2487,15 @@
     "lat": 56.9,
     "lon": 24.6,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/lv.png"
+    "bayrakCdn": "https://flagcdn.com/w320/lv.png",
+    "telefonKodu": "+371",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "LR",
@@ -1387,7 +2505,15 @@
     "lat": 6.4,
     "lon": -9.4,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/lr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/lr.png",
+    "telefonKodu": "+231",
+    "paraBirimleri": [
+      {
+        "kod": "LRD",
+        "ad": "Liberya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "LY",
@@ -1397,7 +2523,15 @@
     "lat": 26.3,
     "lon": 17.2,
     "toleransKm": 750,
-    "bayrakCdn": "https://flagcdn.com/w320/ly.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ly.png",
+    "telefonKodu": "+218",
+    "paraBirimleri": [
+      {
+        "kod": "LYD",
+        "ad": "Libya dinarı",
+        "sembol": "LYD"
+      }
+    ]
   },
   {
     "id": "LI",
@@ -1407,7 +2541,15 @@
     "lat": 47.2,
     "lon": 9.5,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/li.png"
+    "bayrakCdn": "https://flagcdn.com/w320/li.png",
+    "telefonKodu": "+423",
+    "paraBirimleri": [
+      {
+        "kod": "CHF",
+        "ad": "İsviçre frangı",
+        "sembol": "CHF"
+      }
+    ]
   },
   {
     "id": "LT",
@@ -1417,7 +2559,15 @@
     "lat": 55.2,
     "lon": 23.9,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/lt.png"
+    "bayrakCdn": "https://flagcdn.com/w320/lt.png",
+    "telefonKodu": "+370",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "LB",
@@ -1427,7 +2577,15 @@
     "lat": 33.9,
     "lon": 35.9,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/lb.png"
+    "bayrakCdn": "https://flagcdn.com/w320/lb.png",
+    "telefonKodu": "+961",
+    "paraBirimleri": [
+      {
+        "kod": "LBP",
+        "ad": "Lübnan lirası",
+        "sembol": "L£"
+      }
+    ]
   },
   {
     "id": "LU",
@@ -1437,7 +2595,15 @@
     "lat": 49.8,
     "lon": 6.1,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/lu.png"
+    "bayrakCdn": "https://flagcdn.com/w320/lu.png",
+    "telefonKodu": "+352",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "HU",
@@ -1447,7 +2613,15 @@
     "lat": 47.2,
     "lon": 19.5,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/hu.png"
+    "bayrakCdn": "https://flagcdn.com/w320/hu.png",
+    "telefonKodu": "+36",
+    "paraBirimleri": [
+      {
+        "kod": "HUF",
+        "ad": "Macar forinti",
+        "sembol": "Ft"
+      }
+    ]
   },
   {
     "id": "MG",
@@ -1457,7 +2631,15 @@
     "lat": -18.8,
     "lon": 46.9,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/mg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mg.png",
+    "telefonKodu": "+261",
+    "paraBirimleri": [
+      {
+        "kod": "MGA",
+        "ad": "Madagaskar ariarisi",
+        "sembol": "Ar"
+      }
+    ]
   },
   {
     "id": "MO",
@@ -1467,7 +2649,15 @@
     "lat": 22.2,
     "lon": 113.5,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/mo.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mo.png",
+    "telefonKodu": "+853",
+    "paraBirimleri": [
+      {
+        "kod": "MOP",
+        "ad": "Makao patakası",
+        "sembol": "MOP"
+      }
+    ]
   },
   {
     "id": "MW",
@@ -1477,7 +2667,15 @@
     "lat": -13.3,
     "lon": 34.3,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/mw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mw.png",
+    "telefonKodu": "+265",
+    "paraBirimleri": [
+      {
+        "kod": "MWK",
+        "ad": "Malavi kvaçası",
+        "sembol": "MWK"
+      }
+    ]
   },
   {
     "id": "MV",
@@ -1487,7 +2685,15 @@
     "lat": 3.2,
     "lon": 73.2,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/mv.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mv.png",
+    "telefonKodu": "+960",
+    "paraBirimleri": [
+      {
+        "kod": "MVR",
+        "ad": "Maldiv rufiyaası",
+        "sembol": "MVR"
+      }
+    ]
   },
   {
     "id": "MY",
@@ -1497,7 +2703,15 @@
     "lat": 4.2,
     "lon": 101.9,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/my.png"
+    "bayrakCdn": "https://flagcdn.com/w320/my.png",
+    "telefonKodu": "+60",
+    "paraBirimleri": [
+      {
+        "kod": "MYR",
+        "ad": "Malezya ringgiti",
+        "sembol": "RM"
+      }
+    ]
   },
   {
     "id": "ML",
@@ -1507,7 +2721,15 @@
     "lat": 17.6,
     "lon": -4,
     "toleransKm": 650,
-    "bayrakCdn": "https://flagcdn.com/w320/ml.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ml.png",
+    "telefonKodu": "+223",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "MT",
@@ -1517,7 +2739,15 @@
     "lat": 35.9,
     "lon": 14.4,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/mt.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mt.png",
+    "telefonKodu": "+356",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "IM",
@@ -1527,7 +2757,15 @@
     "lat": 54.2,
     "lon": -4.5,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/im.png"
+    "bayrakCdn": "https://flagcdn.com/w320/im.png",
+    "telefonKodu": "+44",
+    "paraBirimleri": [
+      {
+        "kod": "GBP",
+        "ad": "İngiliz sterlini",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "MH",
@@ -1537,7 +2775,15 @@
     "lat": 7.1,
     "lon": 171.2,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/mh.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mh.png",
+    "telefonKodu": "+692",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "MQ",
@@ -1547,7 +2793,15 @@
     "lat": 14.6,
     "lon": -61,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/mq.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mq.png",
+    "telefonKodu": "+596",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "MU",
@@ -1557,7 +2811,15 @@
     "lat": -20.3,
     "lon": 57.6,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/mu.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mu.png",
+    "telefonKodu": "+230",
+    "paraBirimleri": [
+      {
+        "kod": "MUR",
+        "ad": "Mauritius rupisi",
+        "sembol": "Rs"
+      }
+    ]
   },
   {
     "id": "YT",
@@ -1567,7 +2829,15 @@
     "lat": -12.8,
     "lon": 45.2,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/yt.png"
+    "bayrakCdn": "https://flagcdn.com/w320/yt.png",
+    "telefonKodu": "+262",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "MX",
@@ -1577,7 +2847,15 @@
     "lat": 23.6,
     "lon": -102.5,
     "toleransKm": 750,
-    "bayrakCdn": "https://flagcdn.com/w320/mx.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mx.png",
+    "telefonKodu": "+52",
+    "paraBirimleri": [
+      {
+        "kod": "MXN",
+        "ad": "Meksika pesosu",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "EG",
@@ -1587,7 +2865,15 @@
     "lat": 26.8,
     "lon": 30.8,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/eg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/eg.png",
+    "telefonKodu": "+20",
+    "paraBirimleri": [
+      {
+        "kod": "EGP",
+        "ad": "Mısır lirası",
+        "sembol": "E£"
+      }
+    ]
   },
   {
     "id": "FM",
@@ -1597,7 +2883,15 @@
     "lat": 7.4,
     "lon": 151.8,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/fm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/fm.png",
+    "telefonKodu": "+691",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "MN",
@@ -1607,7 +2901,15 @@
     "lat": 46.9,
     "lon": 103.8,
     "toleransKm": 750,
-    "bayrakCdn": "https://flagcdn.com/w320/mn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mn.png",
+    "telefonKodu": "+976",
+    "paraBirimleri": [
+      {
+        "kod": "MNT",
+        "ad": "Moğolistan tugriki",
+        "sembol": "₮"
+      }
+    ]
   },
   {
     "id": "MD",
@@ -1617,7 +2919,15 @@
     "lat": 47.4,
     "lon": 28.4,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/md.png"
+    "bayrakCdn": "https://flagcdn.com/w320/md.png",
+    "telefonKodu": "+373",
+    "paraBirimleri": [
+      {
+        "kod": "MDL",
+        "ad": "Moldova leyi",
+        "sembol": "MDL"
+      }
+    ]
   },
   {
     "id": "MC",
@@ -1627,7 +2937,15 @@
     "lat": 43.7,
     "lon": 7.4,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/mc.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mc.png",
+    "telefonKodu": "+377",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "MS",
@@ -1637,7 +2955,15 @@
     "lat": 16.7,
     "lon": -62.2,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/ms.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ms.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "MR",
@@ -1647,7 +2973,15 @@
     "lat": 21,
     "lon": -10.9,
     "toleransKm": 650,
-    "bayrakCdn": "https://flagcdn.com/w320/mr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mr.png",
+    "telefonKodu": "+222",
+    "paraBirimleri": [
+      {
+        "kod": "MRU",
+        "ad": "Moritanya ugiyası",
+        "sembol": "MRU"
+      }
+    ]
   },
   {
     "id": "MZ",
@@ -1657,7 +2991,15 @@
     "lat": -18.7,
     "lon": 35.5,
     "toleransKm": 600,
-    "bayrakCdn": "https://flagcdn.com/w320/mz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mz.png",
+    "telefonKodu": "+258",
+    "paraBirimleri": [
+      {
+        "kod": "MZN",
+        "ad": "Mozambik metikali",
+        "sembol": "MZN"
+      }
+    ]
   },
   {
     "id": "MM",
@@ -1667,7 +3009,15 @@
     "lat": 21.9,
     "lon": 95.9,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/mm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mm.png",
+    "telefonKodu": "+95",
+    "paraBirimleri": [
+      {
+        "kod": "MMK",
+        "ad": "Myanmar kyatı",
+        "sembol": "K"
+      }
+    ]
   },
   {
     "id": "NA",
@@ -1677,7 +3027,20 @@
     "lat": -22.9,
     "lon": 18.5,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/na.png"
+    "bayrakCdn": "https://flagcdn.com/w320/na.png",
+    "telefonKodu": "+264",
+    "paraBirimleri": [
+      {
+        "kod": "NAD",
+        "ad": "Namibya doları",
+        "sembol": "$"
+      },
+      {
+        "kod": "ZAR",
+        "ad": "Güney Afrika randı",
+        "sembol": "R"
+      }
+    ]
   },
   {
     "id": "NR",
@@ -1687,7 +3050,15 @@
     "lat": -0.5,
     "lon": 166.9,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/nr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/nr.png",
+    "telefonKodu": "+674",
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "NP",
@@ -1697,7 +3068,15 @@
     "lat": 28.4,
     "lon": 84.1,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/np.png"
+    "bayrakCdn": "https://flagcdn.com/w320/np.png",
+    "telefonKodu": "+977",
+    "paraBirimleri": [
+      {
+        "kod": "NPR",
+        "ad": "Nepal rupisi",
+        "sembol": "Rs"
+      }
+    ]
   },
   {
     "id": "NE",
@@ -1707,7 +3086,15 @@
     "lat": 17.6,
     "lon": 8.1,
     "toleransKm": 650,
-    "bayrakCdn": "https://flagcdn.com/w320/ne.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ne.png",
+    "telefonKodu": "+227",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "NG",
@@ -1717,7 +3104,15 @@
     "lat": 9.1,
     "lon": 8.7,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/ng.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ng.png",
+    "telefonKodu": "+234",
+    "paraBirimleri": [
+      {
+        "kod": "NGN",
+        "ad": "Nijerya nairası",
+        "sembol": "₦"
+      }
+    ]
   },
   {
     "id": "NI",
@@ -1727,7 +3122,15 @@
     "lat": 12.9,
     "lon": -85.2,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/ni.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ni.png",
+    "telefonKodu": "+505",
+    "paraBirimleri": [
+      {
+        "kod": "NIO",
+        "ad": "Nikaragua kordobası",
+        "sembol": "C$"
+      }
+    ]
   },
   {
     "id": "NU",
@@ -1737,7 +3140,15 @@
     "lat": -19,
     "lon": -169.9,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/nu.png"
+    "bayrakCdn": "https://flagcdn.com/w320/nu.png",
+    "telefonKodu": "+683",
+    "paraBirimleri": [
+      {
+        "kod": "NZD",
+        "ad": "Yeni Zelanda doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "NF",
@@ -1747,7 +3158,15 @@
     "lat": -29,
     "lon": 167.9,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/nf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/nf.png",
+    "telefonKodu": "+672",
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "NO",
@@ -1757,7 +3176,15 @@
     "lat": 60.5,
     "lon": 8.5,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/no.png"
+    "bayrakCdn": "https://flagcdn.com/w320/no.png",
+    "telefonKodu": "+47",
+    "paraBirimleri": [
+      {
+        "kod": "NOK",
+        "ad": "Norveç kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "CF",
@@ -1767,7 +3194,15 @@
     "lat": 6.6,
     "lon": 20.9,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/cf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cf.png",
+    "telefonKodu": "+236",
+    "paraBirimleri": [
+      {
+        "kod": "XAF",
+        "ad": "Orta Afrika CFA frangı",
+        "sembol": "FCFA"
+      }
+    ]
   },
   {
     "id": "UZ",
@@ -1777,7 +3212,15 @@
     "lat": 41.4,
     "lon": 64.6,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/uz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/uz.png",
+    "telefonKodu": "+998",
+    "paraBirimleri": [
+      {
+        "kod": "UZS",
+        "ad": "Özbekistan somu",
+        "sembol": "UZS"
+      }
+    ]
   },
   {
     "id": "PK",
@@ -1787,7 +3230,15 @@
     "lat": 30.4,
     "lon": 69.3,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/pk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pk.png",
+    "telefonKodu": "+92",
+    "paraBirimleri": [
+      {
+        "kod": "PKR",
+        "ad": "Pakistan rupisi",
+        "sembol": "Rs"
+      }
+    ]
   },
   {
     "id": "PW",
@@ -1797,7 +3248,15 @@
     "lat": 7.5,
     "lon": 134.6,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/pw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pw.png",
+    "telefonKodu": "+680",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "PA",
@@ -1807,7 +3266,20 @@
     "lat": 8.5,
     "lon": -80.8,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/pa.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pa.png",
+    "telefonKodu": "+507",
+    "paraBirimleri": [
+      {
+        "kod": "PAB",
+        "ad": "Panama balboası",
+        "sembol": "PAB"
+      },
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "PG",
@@ -1817,7 +3289,15 @@
     "lat": -6.3,
     "lon": 143.9,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/pg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pg.png",
+    "telefonKodu": "+675",
+    "paraBirimleri": [
+      {
+        "kod": "PGK",
+        "ad": "Papua Yeni Gine kinası",
+        "sembol": "PGK"
+      }
+    ]
   },
   {
     "id": "PY",
@@ -1827,7 +3307,15 @@
     "lat": -23.4,
     "lon": -58.4,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/py.png"
+    "bayrakCdn": "https://flagcdn.com/w320/py.png",
+    "telefonKodu": "+595",
+    "paraBirimleri": [
+      {
+        "kod": "PYG",
+        "ad": "Paraguay guaranisi",
+        "sembol": "₲"
+      }
+    ]
   },
   {
     "id": "PE",
@@ -1837,7 +3325,15 @@
     "lat": -9.2,
     "lon": -75,
     "toleransKm": 600,
-    "bayrakCdn": "https://flagcdn.com/w320/pe.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pe.png",
+    "telefonKodu": "+51",
+    "paraBirimleri": [
+      {
+        "kod": "PEN",
+        "ad": "Peru solü",
+        "sembol": "PEN"
+      }
+    ]
   },
   {
     "id": "PN",
@@ -1847,7 +3343,15 @@
     "lat": -25.1,
     "lon": -130.1,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/pn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pn.png",
+    "telefonKodu": null,
+    "paraBirimleri": [
+      {
+        "kod": "NZD",
+        "ad": "Yeni Zelanda doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "PL",
@@ -1857,7 +3361,15 @@
     "lat": 51.9,
     "lon": 19.1,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/pl.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pl.png",
+    "telefonKodu": "+48",
+    "paraBirimleri": [
+      {
+        "kod": "PLN",
+        "ad": "Polonya zlotisi",
+        "sembol": "zł"
+      }
+    ]
   },
   {
     "id": "PT",
@@ -1867,7 +3379,15 @@
     "lat": 39.4,
     "lon": -8.2,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/pt.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pt.png",
+    "telefonKodu": "+351",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "PR",
@@ -1877,7 +3397,15 @@
     "lat": 18.2,
     "lon": -66.6,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/pr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pr.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "RE",
@@ -1887,7 +3415,15 @@
     "lat": -21.1,
     "lon": 55.5,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/re.png"
+    "bayrakCdn": "https://flagcdn.com/w320/re.png",
+    "telefonKodu": "+262",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "RO",
@@ -1897,7 +3433,15 @@
     "lat": 45.9,
     "lon": 24.9,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/ro.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ro.png",
+    "telefonKodu": "+40",
+    "paraBirimleri": [
+      {
+        "kod": "RON",
+        "ad": "Romen leyi",
+        "sembol": "L"
+      }
+    ]
   },
   {
     "id": "RW",
@@ -1907,7 +3451,15 @@
     "lat": -1.9,
     "lon": 29.9,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/rw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/rw.png",
+    "telefonKodu": "+250",
+    "paraBirimleri": [
+      {
+        "kod": "RWF",
+        "ad": "Ruanda frangı",
+        "sembol": "RF"
+      }
+    ]
   },
   {
     "id": "RU",
@@ -1917,7 +3469,15 @@
     "lat": 61.5,
     "lon": 105.3,
     "toleransKm": 1800,
-    "bayrakCdn": "https://flagcdn.com/w320/ru.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ru.png",
+    "telefonKodu": "+7",
+    "paraBirimleri": [
+      {
+        "kod": "RUB",
+        "ad": "Rus rublesi",
+        "sembol": "₽"
+      }
+    ]
   },
   {
     "id": "BL",
@@ -1927,7 +3487,15 @@
     "lat": 17.9,
     "lon": -62.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/bl.png"
+    "bayrakCdn": "https://flagcdn.com/w320/bl.png",
+    "telefonKodu": "+590",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "SH",
@@ -1937,7 +3505,15 @@
     "lat": -15.9,
     "lon": -5.7,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/sh.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sh.png",
+    "telefonKodu": "+290",
+    "paraBirimleri": [
+      {
+        "kod": "SHP",
+        "ad": "Saint Helena lirası",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "KN",
@@ -1947,7 +3523,15 @@
     "lat": 17.4,
     "lon": -62.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/kn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/kn.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "LC",
@@ -1957,7 +3541,15 @@
     "lat": 13.9,
     "lon": -61,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/lc.png"
+    "bayrakCdn": "https://flagcdn.com/w320/lc.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "MF",
@@ -1967,7 +3559,15 @@
     "lat": 18.1,
     "lon": -63.1,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/mf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/mf.png",
+    "telefonKodu": "+590",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "PM",
@@ -1977,7 +3577,15 @@
     "lat": 46.8,
     "lon": -56.3,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/pm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/pm.png",
+    "telefonKodu": "+508",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "VC",
@@ -1987,7 +3595,15 @@
     "lat": 13.3,
     "lon": -61.2,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/vc.png"
+    "bayrakCdn": "https://flagcdn.com/w320/vc.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCD",
+        "ad": "Doğu Karayip doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "WS",
@@ -1997,7 +3613,15 @@
     "lat": -13.8,
     "lon": -172.1,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/ws.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ws.png",
+    "telefonKodu": "+685",
+    "paraBirimleri": [
+      {
+        "kod": "WST",
+        "ad": "Samoa talası",
+        "sembol": "WST"
+      }
+    ]
   },
   {
     "id": "SM",
@@ -2007,7 +3631,15 @@
     "lat": 43.9,
     "lon": 12.5,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/sm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sm.png",
+    "telefonKodu": "+378",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "ST",
@@ -2017,7 +3649,15 @@
     "lat": 0.2,
     "lon": 6.6,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/st.png"
+    "bayrakCdn": "https://flagcdn.com/w320/st.png",
+    "telefonKodu": "+239",
+    "paraBirimleri": [
+      {
+        "kod": "STN",
+        "ad": "Sao Tome ve Principe dobrası",
+        "sembol": "Db"
+      }
+    ]
   },
   {
     "id": "SN",
@@ -2027,7 +3667,15 @@
     "lat": 14.5,
     "lon": -14.5,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/sn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sn.png",
+    "telefonKodu": "+221",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "SC",
@@ -2037,7 +3685,15 @@
     "lat": -4.7,
     "lon": 55.5,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/sc.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sc.png",
+    "telefonKodu": "+248",
+    "paraBirimleri": [
+      {
+        "kod": "SCR",
+        "ad": "Seyşeller rupisi",
+        "sembol": "SCR"
+      }
+    ]
   },
   {
     "id": "RS",
@@ -2047,7 +3703,15 @@
     "lat": 44,
     "lon": 21,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/rs.png"
+    "bayrakCdn": "https://flagcdn.com/w320/rs.png",
+    "telefonKodu": "+381",
+    "paraBirimleri": [
+      {
+        "kod": "RSD",
+        "ad": "Sırp dinarı",
+        "sembol": "RSD"
+      }
+    ]
   },
   {
     "id": "SL",
@@ -2057,7 +3721,15 @@
     "lat": 8.5,
     "lon": -11.8,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/sl.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sl.png",
+    "telefonKodu": "+232",
+    "paraBirimleri": [
+      {
+        "kod": "SLE",
+        "ad": "Sierra Leone leonesi",
+        "sembol": "SLE"
+      }
+    ]
   },
   {
     "id": "SG",
@@ -2067,7 +3739,15 @@
     "lat": 1.4,
     "lon": 103.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/sg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sg.png",
+    "telefonKodu": "+65",
+    "paraBirimleri": [
+      {
+        "kod": "SGD",
+        "ad": "Singapur doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "SX",
@@ -2077,7 +3757,15 @@
     "lat": 18,
     "lon": -63.1,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/sx.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sx.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "XCG",
+        "ad": "XCG",
+        "sembol": "Cg."
+      }
+    ]
   },
   {
     "id": "SK",
@@ -2087,7 +3775,15 @@
     "lat": 48.7,
     "lon": 19.7,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/sk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sk.png",
+    "telefonKodu": "+421",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "SI",
@@ -2097,7 +3793,15 @@
     "lat": 46.2,
     "lon": 15,
     "toleransKm": 200,
-    "bayrakCdn": "https://flagcdn.com/w320/si.png"
+    "bayrakCdn": "https://flagcdn.com/w320/si.png",
+    "telefonKodu": "+386",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "SB",
@@ -2107,7 +3811,15 @@
     "lat": -9.6,
     "lon": 160.2,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/sb.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sb.png",
+    "telefonKodu": "+677",
+    "paraBirimleri": [
+      {
+        "kod": "SBD",
+        "ad": "Solomon Adaları doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "SO",
@@ -2117,7 +3829,15 @@
     "lat": 5.2,
     "lon": 46.2,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/so.png"
+    "bayrakCdn": "https://flagcdn.com/w320/so.png",
+    "telefonKodu": "+252",
+    "paraBirimleri": [
+      {
+        "kod": "SOS",
+        "ad": "Somali şilini",
+        "sembol": "SOS"
+      }
+    ]
   },
   {
     "id": "LK",
@@ -2127,7 +3847,15 @@
     "lat": 7.9,
     "lon": 80.8,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/lk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/lk.png",
+    "telefonKodu": "+94",
+    "paraBirimleri": [
+      {
+        "kod": "LKR",
+        "ad": "Sri Lanka rupisi",
+        "sembol": "Rs"
+      }
+    ]
   },
   {
     "id": "SD",
@@ -2137,7 +3865,15 @@
     "lat": 12.9,
     "lon": 30.2,
     "toleransKm": 700,
-    "bayrakCdn": "https://flagcdn.com/w320/sd.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sd.png",
+    "telefonKodu": "+249",
+    "paraBirimleri": [
+      {
+        "kod": "SDG",
+        "ad": "Sudan lirası",
+        "sembol": "SDG"
+      }
+    ]
   },
   {
     "id": "SR",
@@ -2147,7 +3883,15 @@
     "lat": 3.9,
     "lon": -56,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/sr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sr.png",
+    "telefonKodu": "+597",
+    "paraBirimleri": [
+      {
+        "kod": "SRD",
+        "ad": "Surinam doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "SY",
@@ -2157,7 +3901,15 @@
     "lat": 34.8,
     "lon": 39,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/sy.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sy.png",
+    "telefonKodu": "+963",
+    "paraBirimleri": [
+      {
+        "kod": "SYP",
+        "ad": "Suriye lirası",
+        "sembol": "£"
+      }
+    ]
   },
   {
     "id": "SA",
@@ -2167,7 +3919,15 @@
     "lat": 23.9,
     "lon": 45.1,
     "toleransKm": 750,
-    "bayrakCdn": "https://flagcdn.com/w320/sa.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sa.png",
+    "telefonKodu": "+966",
+    "paraBirimleri": [
+      {
+        "kod": "SAR",
+        "ad": "Suudi Arabistan riyali",
+        "sembol": "SAR"
+      }
+    ]
   },
   {
     "id": "SJ",
@@ -2177,7 +3937,15 @@
     "lat": 78.2,
     "lon": 15.6,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/sj.png"
+    "bayrakCdn": "https://flagcdn.com/w320/sj.png",
+    "telefonKodu": "+47",
+    "paraBirimleri": [
+      {
+        "kod": "NOK",
+        "ad": "Norveç kronu",
+        "sembol": "kr"
+      }
+    ]
   },
   {
     "id": "CL",
@@ -2187,7 +3955,15 @@
     "lat": -35.7,
     "lon": -71.5,
     "toleransKm": 700,
-    "bayrakCdn": "https://flagcdn.com/w320/cl.png"
+    "bayrakCdn": "https://flagcdn.com/w320/cl.png",
+    "telefonKodu": "+56",
+    "paraBirimleri": [
+      {
+        "kod": "CLP",
+        "ad": "Şili pesosu",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "TJ",
@@ -2197,7 +3973,15 @@
     "lat": 38.9,
     "lon": 71.3,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/tj.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tj.png",
+    "telefonKodu": "+992",
+    "paraBirimleri": [
+      {
+        "kod": "TJS",
+        "ad": "Tacikistan somonisi",
+        "sembol": "TJS"
+      }
+    ]
   },
   {
     "id": "TZ",
@@ -2207,7 +3991,15 @@
     "lat": -6.4,
     "lon": 34.9,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/tz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tz.png",
+    "telefonKodu": "+255",
+    "paraBirimleri": [
+      {
+        "kod": "TZS",
+        "ad": "Tanzanya şilini",
+        "sembol": "TZS"
+      }
+    ]
   },
   {
     "id": "TH",
@@ -2217,7 +4009,15 @@
     "lat": 15.9,
     "lon": 100.9,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/th.png"
+    "bayrakCdn": "https://flagcdn.com/w320/th.png",
+    "telefonKodu": "+66",
+    "paraBirimleri": [
+      {
+        "kod": "THB",
+        "ad": "Tayland bahtı",
+        "sembol": "฿"
+      }
+    ]
   },
   {
     "id": "TW",
@@ -2227,7 +4027,15 @@
     "lat": 23.7,
     "lon": 121,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/tw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tw.png",
+    "telefonKodu": "+886",
+    "paraBirimleri": [
+      {
+        "kod": "TWD",
+        "ad": "Yeni Tayvan doları",
+        "sembol": "NT$"
+      }
+    ]
   },
   {
     "id": "TG",
@@ -2237,7 +4045,15 @@
     "lat": 8.6,
     "lon": 0.8,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/tg.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tg.png",
+    "telefonKodu": "+228",
+    "paraBirimleri": [
+      {
+        "kod": "XOF",
+        "ad": "Batı Afrika CFA frangı",
+        "sembol": "F CFA"
+      }
+    ]
   },
   {
     "id": "TK",
@@ -2247,7 +4063,15 @@
     "lat": -9.2,
     "lon": -171.8,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/tk.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tk.png",
+    "telefonKodu": "+690",
+    "paraBirimleri": [
+      {
+        "kod": "NZD",
+        "ad": "Yeni Zelanda doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "TO",
@@ -2257,7 +4081,15 @@
     "lat": -21.2,
     "lon": -175.2,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/to.png"
+    "bayrakCdn": "https://flagcdn.com/w320/to.png",
+    "telefonKodu": "+676",
+    "paraBirimleri": [
+      {
+        "kod": "TOP",
+        "ad": "Tonga paʻangası",
+        "sembol": "T$"
+      }
+    ]
   },
   {
     "id": "TT",
@@ -2267,7 +4099,15 @@
     "lat": 10.7,
     "lon": -61.2,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/tt.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tt.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "TTD",
+        "ad": "Trinidad ve Tobago doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "TN",
@@ -2277,7 +4117,15 @@
     "lat": 33.9,
     "lon": 9.5,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/tn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tn.png",
+    "telefonKodu": "+216",
+    "paraBirimleri": [
+      {
+        "kod": "TND",
+        "ad": "Tunus dinarı",
+        "sembol": "TND"
+      }
+    ]
   },
   {
     "id": "TC",
@@ -2287,7 +4135,15 @@
     "lat": 21.7,
     "lon": -71.8,
     "toleransKm": 180,
-    "bayrakCdn": "https://flagcdn.com/w320/tc.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tc.png",
+    "telefonKodu": "+1",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "TV",
@@ -2297,7 +4153,15 @@
     "lat": -7.1,
     "lon": 177.6,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/tv.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tv.png",
+    "telefonKodu": "+688",
+    "paraBirimleri": [
+      {
+        "kod": "AUD",
+        "ad": "Avustralya doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "TR",
@@ -2307,7 +4171,15 @@
     "lat": 39,
     "lon": 35.2,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/tr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tr.png",
+    "telefonKodu": "+90",
+    "paraBirimleri": [
+      {
+        "kod": "TRY",
+        "ad": "Türk lirası",
+        "sembol": "₺"
+      }
+    ]
   },
   {
     "id": "TM",
@@ -2317,7 +4189,15 @@
     "lat": 39,
     "lon": 59.6,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/tm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/tm.png",
+    "telefonKodu": "+993",
+    "paraBirimleri": [
+      {
+        "kod": "TMT",
+        "ad": "Türkmenistan manatı",
+        "sembol": "TMT"
+      }
+    ]
   },
   {
     "id": "UG",
@@ -2327,7 +4207,15 @@
     "lat": 1.4,
     "lon": 32.3,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/ug.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ug.png",
+    "telefonKodu": "+256",
+    "paraBirimleri": [
+      {
+        "kod": "UGX",
+        "ad": "Uganda şilini",
+        "sembol": "UGX"
+      }
+    ]
   },
   {
     "id": "UA",
@@ -2337,7 +4225,15 @@
     "lat": 48.4,
     "lon": 31.2,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/ua.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ua.png",
+    "telefonKodu": "+380",
+    "paraBirimleri": [
+      {
+        "kod": "UAH",
+        "ad": "Ukrayna grivnası",
+        "sembol": "₴"
+      }
+    ]
   },
   {
     "id": "OM",
@@ -2347,7 +4243,15 @@
     "lat": 21.5,
     "lon": 55.9,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/om.png"
+    "bayrakCdn": "https://flagcdn.com/w320/om.png",
+    "telefonKodu": "+968",
+    "paraBirimleri": [
+      {
+        "kod": "OMR",
+        "ad": "Umman riyali",
+        "sembol": "OMR"
+      }
+    ]
   },
   {
     "id": "UY",
@@ -2357,7 +4261,15 @@
     "lat": -32.5,
     "lon": -55.8,
     "toleransKm": 350,
-    "bayrakCdn": "https://flagcdn.com/w320/uy.png"
+    "bayrakCdn": "https://flagcdn.com/w320/uy.png",
+    "telefonKodu": "+598",
+    "paraBirimleri": [
+      {
+        "kod": "UYU",
+        "ad": "Uruguay pesosu",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "JO",
@@ -2367,7 +4279,15 @@
     "lat": 30.6,
     "lon": 36.2,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/jo.png"
+    "bayrakCdn": "https://flagcdn.com/w320/jo.png",
+    "telefonKodu": "+962",
+    "paraBirimleri": [
+      {
+        "kod": "JOD",
+        "ad": "Ürdün dinarı",
+        "sembol": "JOD"
+      }
+    ]
   },
   {
     "id": "VU",
@@ -2377,7 +4297,15 @@
     "lat": -15.4,
     "lon": 166.9,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/vu.png"
+    "bayrakCdn": "https://flagcdn.com/w320/vu.png",
+    "telefonKodu": "+678",
+    "paraBirimleri": [
+      {
+        "kod": "VUV",
+        "ad": "Vanuatu vatusu",
+        "sembol": "VUV"
+      }
+    ]
   },
   {
     "id": "VA",
@@ -2387,7 +4315,15 @@
     "lat": 41.9,
     "lon": 12.4,
     "toleransKm": 100,
-    "bayrakCdn": "https://flagcdn.com/w320/va.png"
+    "bayrakCdn": "https://flagcdn.com/w320/va.png",
+    "telefonKodu": "+39",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "VE",
@@ -2397,7 +4333,15 @@
     "lat": 6.4,
     "lon": -66.6,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/ve.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ve.png",
+    "telefonKodu": "+58",
+    "paraBirimleri": [
+      {
+        "kod": "VES",
+        "ad": "Venezuela bolivarı",
+        "sembol": "VES"
+      }
+    ]
   },
   {
     "id": "VN",
@@ -2407,7 +4351,15 @@
     "lat": 14.1,
     "lon": 108.3,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/vn.png"
+    "bayrakCdn": "https://flagcdn.com/w320/vn.png",
+    "telefonKodu": "+84",
+    "paraBirimleri": [
+      {
+        "kod": "VND",
+        "ad": "Vietnam dongu",
+        "sembol": "₫"
+      }
+    ]
   },
   {
     "id": "WF",
@@ -2417,7 +4369,15 @@
     "lat": -13.3,
     "lon": -176.2,
     "toleransKm": 150,
-    "bayrakCdn": "https://flagcdn.com/w320/wf.png"
+    "bayrakCdn": "https://flagcdn.com/w320/wf.png",
+    "telefonKodu": "+681",
+    "paraBirimleri": [
+      {
+        "kod": "XPF",
+        "ad": "CFP frangı",
+        "sembol": "CFPF"
+      }
+    ]
   },
   {
     "id": "YE",
@@ -2427,7 +4387,15 @@
     "lat": 15.6,
     "lon": 48.5,
     "toleransKm": 450,
-    "bayrakCdn": "https://flagcdn.com/w320/ye.png"
+    "bayrakCdn": "https://flagcdn.com/w320/ye.png",
+    "telefonKodu": "+967",
+    "paraBirimleri": [
+      {
+        "kod": "YER",
+        "ad": "Yemen riyali",
+        "sembol": "YER"
+      }
+    ]
   },
   {
     "id": "NC",
@@ -2437,7 +4405,15 @@
     "lat": -20.9,
     "lon": 165.6,
     "toleransKm": 250,
-    "bayrakCdn": "https://flagcdn.com/w320/nc.png"
+    "bayrakCdn": "https://flagcdn.com/w320/nc.png",
+    "telefonKodu": "+687",
+    "paraBirimleri": [
+      {
+        "kod": "XPF",
+        "ad": "CFP frangı",
+        "sembol": "CFPF"
+      }
+    ]
   },
   {
     "id": "NZ",
@@ -2447,7 +4423,15 @@
     "lat": -40.9,
     "lon": 174.9,
     "toleransKm": 550,
-    "bayrakCdn": "https://flagcdn.com/w320/nz.png"
+    "bayrakCdn": "https://flagcdn.com/w320/nz.png",
+    "telefonKodu": "+64",
+    "paraBirimleri": [
+      {
+        "kod": "NZD",
+        "ad": "Yeni Zelanda doları",
+        "sembol": "$"
+      }
+    ]
   },
   {
     "id": "GR",
@@ -2457,7 +4441,15 @@
     "lat": 39.1,
     "lon": 21.8,
     "toleransKm": 300,
-    "bayrakCdn": "https://flagcdn.com/w320/gr.png"
+    "bayrakCdn": "https://flagcdn.com/w320/gr.png",
+    "telefonKodu": "+30",
+    "paraBirimleri": [
+      {
+        "kod": "EUR",
+        "ad": "Euro",
+        "sembol": "€"
+      }
+    ]
   },
   {
     "id": "ZM",
@@ -2467,7 +4459,15 @@
     "lat": -13.1,
     "lon": 27.8,
     "toleransKm": 500,
-    "bayrakCdn": "https://flagcdn.com/w320/zm.png"
+    "bayrakCdn": "https://flagcdn.com/w320/zm.png",
+    "telefonKodu": "+260",
+    "paraBirimleri": [
+      {
+        "kod": "ZMW",
+        "ad": "Zambiya kvaçası",
+        "sembol": "ZK"
+      }
+    ]
   },
   {
     "id": "ZW",
@@ -2477,6 +4477,19 @@
     "lat": -19,
     "lon": 29.2,
     "toleransKm": 400,
-    "bayrakCdn": "https://flagcdn.com/w320/zw.png"
+    "bayrakCdn": "https://flagcdn.com/w320/zw.png",
+    "telefonKodu": "+263",
+    "paraBirimleri": [
+      {
+        "kod": "USD",
+        "ad": "ABD doları",
+        "sembol": "$"
+      },
+      {
+        "kod": "ZWG",
+        "ad": "Zimbabve altını",
+        "sembol": "ZWG"
+      }
+    ]
   }
 ]

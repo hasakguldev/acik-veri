@@ -98,8 +98,8 @@
     },
     "dunya": {
       "name": "Dünya Ülkeleri, Başkentleri, Kıtaları ve Koordinatları",
-      "description": "248 ülke ve bölge (193 BM üyesi egemen devlet dahil): Türkçe isimler, başkentler, kıtalar, ISO 3166-1 alpha-2 kodları, coğrafi koordinatlar, tolerans yarıçapları ve FlagCDN bayrak bağlantıları",
-      "source": "Flagpedia.net, Birleşmiş Milletler, ISO 3166",
+      "description": "248 ülke ve bölge (193 BM üyesi egemen devlet dahil): Türkçe isimler, başkentler, kıtalar, ISO 3166-1 alpha-2 kodları, coğrafi koordinatlar, tolerans yarıçapları, telefon kodları, para birimleri ve FlagCDN bayrak bağlantıları",
+      "source": "Flagpedia.net, Birleşmiş Milletler, ISO 3166, Unicode CLDR, libphonenumber",
       "basePath": "dunya/",
       "files": [
         "meta.json",
