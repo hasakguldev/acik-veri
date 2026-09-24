@@ -8,6 +8,7 @@
     "lon": -64.9,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/vi.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -26,6 +27,7 @@
     "lon": 67.7,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/af.png",
+    "bmUyesi": true,
     "telefonKodu": "+93",
     "paraBirimleri": [
       {
@@ -44,6 +46,7 @@
     "lon": 19.9,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ax.png",
+    "bmUyesi": false,
     "telefonKodu": "+358",
     "paraBirimleri": [
       {
@@ -62,6 +65,7 @@
     "lon": 10.4,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/de.png",
+    "bmUyesi": true,
     "telefonKodu": "+49",
     "paraBirimleri": [
       {
@@ -80,6 +84,7 @@
     "lon": -95.7,
     "toleransKm": 1300,
     "bayrakCdn": "https://flagcdn.com/w320/us.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -98,6 +103,7 @@
     "lon": -170.7,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/as.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -116,6 +122,7 @@
     "lon": 1.5,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ad.png",
+    "bmUyesi": true,
     "telefonKodu": "+376",
     "paraBirimleri": [
       {
@@ -134,6 +141,7 @@
     "lon": 17.9,
     "toleransKm": 650,
     "bayrakCdn": "https://flagcdn.com/w320/ao.png",
+    "bmUyesi": true,
     "telefonKodu": "+244",
     "paraBirimleri": [
       {
@@ -152,6 +160,7 @@
     "lon": -63.1,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ai.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -170,6 +179,7 @@
     "lon": 0,
     "toleransKm": 1500,
     "bayrakCdn": "https://flagcdn.com/w320/aq.png",
+    "bmUyesi": false,
     "telefonKodu": null,
     "paraBirimleri": []
   },
@@ -182,6 +192,7 @@
     "lon": -61.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ag.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -200,6 +211,7 @@
     "lon": -63.6,
     "toleransKm": 850,
     "bayrakCdn": "https://flagcdn.com/w320/ar.png",
+    "bmUyesi": true,
     "telefonKodu": "+54",
     "paraBirimleri": [
       {
@@ -218,6 +230,7 @@
     "lon": 20.2,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/al.png",
+    "bmUyesi": true,
     "telefonKodu": "+355",
     "paraBirimleri": [
       {
@@ -236,6 +249,7 @@
     "lon": -70,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/aw.png",
+    "bmUyesi": false,
     "telefonKodu": "+297",
     "paraBirimleri": [
       {
@@ -254,6 +268,7 @@
     "lon": 133.8,
     "toleransKm": 1200,
     "bayrakCdn": "https://flagcdn.com/w320/au.png",
+    "bmUyesi": true,
     "telefonKodu": "+61",
     "paraBirimleri": [
       {
@@ -272,6 +287,7 @@
     "lon": 14.6,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/at.png",
+    "bmUyesi": true,
     "telefonKodu": "+43",
     "paraBirimleri": [
       {
@@ -290,6 +306,7 @@
     "lon": 47.6,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/az.png",
+    "bmUyesi": true,
     "telefonKodu": "+994",
     "paraBirimleri": [
       {
@@ -308,6 +325,7 @@
     "lon": -77.4,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/bs.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -326,6 +344,7 @@
     "lon": 50.6,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/bh.png",
+    "bmUyesi": true,
     "telefonKodu": "+973",
     "paraBirimleri": [
       {
@@ -344,6 +363,7 @@
     "lon": 90.4,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/bd.png",
+    "bmUyesi": true,
     "telefonKodu": "+880",
     "paraBirimleri": [
       {
@@ -362,6 +382,7 @@
     "lon": -59.5,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/bb.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -380,6 +401,7 @@
     "lon": -12.9,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/eh.png",
+    "bmUyesi": false,
     "telefonKodu": "+212",
     "paraBirimleri": [
       {
@@ -398,6 +420,7 @@
     "lon": 27.9,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/by.png",
+    "bmUyesi": true,
     "telefonKodu": "+375",
     "paraBirimleri": [
       {
@@ -416,6 +439,7 @@
     "lon": 4.5,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/be.png",
+    "bmUyesi": true,
     "telefonKodu": "+32",
     "paraBirimleri": [
       {
@@ -434,6 +458,7 @@
     "lon": -88.5,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/bz.png",
+    "bmUyesi": true,
     "telefonKodu": "+501",
     "paraBirimleri": [
       {
@@ -452,6 +477,7 @@
     "lon": 2.3,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/bj.png",
+    "bmUyesi": true,
     "telefonKodu": "+229",
     "paraBirimleri": [
       {
@@ -470,6 +496,7 @@
     "lon": -64.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/bm.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -488,6 +515,7 @@
     "lon": 53.8,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/ae.png",
+    "bmUyesi": true,
     "telefonKodu": "+971",
     "paraBirimleri": [
       {
@@ -506,6 +534,7 @@
     "lon": -3.4,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/gb.png",
+    "bmUyesi": true,
     "telefonKodu": "+44",
     "paraBirimleri": [
       {
@@ -524,6 +553,7 @@
     "lon": -63.6,
     "toleransKm": 600,
     "bayrakCdn": "https://flagcdn.com/w320/bo.png",
+    "bmUyesi": true,
     "telefonKodu": "+591",
     "paraBirimleri": [
       {
@@ -542,6 +572,7 @@
     "lon": 17.7,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/ba.png",
+    "bmUyesi": true,
     "telefonKodu": "+387",
     "paraBirimleri": [
       {
@@ -560,6 +591,7 @@
     "lon": 24.7,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/bw.png",
+    "bmUyesi": true,
     "telefonKodu": "+267",
     "paraBirimleri": [
       {
@@ -578,6 +610,7 @@
     "lon": 3.4,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/bv.png",
+    "bmUyesi": false,
     "telefonKodu": null,
     "paraBirimleri": [
       {
@@ -596,6 +629,7 @@
     "lon": -51.9,
     "toleransKm": 1200,
     "bayrakCdn": "https://flagcdn.com/w320/br.png",
+    "bmUyesi": true,
     "telefonKodu": "+55",
     "paraBirimleri": [
       {
@@ -614,6 +648,7 @@
     "lon": -64.6,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/vg.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -632,6 +667,7 @@
     "lon": 114.7,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/bn.png",
+    "bmUyesi": true,
     "telefonKodu": "+673",
     "paraBirimleri": [
       {
@@ -650,6 +686,7 @@
     "lon": 25.5,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/bg.png",
+    "bmUyesi": true,
     "telefonKodu": "+359",
     "paraBirimleri": [
       {
@@ -668,6 +705,7 @@
     "lon": -1.6,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/bf.png",
+    "bmUyesi": true,
     "telefonKodu": "+226",
     "paraBirimleri": [
       {
@@ -686,6 +724,7 @@
     "lon": 29.9,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/bi.png",
+    "bmUyesi": true,
     "telefonKodu": "+257",
     "paraBirimleri": [
       {
@@ -704,6 +743,7 @@
     "lon": 90.4,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/bt.png",
+    "bmUyesi": true,
     "telefonKodu": "+975",
     "paraBirimleri": [
       {
@@ -727,6 +767,7 @@
     "lon": -24,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/cv.png",
+    "bmUyesi": true,
     "telefonKodu": "+238",
     "paraBirimleri": [
       {
@@ -745,6 +786,7 @@
     "lon": -81.4,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ky.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -763,6 +805,7 @@
     "lon": -5.3,
     "toleransKm": 100,
     "bayrakCdn": "https://flagcdn.com/w320/gi.png",
+    "bmUyesi": false,
     "telefonKodu": "+350",
     "paraBirimleri": [
       {
@@ -781,6 +824,7 @@
     "lon": 1.7,
     "toleransKm": 850,
     "bayrakCdn": "https://flagcdn.com/w320/dz.png",
+    "bmUyesi": true,
     "telefonKodu": "+213",
     "paraBirimleri": [
       {
@@ -799,6 +843,7 @@
     "lon": 105.7,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/cx.png",
+    "bmUyesi": false,
     "telefonKodu": "+61",
     "paraBirimleri": [
       {
@@ -817,6 +862,7 @@
     "lon": 42.6,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/dj.png",
+    "bmUyesi": true,
     "telefonKodu": "+253",
     "paraBirimleri": [
       {
@@ -835,6 +881,7 @@
     "lon": 96.9,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/cc.png",
+    "bmUyesi": false,
     "telefonKodu": "+61",
     "paraBirimleri": [
       {
@@ -853,6 +900,7 @@
     "lon": -159.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ck.png",
+    "bmUyesi": false,
     "telefonKodu": "+682",
     "paraBirimleri": [
       {
@@ -871,6 +919,7 @@
     "lon": -69,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/cw.png",
+    "bmUyesi": false,
     "telefonKodu": "+599",
     "paraBirimleri": [
       {
@@ -889,6 +938,7 @@
     "lon": 18.7,
     "toleransKm": 650,
     "bayrakCdn": "https://flagcdn.com/w320/td.png",
+    "bmUyesi": true,
     "telefonKodu": "+235",
     "paraBirimleri": [
       {
@@ -907,6 +957,7 @@
     "lon": 15.5,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/cz.png",
+    "bmUyesi": true,
     "telefonKodu": "+420",
     "paraBirimleri": [
       {
@@ -925,6 +976,7 @@
     "lon": 104.2,
     "toleransKm": 1300,
     "bayrakCdn": "https://flagcdn.com/w320/cn.png",
+    "bmUyesi": true,
     "telefonKodu": "+86",
     "paraBirimleri": [
       {
@@ -943,6 +995,7 @@
     "lon": 9.5,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/dk.png",
+    "bmUyesi": true,
     "telefonKodu": "+45",
     "paraBirimleri": [
       {
@@ -961,6 +1014,7 @@
     "lon": 21.8,
     "toleransKm": 800,
     "bayrakCdn": "https://flagcdn.com/w320/cd.png",
+    "bmUyesi": true,
     "telefonKodu": "+243",
     "paraBirimleri": [
       {
@@ -979,6 +1033,7 @@
     "lon": 125.7,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/tl.png",
+    "bmUyesi": true,
     "telefonKodu": "+670",
     "paraBirimleri": [
       {
@@ -997,6 +1052,7 @@
     "lon": -70.2,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/do.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -1015,6 +1071,7 @@
     "lon": -61.4,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/dm.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -1033,6 +1090,7 @@
     "lon": -78.2,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/ec.png",
+    "bmUyesi": true,
     "telefonKodu": "+593",
     "paraBirimleri": [
       {
@@ -1051,6 +1109,7 @@
     "lon": 10.3,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/gq.png",
+    "bmUyesi": true,
     "telefonKodu": "+240",
     "paraBirimleri": [
       {
@@ -1069,6 +1128,7 @@
     "lon": -88.9,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/sv.png",
+    "bmUyesi": true,
     "telefonKodu": "+503",
     "paraBirimleri": [
       {
@@ -1087,6 +1147,7 @@
     "lon": 113.9,
     "toleransKm": 950,
     "bayrakCdn": "https://flagcdn.com/w320/id.png",
+    "bmUyesi": true,
     "telefonKodu": "+62",
     "paraBirimleri": [
       {
@@ -1105,6 +1166,7 @@
     "lon": 39.8,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/er.png",
+    "bmUyesi": true,
     "telefonKodu": "+291",
     "paraBirimleri": [
       {
@@ -1123,6 +1185,7 @@
     "lon": 45,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/am.png",
+    "bmUyesi": true,
     "telefonKodu": "+374",
     "paraBirimleri": [
       {
@@ -1141,6 +1204,7 @@
     "lon": 25,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/ee.png",
+    "bmUyesi": true,
     "telefonKodu": "+372",
     "paraBirimleri": [
       {
@@ -1159,6 +1223,7 @@
     "lon": 31.5,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/sz.png",
+    "bmUyesi": true,
     "telefonKodu": "+268",
     "paraBirimleri": [
       {
@@ -1177,6 +1242,7 @@
     "lon": 40.5,
     "toleransKm": 600,
     "bayrakCdn": "https://flagcdn.com/w320/et.png",
+    "bmUyesi": true,
     "telefonKodu": "+251",
     "paraBirimleri": [
       {
@@ -1195,6 +1261,7 @@
     "lon": -59.5,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/fk.png",
+    "bmUyesi": false,
     "telefonKodu": "+500",
     "paraBirimleri": [
       {
@@ -1213,6 +1280,7 @@
     "lon": -6.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/fo.png",
+    "bmUyesi": false,
     "telefonKodu": "+298",
     "paraBirimleri": [
       {
@@ -1231,6 +1299,7 @@
     "lon": -7.1,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/ma.png",
+    "bmUyesi": true,
     "telefonKodu": "+212",
     "paraBirimleri": [
       {
@@ -1249,6 +1318,7 @@
     "lon": 178.1,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/fj.png",
+    "bmUyesi": true,
     "telefonKodu": "+679",
     "paraBirimleri": [
       {
@@ -1267,6 +1337,7 @@
     "lon": -5.5,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/ci.png",
+    "bmUyesi": true,
     "telefonKodu": "+225",
     "paraBirimleri": [
       {
@@ -1285,6 +1356,7 @@
     "lon": 121.8,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/ph.png",
+    "bmUyesi": true,
     "telefonKodu": "+63",
     "paraBirimleri": [
       {
@@ -1303,6 +1375,7 @@
     "lon": 35.2,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ps.png",
+    "bmUyesi": false,
     "telefonKodu": "+970",
     "paraBirimleri": [
       {
@@ -1326,6 +1399,7 @@
     "lon": 25.7,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/fi.png",
+    "bmUyesi": true,
     "telefonKodu": "+358",
     "paraBirimleri": [
       {
@@ -1344,6 +1418,7 @@
     "lon": 2.2,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/fr.png",
+    "bmUyesi": true,
     "telefonKodu": "+33",
     "paraBirimleri": [
       {
@@ -1362,6 +1437,7 @@
     "lon": -53.1,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/gf.png",
+    "bmUyesi": false,
     "telefonKodu": "+594",
     "paraBirimleri": [
       {
@@ -1380,6 +1456,7 @@
     "lon": 70.2,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/tf.png",
+    "bmUyesi": false,
     "telefonKodu": null,
     "paraBirimleri": [
       {
@@ -1398,6 +1475,7 @@
     "lon": -149.4,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/pf.png",
+    "bmUyesi": false,
     "telefonKodu": "+689",
     "paraBirimleri": [
       {
@@ -1416,6 +1494,7 @@
     "lon": 11.6,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/ga.png",
+    "bmUyesi": true,
     "telefonKodu": "+241",
     "paraBirimleri": [
       {
@@ -1434,6 +1513,7 @@
     "lon": -15.3,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/gm.png",
+    "bmUyesi": true,
     "telefonKodu": "+220",
     "paraBirimleri": [
       {
@@ -1452,6 +1532,7 @@
     "lon": -1,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/gh.png",
+    "bmUyesi": true,
     "telefonKodu": "+233",
     "paraBirimleri": [
       {
@@ -1470,6 +1551,7 @@
     "lon": -9.7,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/gn.png",
+    "bmUyesi": true,
     "telefonKodu": "+224",
     "paraBirimleri": [
       {
@@ -1488,6 +1570,7 @@
     "lon": -15.2,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/gw.png",
+    "bmUyesi": true,
     "telefonKodu": "+245",
     "paraBirimleri": [
       {
@@ -1506,6 +1589,7 @@
     "lon": -61.7,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/gd.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -1524,6 +1608,7 @@
     "lon": -42.6,
     "toleransKm": 900,
     "bayrakCdn": "https://flagcdn.com/w320/gl.png",
+    "bmUyesi": false,
     "telefonKodu": "+299",
     "paraBirimleri": [
       {
@@ -1542,6 +1627,7 @@
     "lon": -61.6,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/gp.png",
+    "bmUyesi": false,
     "telefonKodu": "+590",
     "paraBirimleri": [
       {
@@ -1560,6 +1646,7 @@
     "lon": 144.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/gu.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -1578,6 +1665,7 @@
     "lon": -90.2,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/gt.png",
+    "bmUyesi": true,
     "telefonKodu": "+502",
     "paraBirimleri": [
       {
@@ -1596,6 +1684,7 @@
     "lon": -2.6,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/gg.png",
+    "bmUyesi": false,
     "telefonKodu": "+44",
     "paraBirimleri": [
       {
@@ -1614,6 +1703,7 @@
     "lon": -58.9,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/gy.png",
+    "bmUyesi": true,
     "telefonKodu": "+592",
     "paraBirimleri": [
       {
@@ -1632,6 +1722,7 @@
     "lon": 22.9,
     "toleransKm": 650,
     "bayrakCdn": "https://flagcdn.com/w320/za.png",
+    "bmUyesi": true,
     "telefonKodu": "+27",
     "paraBirimleri": [
       {
@@ -1650,6 +1741,7 @@
     "lon": -36.6,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/gs.png",
+    "bmUyesi": false,
     "telefonKodu": null,
     "paraBirimleri": [
       {
@@ -1668,6 +1760,7 @@
     "lon": 127.8,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/kr.png",
+    "bmUyesi": true,
     "telefonKodu": "+82",
     "paraBirimleri": [
       {
@@ -1686,6 +1779,7 @@
     "lon": 31.3,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/ss.png",
+    "bmUyesi": true,
     "telefonKodu": "+211",
     "paraBirimleri": [
       {
@@ -1704,6 +1798,7 @@
     "lon": 43.4,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/ge.png",
+    "bmUyesi": true,
     "telefonKodu": "+995",
     "paraBirimleri": [
       {
@@ -1722,6 +1817,7 @@
     "lon": -72.3,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/ht.png",
+    "bmUyesi": true,
     "telefonKodu": "+509",
     "paraBirimleri": [
       {
@@ -1745,6 +1841,7 @@
     "lon": 73.5,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/hm.png",
+    "bmUyesi": false,
     "telefonKodu": null,
     "paraBirimleri": [
       {
@@ -1763,6 +1860,7 @@
     "lon": 15.2,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/hr.png",
+    "bmUyesi": true,
     "telefonKodu": "+385",
     "paraBirimleri": [
       {
@@ -1781,6 +1879,7 @@
     "lon": 79,
     "toleransKm": 850,
     "bayrakCdn": "https://flagcdn.com/w320/in.png",
+    "bmUyesi": true,
     "telefonKodu": "+91",
     "paraBirimleri": [
       {
@@ -1799,6 +1898,7 @@
     "lon": 5.3,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/nl.png",
+    "bmUyesi": true,
     "telefonKodu": "+31",
     "paraBirimleri": [
       {
@@ -1817,6 +1917,7 @@
     "lon": -86.2,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/hn.png",
+    "bmUyesi": true,
     "telefonKodu": "+504",
     "paraBirimleri": [
       {
@@ -1835,6 +1936,7 @@
     "lon": 114.1,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/hk.png",
+    "bmUyesi": false,
     "telefonKodu": "+852",
     "paraBirimleri": [
       {
@@ -1853,6 +1955,7 @@
     "lon": 43.7,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/iq.png",
+    "bmUyesi": true,
     "telefonKodu": "+964",
     "paraBirimleri": [
       {
@@ -1871,6 +1974,7 @@
     "lon": 53.7,
     "toleransKm": 700,
     "bayrakCdn": "https://flagcdn.com/w320/ir.png",
+    "bmUyesi": true,
     "telefonKodu": "+98",
     "paraBirimleri": [
       {
@@ -1889,6 +1993,7 @@
     "lon": -8.2,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/ie.png",
+    "bmUyesi": true,
     "telefonKodu": "+353",
     "paraBirimleri": [
       {
@@ -1907,6 +2012,7 @@
     "lon": -3.7,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/es.png",
+    "bmUyesi": true,
     "telefonKodu": "+34",
     "paraBirimleri": [
       {
@@ -1925,6 +2031,7 @@
     "lon": 34.9,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/il.png",
+    "bmUyesi": true,
     "telefonKodu": "+972",
     "paraBirimleri": [
       {
@@ -1943,6 +2050,7 @@
     "lon": 18.6,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/se.png",
+    "bmUyesi": true,
     "telefonKodu": "+46",
     "paraBirimleri": [
       {
@@ -1961,6 +2069,7 @@
     "lon": 8.2,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/ch.png",
+    "bmUyesi": true,
     "telefonKodu": "+41",
     "paraBirimleri": [
       {
@@ -1979,6 +2088,7 @@
     "lon": 12.6,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/it.png",
+    "bmUyesi": true,
     "telefonKodu": "+39",
     "paraBirimleri": [
       {
@@ -1997,6 +2107,7 @@
     "lon": -19,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/is.png",
+    "bmUyesi": true,
     "telefonKodu": "+354",
     "paraBirimleri": [
       {
@@ -2015,6 +2126,7 @@
     "lon": -77.3,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/jm.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -2033,6 +2145,7 @@
     "lon": 138.3,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/jp.png",
+    "bmUyesi": true,
     "telefonKodu": "+81",
     "paraBirimleri": [
       {
@@ -2051,6 +2164,7 @@
     "lon": -2.1,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/je.png",
+    "bmUyesi": false,
     "telefonKodu": "+44",
     "paraBirimleri": [
       {
@@ -2069,6 +2183,7 @@
     "lon": 105,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/kh.png",
+    "bmUyesi": true,
     "telefonKodu": "+855",
     "paraBirimleri": [
       {
@@ -2087,6 +2202,7 @@
     "lon": 12.4,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/cm.png",
+    "bmUyesi": true,
     "telefonKodu": "+237",
     "paraBirimleri": [
       {
@@ -2105,6 +2221,7 @@
     "lon": -106.3,
     "toleransKm": 1500,
     "bayrakCdn": "https://flagcdn.com/w320/ca.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -2123,6 +2240,7 @@
     "lon": 19.4,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/me.png",
+    "bmUyesi": true,
     "telefonKodu": "+382",
     "paraBirimleri": [
       {
@@ -2141,6 +2259,7 @@
     "lon": -68.3,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/bq.png",
+    "bmUyesi": false,
     "telefonKodu": "+599",
     "paraBirimleri": [
       {
@@ -2159,6 +2278,7 @@
     "lon": 51.2,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/qa.png",
+    "bmUyesi": true,
     "telefonKodu": "+974",
     "paraBirimleri": [
       {
@@ -2177,6 +2297,7 @@
     "lon": 66.9,
     "toleransKm": 1000,
     "bayrakCdn": "https://flagcdn.com/w320/kz.png",
+    "bmUyesi": true,
     "telefonKodu": "+7",
     "paraBirimleri": [
       {
@@ -2195,6 +2316,7 @@
     "lon": 37.9,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/ke.png",
+    "bmUyesi": true,
     "telefonKodu": "+254",
     "paraBirimleri": [
       {
@@ -2213,6 +2335,7 @@
     "lon": 33.4,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/cy.png",
+    "bmUyesi": true,
     "telefonKodu": "+357",
     "paraBirimleri": [
       {
@@ -2231,6 +2354,7 @@
     "lon": 74.8,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/kg.png",
+    "bmUyesi": true,
     "telefonKodu": "+996",
     "paraBirimleri": [
       {
@@ -2249,6 +2373,7 @@
     "lon": -168.7,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/ki.png",
+    "bmUyesi": true,
     "telefonKodu": "+686",
     "paraBirimleri": [
       {
@@ -2267,6 +2392,7 @@
     "lon": -74.3,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/co.png",
+    "bmUyesi": true,
     "telefonKodu": "+57",
     "paraBirimleri": [
       {
@@ -2285,6 +2411,7 @@
     "lon": 43.3,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/km.png",
+    "bmUyesi": true,
     "telefonKodu": "+269",
     "paraBirimleri": [
       {
@@ -2303,6 +2430,7 @@
     "lon": 15.8,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/cg.png",
+    "bmUyesi": true,
     "telefonKodu": "+242",
     "paraBirimleri": [
       {
@@ -2321,6 +2449,7 @@
     "lon": 20.9,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/xk.png",
+    "bmUyesi": false,
     "telefonKodu": "+383",
     "paraBirimleri": [
       {
@@ -2339,6 +2468,7 @@
     "lon": -83.8,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/cr.png",
+    "bmUyesi": true,
     "telefonKodu": "+506",
     "paraBirimleri": [
       {
@@ -2357,6 +2487,7 @@
     "lon": 47.5,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/kw.png",
+    "bmUyesi": true,
     "telefonKodu": "+965",
     "paraBirimleri": [
       {
@@ -2375,6 +2506,7 @@
     "lon": 127.5,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/kp.png",
+    "bmUyesi": true,
     "telefonKodu": "+850",
     "paraBirimleri": [
       {
@@ -2393,6 +2525,7 @@
     "lon": 21.7,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/mk.png",
+    "bmUyesi": true,
     "telefonKodu": "+389",
     "paraBirimleri": [
       {
@@ -2411,6 +2544,7 @@
     "lon": 145.7,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/mp.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -2429,6 +2563,7 @@
     "lon": -77.8,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/cu.png",
+    "bmUyesi": true,
     "telefonKodu": "+53",
     "paraBirimleri": [
       {
@@ -2447,6 +2582,7 @@
     "lon": 102.5,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/la.png",
+    "bmUyesi": true,
     "telefonKodu": "+856",
     "paraBirimleri": [
       {
@@ -2465,6 +2601,7 @@
     "lon": 28.2,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/ls.png",
+    "bmUyesi": true,
     "telefonKodu": "+266",
     "paraBirimleri": [
       {
@@ -2488,6 +2625,7 @@
     "lon": 24.6,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/lv.png",
+    "bmUyesi": true,
     "telefonKodu": "+371",
     "paraBirimleri": [
       {
@@ -2506,6 +2644,7 @@
     "lon": -9.4,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/lr.png",
+    "bmUyesi": true,
     "telefonKodu": "+231",
     "paraBirimleri": [
       {
@@ -2524,6 +2663,7 @@
     "lon": 17.2,
     "toleransKm": 750,
     "bayrakCdn": "https://flagcdn.com/w320/ly.png",
+    "bmUyesi": true,
     "telefonKodu": "+218",
     "paraBirimleri": [
       {
@@ -2542,6 +2682,7 @@
     "lon": 9.5,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/li.png",
+    "bmUyesi": true,
     "telefonKodu": "+423",
     "paraBirimleri": [
       {
@@ -2560,6 +2701,7 @@
     "lon": 23.9,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/lt.png",
+    "bmUyesi": true,
     "telefonKodu": "+370",
     "paraBirimleri": [
       {
@@ -2578,6 +2720,7 @@
     "lon": 35.9,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/lb.png",
+    "bmUyesi": true,
     "telefonKodu": "+961",
     "paraBirimleri": [
       {
@@ -2596,6 +2739,7 @@
     "lon": 6.1,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/lu.png",
+    "bmUyesi": true,
     "telefonKodu": "+352",
     "paraBirimleri": [
       {
@@ -2614,6 +2758,7 @@
     "lon": 19.5,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/hu.png",
+    "bmUyesi": true,
     "telefonKodu": "+36",
     "paraBirimleri": [
       {
@@ -2632,6 +2777,7 @@
     "lon": 46.9,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/mg.png",
+    "bmUyesi": true,
     "telefonKodu": "+261",
     "paraBirimleri": [
       {
@@ -2650,6 +2796,7 @@
     "lon": 113.5,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/mo.png",
+    "bmUyesi": false,
     "telefonKodu": "+853",
     "paraBirimleri": [
       {
@@ -2668,6 +2815,7 @@
     "lon": 34.3,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/mw.png",
+    "bmUyesi": true,
     "telefonKodu": "+265",
     "paraBirimleri": [
       {
@@ -2686,6 +2834,7 @@
     "lon": 73.2,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/mv.png",
+    "bmUyesi": true,
     "telefonKodu": "+960",
     "paraBirimleri": [
       {
@@ -2704,6 +2853,7 @@
     "lon": 101.9,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/my.png",
+    "bmUyesi": true,
     "telefonKodu": "+60",
     "paraBirimleri": [
       {
@@ -2722,6 +2872,7 @@
     "lon": -4,
     "toleransKm": 650,
     "bayrakCdn": "https://flagcdn.com/w320/ml.png",
+    "bmUyesi": true,
     "telefonKodu": "+223",
     "paraBirimleri": [
       {
@@ -2740,6 +2891,7 @@
     "lon": 14.4,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/mt.png",
+    "bmUyesi": true,
     "telefonKodu": "+356",
     "paraBirimleri": [
       {
@@ -2758,6 +2910,7 @@
     "lon": -4.5,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/im.png",
+    "bmUyesi": false,
     "telefonKodu": "+44",
     "paraBirimleri": [
       {
@@ -2776,6 +2929,7 @@
     "lon": 171.2,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/mh.png",
+    "bmUyesi": true,
     "telefonKodu": "+692",
     "paraBirimleri": [
       {
@@ -2794,6 +2948,7 @@
     "lon": -61,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/mq.png",
+    "bmUyesi": false,
     "telefonKodu": "+596",
     "paraBirimleri": [
       {
@@ -2812,6 +2967,7 @@
     "lon": 57.6,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/mu.png",
+    "bmUyesi": true,
     "telefonKodu": "+230",
     "paraBirimleri": [
       {
@@ -2830,6 +2986,7 @@
     "lon": 45.2,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/yt.png",
+    "bmUyesi": false,
     "telefonKodu": "+262",
     "paraBirimleri": [
       {
@@ -2848,6 +3005,7 @@
     "lon": -102.5,
     "toleransKm": 750,
     "bayrakCdn": "https://flagcdn.com/w320/mx.png",
+    "bmUyesi": true,
     "telefonKodu": "+52",
     "paraBirimleri": [
       {
@@ -2866,6 +3024,7 @@
     "lon": 30.8,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/eg.png",
+    "bmUyesi": true,
     "telefonKodu": "+20",
     "paraBirimleri": [
       {
@@ -2884,6 +3043,7 @@
     "lon": 151.8,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/fm.png",
+    "bmUyesi": true,
     "telefonKodu": "+691",
     "paraBirimleri": [
       {
@@ -2902,6 +3062,7 @@
     "lon": 103.8,
     "toleransKm": 750,
     "bayrakCdn": "https://flagcdn.com/w320/mn.png",
+    "bmUyesi": true,
     "telefonKodu": "+976",
     "paraBirimleri": [
       {
@@ -2920,6 +3081,7 @@
     "lon": 28.4,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/md.png",
+    "bmUyesi": true,
     "telefonKodu": "+373",
     "paraBirimleri": [
       {
@@ -2938,6 +3100,7 @@
     "lon": 7.4,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/mc.png",
+    "bmUyesi": true,
     "telefonKodu": "+377",
     "paraBirimleri": [
       {
@@ -2956,6 +3119,7 @@
     "lon": -62.2,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/ms.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -2974,6 +3138,7 @@
     "lon": -10.9,
     "toleransKm": 650,
     "bayrakCdn": "https://flagcdn.com/w320/mr.png",
+    "bmUyesi": true,
     "telefonKodu": "+222",
     "paraBirimleri": [
       {
@@ -2992,6 +3157,7 @@
     "lon": 35.5,
     "toleransKm": 600,
     "bayrakCdn": "https://flagcdn.com/w320/mz.png",
+    "bmUyesi": true,
     "telefonKodu": "+258",
     "paraBirimleri": [
       {
@@ -3010,6 +3176,7 @@
     "lon": 95.9,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/mm.png",
+    "bmUyesi": true,
     "telefonKodu": "+95",
     "paraBirimleri": [
       {
@@ -3028,6 +3195,7 @@
     "lon": 18.5,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/na.png",
+    "bmUyesi": true,
     "telefonKodu": "+264",
     "paraBirimleri": [
       {
@@ -3051,6 +3219,7 @@
     "lon": 166.9,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/nr.png",
+    "bmUyesi": true,
     "telefonKodu": "+674",
     "paraBirimleri": [
       {
@@ -3069,6 +3238,7 @@
     "lon": 84.1,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/np.png",
+    "bmUyesi": true,
     "telefonKodu": "+977",
     "paraBirimleri": [
       {
@@ -3087,6 +3257,7 @@
     "lon": 8.1,
     "toleransKm": 650,
     "bayrakCdn": "https://flagcdn.com/w320/ne.png",
+    "bmUyesi": true,
     "telefonKodu": "+227",
     "paraBirimleri": [
       {
@@ -3105,6 +3276,7 @@
     "lon": 8.7,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/ng.png",
+    "bmUyesi": true,
     "telefonKodu": "+234",
     "paraBirimleri": [
       {
@@ -3123,6 +3295,7 @@
     "lon": -85.2,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/ni.png",
+    "bmUyesi": true,
     "telefonKodu": "+505",
     "paraBirimleri": [
       {
@@ -3141,6 +3314,7 @@
     "lon": -169.9,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/nu.png",
+    "bmUyesi": false,
     "telefonKodu": "+683",
     "paraBirimleri": [
       {
@@ -3159,6 +3333,7 @@
     "lon": 167.9,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/nf.png",
+    "bmUyesi": false,
     "telefonKodu": "+672",
     "paraBirimleri": [
       {
@@ -3177,6 +3352,7 @@
     "lon": 8.5,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/no.png",
+    "bmUyesi": true,
     "telefonKodu": "+47",
     "paraBirimleri": [
       {
@@ -3195,6 +3371,7 @@
     "lon": 20.9,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/cf.png",
+    "bmUyesi": true,
     "telefonKodu": "+236",
     "paraBirimleri": [
       {
@@ -3213,6 +3390,7 @@
     "lon": 64.6,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/uz.png",
+    "bmUyesi": true,
     "telefonKodu": "+998",
     "paraBirimleri": [
       {
@@ -3231,6 +3409,7 @@
     "lon": 69.3,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/pk.png",
+    "bmUyesi": true,
     "telefonKodu": "+92",
     "paraBirimleri": [
       {
@@ -3249,6 +3428,7 @@
     "lon": 134.6,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/pw.png",
+    "bmUyesi": true,
     "telefonKodu": "+680",
     "paraBirimleri": [
       {
@@ -3267,6 +3447,7 @@
     "lon": -80.8,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/pa.png",
+    "bmUyesi": true,
     "telefonKodu": "+507",
     "paraBirimleri": [
       {
@@ -3290,6 +3471,7 @@
     "lon": 143.9,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/pg.png",
+    "bmUyesi": true,
     "telefonKodu": "+675",
     "paraBirimleri": [
       {
@@ -3308,6 +3490,7 @@
     "lon": -58.4,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/py.png",
+    "bmUyesi": true,
     "telefonKodu": "+595",
     "paraBirimleri": [
       {
@@ -3326,6 +3509,7 @@
     "lon": -75,
     "toleransKm": 600,
     "bayrakCdn": "https://flagcdn.com/w320/pe.png",
+    "bmUyesi": true,
     "telefonKodu": "+51",
     "paraBirimleri": [
       {
@@ -3344,6 +3528,7 @@
     "lon": -130.1,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/pn.png",
+    "bmUyesi": false,
     "telefonKodu": null,
     "paraBirimleri": [
       {
@@ -3362,6 +3547,7 @@
     "lon": 19.1,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/pl.png",
+    "bmUyesi": true,
     "telefonKodu": "+48",
     "paraBirimleri": [
       {
@@ -3380,6 +3566,7 @@
     "lon": -8.2,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/pt.png",
+    "bmUyesi": true,
     "telefonKodu": "+351",
     "paraBirimleri": [
       {
@@ -3398,6 +3585,7 @@
     "lon": -66.6,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/pr.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -3416,6 +3604,7 @@
     "lon": 55.5,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/re.png",
+    "bmUyesi": false,
     "telefonKodu": "+262",
     "paraBirimleri": [
       {
@@ -3434,6 +3623,7 @@
     "lon": 24.9,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/ro.png",
+    "bmUyesi": true,
     "telefonKodu": "+40",
     "paraBirimleri": [
       {
@@ -3452,6 +3642,7 @@
     "lon": 29.9,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/rw.png",
+    "bmUyesi": true,
     "telefonKodu": "+250",
     "paraBirimleri": [
       {
@@ -3470,6 +3661,7 @@
     "lon": 105.3,
     "toleransKm": 1800,
     "bayrakCdn": "https://flagcdn.com/w320/ru.png",
+    "bmUyesi": true,
     "telefonKodu": "+7",
     "paraBirimleri": [
       {
@@ -3488,6 +3680,7 @@
     "lon": -62.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/bl.png",
+    "bmUyesi": false,
     "telefonKodu": "+590",
     "paraBirimleri": [
       {
@@ -3506,6 +3699,7 @@
     "lon": -5.7,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/sh.png",
+    "bmUyesi": false,
     "telefonKodu": "+290",
     "paraBirimleri": [
       {
@@ -3524,6 +3718,7 @@
     "lon": -62.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/kn.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -3542,6 +3737,7 @@
     "lon": -61,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/lc.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -3560,6 +3756,7 @@
     "lon": -63.1,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/mf.png",
+    "bmUyesi": false,
     "telefonKodu": "+590",
     "paraBirimleri": [
       {
@@ -3578,6 +3775,7 @@
     "lon": -56.3,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/pm.png",
+    "bmUyesi": false,
     "telefonKodu": "+508",
     "paraBirimleri": [
       {
@@ -3596,6 +3794,7 @@
     "lon": -61.2,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/vc.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -3614,6 +3813,7 @@
     "lon": -172.1,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/ws.png",
+    "bmUyesi": true,
     "telefonKodu": "+685",
     "paraBirimleri": [
       {
@@ -3632,6 +3832,7 @@
     "lon": 12.5,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/sm.png",
+    "bmUyesi": true,
     "telefonKodu": "+378",
     "paraBirimleri": [
       {
@@ -3650,6 +3851,7 @@
     "lon": 6.6,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/st.png",
+    "bmUyesi": true,
     "telefonKodu": "+239",
     "paraBirimleri": [
       {
@@ -3668,6 +3870,7 @@
     "lon": -14.5,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/sn.png",
+    "bmUyesi": true,
     "telefonKodu": "+221",
     "paraBirimleri": [
       {
@@ -3686,6 +3889,7 @@
     "lon": 55.5,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/sc.png",
+    "bmUyesi": true,
     "telefonKodu": "+248",
     "paraBirimleri": [
       {
@@ -3704,6 +3908,7 @@
     "lon": 21,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/rs.png",
+    "bmUyesi": true,
     "telefonKodu": "+381",
     "paraBirimleri": [
       {
@@ -3722,6 +3927,7 @@
     "lon": -11.8,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/sl.png",
+    "bmUyesi": true,
     "telefonKodu": "+232",
     "paraBirimleri": [
       {
@@ -3740,6 +3946,7 @@
     "lon": 103.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/sg.png",
+    "bmUyesi": true,
     "telefonKodu": "+65",
     "paraBirimleri": [
       {
@@ -3758,6 +3965,7 @@
     "lon": -63.1,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/sx.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -3776,6 +3984,7 @@
     "lon": 19.7,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/sk.png",
+    "bmUyesi": true,
     "telefonKodu": "+421",
     "paraBirimleri": [
       {
@@ -3794,6 +4003,7 @@
     "lon": 15,
     "toleransKm": 200,
     "bayrakCdn": "https://flagcdn.com/w320/si.png",
+    "bmUyesi": true,
     "telefonKodu": "+386",
     "paraBirimleri": [
       {
@@ -3812,6 +4022,7 @@
     "lon": 160.2,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/sb.png",
+    "bmUyesi": true,
     "telefonKodu": "+677",
     "paraBirimleri": [
       {
@@ -3830,6 +4041,7 @@
     "lon": 46.2,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/so.png",
+    "bmUyesi": true,
     "telefonKodu": "+252",
     "paraBirimleri": [
       {
@@ -3848,6 +4060,7 @@
     "lon": 80.8,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/lk.png",
+    "bmUyesi": true,
     "telefonKodu": "+94",
     "paraBirimleri": [
       {
@@ -3866,6 +4079,7 @@
     "lon": 30.2,
     "toleransKm": 700,
     "bayrakCdn": "https://flagcdn.com/w320/sd.png",
+    "bmUyesi": true,
     "telefonKodu": "+249",
     "paraBirimleri": [
       {
@@ -3884,6 +4098,7 @@
     "lon": -56,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/sr.png",
+    "bmUyesi": true,
     "telefonKodu": "+597",
     "paraBirimleri": [
       {
@@ -3902,6 +4117,7 @@
     "lon": 39,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/sy.png",
+    "bmUyesi": true,
     "telefonKodu": "+963",
     "paraBirimleri": [
       {
@@ -3920,6 +4136,7 @@
     "lon": 45.1,
     "toleransKm": 750,
     "bayrakCdn": "https://flagcdn.com/w320/sa.png",
+    "bmUyesi": true,
     "telefonKodu": "+966",
     "paraBirimleri": [
       {
@@ -3938,6 +4155,7 @@
     "lon": 15.6,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/sj.png",
+    "bmUyesi": false,
     "telefonKodu": "+47",
     "paraBirimleri": [
       {
@@ -3956,6 +4174,7 @@
     "lon": -71.5,
     "toleransKm": 700,
     "bayrakCdn": "https://flagcdn.com/w320/cl.png",
+    "bmUyesi": true,
     "telefonKodu": "+56",
     "paraBirimleri": [
       {
@@ -3974,6 +4193,7 @@
     "lon": 71.3,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/tj.png",
+    "bmUyesi": true,
     "telefonKodu": "+992",
     "paraBirimleri": [
       {
@@ -3992,6 +4212,7 @@
     "lon": 34.9,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/tz.png",
+    "bmUyesi": true,
     "telefonKodu": "+255",
     "paraBirimleri": [
       {
@@ -4010,6 +4231,7 @@
     "lon": 100.9,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/th.png",
+    "bmUyesi": true,
     "telefonKodu": "+66",
     "paraBirimleri": [
       {
@@ -4028,6 +4250,7 @@
     "lon": 121,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/tw.png",
+    "bmUyesi": false,
     "telefonKodu": "+886",
     "paraBirimleri": [
       {
@@ -4046,6 +4269,7 @@
     "lon": 0.8,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/tg.png",
+    "bmUyesi": true,
     "telefonKodu": "+228",
     "paraBirimleri": [
       {
@@ -4064,6 +4288,7 @@
     "lon": -171.8,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/tk.png",
+    "bmUyesi": false,
     "telefonKodu": "+690",
     "paraBirimleri": [
       {
@@ -4082,6 +4307,7 @@
     "lon": -175.2,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/to.png",
+    "bmUyesi": true,
     "telefonKodu": "+676",
     "paraBirimleri": [
       {
@@ -4100,6 +4326,7 @@
     "lon": -61.2,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/tt.png",
+    "bmUyesi": true,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -4118,6 +4345,7 @@
     "lon": 9.5,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/tn.png",
+    "bmUyesi": true,
     "telefonKodu": "+216",
     "paraBirimleri": [
       {
@@ -4136,6 +4364,7 @@
     "lon": -71.8,
     "toleransKm": 180,
     "bayrakCdn": "https://flagcdn.com/w320/tc.png",
+    "bmUyesi": false,
     "telefonKodu": "+1",
     "paraBirimleri": [
       {
@@ -4154,6 +4383,7 @@
     "lon": 177.6,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/tv.png",
+    "bmUyesi": true,
     "telefonKodu": "+688",
     "paraBirimleri": [
       {
@@ -4172,6 +4402,7 @@
     "lon": 35.2,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/tr.png",
+    "bmUyesi": true,
     "telefonKodu": "+90",
     "paraBirimleri": [
       {
@@ -4190,6 +4421,7 @@
     "lon": 59.6,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/tm.png",
+    "bmUyesi": true,
     "telefonKodu": "+993",
     "paraBirimleri": [
       {
@@ -4208,6 +4440,7 @@
     "lon": 32.3,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/ug.png",
+    "bmUyesi": true,
     "telefonKodu": "+256",
     "paraBirimleri": [
       {
@@ -4226,6 +4459,7 @@
     "lon": 31.2,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/ua.png",
+    "bmUyesi": true,
     "telefonKodu": "+380",
     "paraBirimleri": [
       {
@@ -4244,6 +4478,7 @@
     "lon": 55.9,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/om.png",
+    "bmUyesi": true,
     "telefonKodu": "+968",
     "paraBirimleri": [
       {
@@ -4262,6 +4497,7 @@
     "lon": -55.8,
     "toleransKm": 350,
     "bayrakCdn": "https://flagcdn.com/w320/uy.png",
+    "bmUyesi": true,
     "telefonKodu": "+598",
     "paraBirimleri": [
       {
@@ -4280,6 +4516,7 @@
     "lon": 36.2,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/jo.png",
+    "bmUyesi": true,
     "telefonKodu": "+962",
     "paraBirimleri": [
       {
@@ -4298,6 +4535,7 @@
     "lon": 166.9,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/vu.png",
+    "bmUyesi": true,
     "telefonKodu": "+678",
     "paraBirimleri": [
       {
@@ -4316,6 +4554,7 @@
     "lon": 12.4,
     "toleransKm": 100,
     "bayrakCdn": "https://flagcdn.com/w320/va.png",
+    "bmUyesi": false,
     "telefonKodu": "+39",
     "paraBirimleri": [
       {
@@ -4334,6 +4573,7 @@
     "lon": -66.6,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/ve.png",
+    "bmUyesi": true,
     "telefonKodu": "+58",
     "paraBirimleri": [
       {
@@ -4352,6 +4592,7 @@
     "lon": 108.3,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/vn.png",
+    "bmUyesi": true,
     "telefonKodu": "+84",
     "paraBirimleri": [
       {
@@ -4370,6 +4611,7 @@
     "lon": -176.2,
     "toleransKm": 150,
     "bayrakCdn": "https://flagcdn.com/w320/wf.png",
+    "bmUyesi": false,
     "telefonKodu": "+681",
     "paraBirimleri": [
       {
@@ -4388,6 +4630,7 @@
     "lon": 48.5,
     "toleransKm": 450,
     "bayrakCdn": "https://flagcdn.com/w320/ye.png",
+    "bmUyesi": true,
     "telefonKodu": "+967",
     "paraBirimleri": [
       {
@@ -4406,6 +4649,7 @@
     "lon": 165.6,
     "toleransKm": 250,
     "bayrakCdn": "https://flagcdn.com/w320/nc.png",
+    "bmUyesi": false,
     "telefonKodu": "+687",
     "paraBirimleri": [
       {
@@ -4424,6 +4668,7 @@
     "lon": 174.9,
     "toleransKm": 550,
     "bayrakCdn": "https://flagcdn.com/w320/nz.png",
+    "bmUyesi": true,
     "telefonKodu": "+64",
     "paraBirimleri": [
       {
@@ -4442,6 +4687,7 @@
     "lon": 21.8,
     "toleransKm": 300,
     "bayrakCdn": "https://flagcdn.com/w320/gr.png",
+    "bmUyesi": true,
     "telefonKodu": "+30",
     "paraBirimleri": [
       {
@@ -4460,6 +4706,7 @@
     "lon": 27.8,
     "toleransKm": 500,
     "bayrakCdn": "https://flagcdn.com/w320/zm.png",
+    "bmUyesi": true,
     "telefonKodu": "+260",
     "paraBirimleri": [
       {
@@ -4478,6 +4725,7 @@
     "lon": 29.2,
     "toleransKm": 400,
     "bayrakCdn": "https://flagcdn.com/w320/zw.png",
+    "bmUyesi": true,
     "telefonKodu": "+263",
     "paraBirimleri": [
       {

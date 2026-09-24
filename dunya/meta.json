@@ -20,7 +20,8 @@
     "toleransKm": "Harita oyunları ve coğrafi eşleme için yarıçap toleransı (km)",
     "bayrakCdn": "Doğrudan kullanıma hazır CDN bayrak görsel bağlantı şablonu",
     "telefonKodu": "Uluslararası arama kodu, + ile (ör. +90). Kodu olmayan yerleşimsiz bölgelerde null.",
-    "paraBirimleri": "Yürürlükteki yasal para birimleri: [{kod: ISO 4217, ad: Türkçe adı, sembol}]. Birden çok olabilir (ör. Panama: PAB ve USD)."
+    "paraBirimleri": "Yürürlükteki yasal para birimleri: [{kod: ISO 4217, ad: Türkçe adı, sembol}]. Birden çok olabilir (ör. Panama: PAB ve USD).",
+    "bmUyesi": "Birleşmiş Milletler üyesi egemen devlet mi (193 ülke true)."
   },
   "files": {
     "full": "ulkeler.json"
