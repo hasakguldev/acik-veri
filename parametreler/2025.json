@@ -80,6 +80,19 @@
   "zekat": { "nisapAltinGr": 80.18, "nisapGumusGr": 561.00, "oran": 0.025 },
   "fitre": { "varsayilanTutar": 180 },
 
+  "altinTurleri": {
+    "gram24": { "ad": "24 Ayar Gram Altın", "ayar": 24, "agirlikGr": 1.00, "safCarpan": 1.0000 },
+    "gram22": { "ad": "22 Ayar Gram Altın", "ayar": 22, "agirlikGr": 1.00, "safCarpan": 0.9167 },
+    "ceyrek": { "ad": "Çeyrek Altın", "ayar": 22, "agirlikGr": 1.75, "safCarpan": 1.6042 },
+    "yarim": { "ad": "Yarım Altın", "ayar": 22, "agirlikGr": 3.50, "safCarpan": 3.2083 },
+    "tam": { "ad": "Tam Ziynet Altın", "ayar": 22, "agirlikGr": 7.00, "safCarpan": 6.4167 },
+    "cumhuriyetAta": { "ad": "Cumhuriyet / Ata Lira", "ayar": 22, "agirlikGr": 7.216, "safCarpan": 6.6147 },
+    "resatHamit": { "ad": "Reşat / Hamit Altını", "ayar": 22, "agirlikGr": 7.20, "safCarpan": 6.6000 },
+    "burmaBilezik20": { "ad": "20 Gram Burma Bilezik (22 Ayar)", "ayar": 22, "agirlikGr": 20.00, "safCarpan": 18.3333 },
+    "duzBilezik10": { "ad": "10 Gram Düz Bilezik (22 Ayar)", "ayar": 22, "agirlikGr": 10.00, "safCarpan": 9.1667 },
+    "gremse": { "ad": "Gremse Altın (10 Çeyrek)", "ayar": 22, "agirlikGr": 17.50, "safCarpan": 16.0417 }
+  },
+
   "taksi": {
     "acilis": 54.50,
     "kmUcreti": 38.50,
