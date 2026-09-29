@@ -21,7 +21,7 @@ jobs:
       - name: Gereksinimleri Yükle
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests yfinance pandas
           
       - name: EVDS Tarihsel Verilerini Çek
         run: python scripts/fetch_evds.py --key ${{ secrets.EVDS_API_KEY }} --out finans/tarihsel-fiyatlar.json

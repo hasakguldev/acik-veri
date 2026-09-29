@@ -19,6 +19,8 @@ import json
 import argparse
 import datetime
 import requests
+import pandas as pd
+import yfinance as yf
 
 BASE_URL = "https://evds3.tcmb.gov.tr/igmevdsms-dis/"
 
@@ -176,25 +178,42 @@ def fetch_and_process_all(client: EVDSClient):
 
     print(f"   Zincirlenmiş TÜFE (2003=100): {min(tufe_chained.keys())} -> {max(tufe_chained.keys())} ({len(tufe_chained)} ay)")
 
+    print("\n7. Yahoo Finance'den BTC ve BIST100 tarihsel verileri çekiliyor...")
+    yf_tickers = {"btc": "BTC-USD", "bist100": "XU100.IS"}
+    yf_data = {"btc": {}, "bist100": {}}
+    for key, symbol in yf_tickers.items():
+        try:
+            tk = yf.Ticker(symbol)
+            hist = tk.history(period="max")
+            if not hist.empty:
+                hist.index = pd.to_datetime(hist.index)
+                monthly_avg = hist['Close'].resample('ME').mean()
+                for date, val in monthly_avg.items():
+                    d_key = f"{date.year:04d}-{date.month:02d}"
+                    yf_data[key][d_key] = float(val)
+            print(f"   {key.upper()}: {len(yf_data[key])} ay çekildi.")
+        except Exception as e:
+            print(f"   Hata ({symbol}): {e}")
+
     # Metadata
     seriler_meta = {
         "usd": {
             "ad": "ABD Doları",
             "birim": "TL",
             "seriKodu": "TP.DK.USD.S.YTL",
-            "baslangic": min(usd_data.keys())
+            "baslangic": min(usd_data.keys()) if usd_data else None
         },
         "eur": {
             "ad": "Euro",
             "birim": "TL",
             "seriKodu": "TP.DK.EUR.S.YTL",
-            "baslangic": min(eur_data.keys())
+            "baslangic": min(eur_data.keys()) if eur_data else None
         },
         "altin": {
             "ad": "Gram Altın",
             "birim": "TL/gram",
             "seriKodu": "TP.MK.D.AOF.Y + TP.ALTINPIYASA.AGORT03",
-            "baslangic": min(altin_gram_tl.keys()),
+            "baslangic": min(altin_gram_tl.keys()) if altin_gram_tl else None,
             "turetilmis": True,
             "turetmeFormulu": "(ons_usd / 31.1035) * usd_try"
         },
@@ -202,22 +221,34 @@ def fetch_and_process_all(client: EVDSClient):
             "ad": "Gram Gümüş",
             "birim": "TL/gram",
             "seriKodu": "TP.GUMUSPIYASA.KAP05 / KAP02",
-            "baslangic": min(gumus_data.keys())
+            "baslangic": min(gumus_data.keys()) if gumus_data else None
         },
         "benzin": {
             "ad": "Benzin",
             "birim": "TL/litre",
             "seriKodu": "TP.TUKFIY2025.07222",
-            "baslangic": min(benzin_data.keys())
+            "baslangic": min(benzin_data.keys()) if benzin_data else None
         },
         "tufe": {
             "ad": "TÜFE",
             "birim": "endeks",
             "seriKodu": "TP.FG.J0 (Zincirlenmiş)",
-            "baslangic": min(tufe_chained.keys()),
+            "baslangic": min(tufe_chained.keys()) if tufe_chained else None,
             "bazYili": "2003=100",
             "zincirlenmis": True,
             "zincirlemeYontemi": "1982=100 (1982-1986) -> 1987=100 (1987-1993) -> 1994=100 (1994-2002) -> 2003=100 (2003-2026/01) -> 2025 Rev (2026/02-07)"
+        },
+        "btc": {
+            "ad": "Bitcoin",
+            "birim": "USD",
+            "seriKodu": "BTC-USD (Yahoo Finance)",
+            "baslangic": min(yf_data["btc"].keys()) if yf_data["btc"] else None
+        },
+        "bist100": {
+            "ad": "Borsa İstanbul 100",
+            "birim": "Endeks",
+            "seriKodu": "XU100.IS (Yahoo Finance)",
+            "baslangic": min(yf_data["bist100"].keys()) if yf_data["bist100"] else None
         }
     }
 
@@ -227,7 +258,9 @@ def fetch_and_process_all(client: EVDSClient):
         "altin": altin_gram_tl,
         "gumus": gumus_data,
         "benzin": benzin_data,
-        "tufe": tufe_chained
+        "tufe": tufe_chained,
+        "btc": yf_data["btc"],
+        "bist100": yf_data["bist100"]
     }
 
     return raw_series, seriler_meta
@@ -256,7 +289,7 @@ def build_continuous_dataset(raw_data, seriler_meta):
     veri_table = {}
     for d in timeline:
         row = {}
-        for s_key in ["usd", "eur", "altin", "gumus", "benzin", "tufe"]:
+        for s_key in ["usd", "eur", "altin", "gumus", "benzin", "tufe", "btc", "bist100"]:
             val = raw_data.get(s_key, {}).get(d)
             if val is not None:
                 row[s_key] = round(float(val), 6)
