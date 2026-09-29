@@ -81,7 +81,17 @@ Türkiye'de hesaplama araçları, bordro motorları ve muhasebe yazılımları i
 
 | Parametre Grubu | Kapsam | Bağlantı |
 |---|---|---|
-| **2025/2026 Mevzuatı** | Asgari Ücret (Net/Brüt), Gelir Vergisi Dilimleri (GVK 103), SGK Tavanı, Kıdem Tazminatı Tavanı, MTV Tarifesi, Araç Muayene Ücretleri, KDV ve Harç Oranları | [`parametreler/2025.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/parametreler/2025.json) |
+| **2025/2026 Mevzuatı** | Asgari Ücret (Net/Brüt), Gelir Vergisi Dilimleri (GVK 103), SGK Tavanı, Kıdem Tazminatı Tavanı, Pasaport Harçları & Yurt Dışı Çıkış Harcı Pulu, Ehliyet Harçları, IMEI Kayıt Harcı, Trafik Cezaları, Araç Muayene, MTV | [`parametreler/2025.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/parametreler/2025.json) |
+
+---
+
+### 4. Canlı ve Tarihsel Finansal Veriler (`finans/`)
+TCMB EVDS ve Yahoo Finance üzerinden otomatik güncellenen canlı ve tarihsel döviz, kıymetli maden, borsa ve enflasyon verileri.
+
+| Veri Seti | Kapsam | Güncelleme Sıklığı | Doğrudan CDN Bağlantısı (JSON) |
+|---|---|---|---|
+| **Canlı Piyasa Kurları** | USD/TRY, EUR/TRY, GBP/TRY, Ons/Gram Altın, Ons/Gram Gümüş, BTC/USD, BIST100 | **Günde 10 Kez (Mesai Saatleri / Saat Başı)** | [`finans/canli-kurlar.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/finans/canli-kurlar.json) |
+| **Tarihsel Fiyat & TÜFE Arşivi** | 1980-2026 kesintisiz zincirlenmiş TÜFE (2003=100), Dolar, Euro, Gram Altın, Gram Gümüş, Benzin, BTC, BIST100 | **Haftalık (Her Cumartesi Gece)** | [`finans/tarihsel-fiyatlar.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/finans/tarihsel-fiyatlar.json) |
 
 ---
 

@@ -9,6 +9,7 @@
 - [x] Manuel (Pasaport vb.) veriler, tarihsel hesaplamalar ve canlı veriler için mimari planlama yap.
 - [x] `.github/workflows/tarihsel-veri-guncelle.yml` oluştur (Haftalık EVDS arşivi).
 - [x] GitHub Secrets (`EVDS_API_KEY`) entegrasyonu ve güvenlik prosedürlerini dokümante et.
+- [x] **Ekstra İstek:** BIST100 ve BTC'nin 10 yıllık geçmişini `fetch_evds.py` arşivine yfinance üzerinden dahil et.
 
 ## Review
 Tüm planlama başarıyla uygulandı:

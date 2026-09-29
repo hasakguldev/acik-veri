@@ -1,6 +1,6 @@
 {
   "donem": "2025/2026",
-  "guncelleme": "2025-08-20",
+  "guncelleme": "2026-09-29",
   "kaynakNotu": "Oranlar ve tutarlar resmî tebliğler, TCMB/BDDK verileri ve kanuni tarifelere dayanır.",
 
   "asgariUcret": {
@@ -85,6 +85,69 @@
     "kmUcreti": 38.50,
     "minUcret": 175.00,
     "beklemeSaat": 280.00
+  },
+
+  "yurtdisiCikisHarci": 1000.00,
+  "imeiKayitHarci": 45614.00,
+
+  "pasaport": {
+    "cikisHarciPulu": 1000.00,
+    "defterBedeli": 1137.00,
+    "harclar": {
+      "6ay": 2359.00,
+      "1yil": 3448.00,
+      "2yil": 5631.00,
+      "3yil": 8000.00,
+      "3artiYil": 11274.00
+    },
+    "toplamMaliyet": {
+      "6ay": 3496.00,
+      "1yil": 4585.00,
+      "2yil": 6768.00,
+      "3yil": 9137.00,
+      "3artiYil": 12411.00
+    }
+  },
+
+  "ehliyet": {
+    "harclar": {
+      "aSinifi": 1882.90,
+      "bSinifi": 5678.60,
+      "diger": 9455.50
+    },
+    "degerliKagitBedeli": 1420.00,
+    "vakifPayi": 339.00,
+    "toplamMaliyet": {
+      "aSinifi": 3641.90,
+      "bSinifi": 7437.60,
+      "diger": 11214.50
+    }
+  },
+
+  "kimlikKarti": {
+    "dogumDegistirme": 185.00,
+    "kayip": 370.00
+  },
+
+  "trafikCezalari": {
+    "emniyetKemeri": 993.00,
+    "kirmiziIsik": 2167.00,
+    "hizSiniriAsimi1030": 2167.00,
+    "hizSiniriAsimi3050": 4512.00,
+    "hizSiniriAsimi50Ustu": 9267.00,
+    "alkolluArac1": 9267.00,
+    "ehliyetsizArac": 18679.00,
+    "cepTelefonu": 2167.00,
+    "muayenesizArac": 2167.00,
+    "parkYasagi": 993.00,
+    "erkenOdemeIndirimOrani": 0.25
+  },
+
+  "mtvOrnekleri": {
+    "1_3yas_1300alti": 4834.00,
+    "1_3yas_1301_1600": 8421.00,
+    "1_3yas_1601_1800": 14885.00,
+    "1_3yas_1801_2000": 23454.00
   },
 
   "yakit": {
