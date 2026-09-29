@@ -10,6 +10,7 @@
 - [x] `.github/workflows/tarihsel-veri-guncelle.yml` oluştur (Haftalık EVDS arşivi).
 - [x] GitHub Secrets (`EVDS_API_KEY`) entegrasyonu ve güvenlik prosedürlerini dokümante et.
 - [x] **Ekstra İstek:** BIST100 ve BTC'nin 10 yıllık geçmişini `fetch_evds.py` arşivine yfinance üzerinden dahil et.
+- [x] **Kültürel Altın Türevleri:** Çeyrek Altın, 20 gr Burma Bilezik, Ata Lira ve Hamit Altını `parametreler/2025.json`'a eklendi ve BelliOlur `erime.js` içine entegre edildi.
 
 ## Review
 Tüm planlama başarıyla uygulandı:
