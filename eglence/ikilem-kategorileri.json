@@ -1,0 +1,251 @@
+{
+  "surum": "1.0.0",
+  "guncelleme": "2026-09-30",
+  "kategoriler": [
+    {
+      "ad": "Sebze",
+      "uyeler": [
+        "Patates",
+        "Domates",
+        "Biber",
+        "Patlıcan",
+        "Havuç",
+        "Soğan",
+        "Brokoli",
+        "Ispanak",
+        "Kabak",
+        "Salatalık",
+        "Kereviz",
+        "Marul",
+        "Pırasa",
+        "Enginar",
+        "Bezelye"
+      ]
+    },
+    {
+      "ad": "Meyve",
+      "uyeler": [
+        "Elma",
+        "Armut",
+        "Portakal",
+        "Muz",
+        "Çilek",
+        "Üzüm",
+        "Karpuz",
+        "Kiraz",
+        "Şeftali",
+        "Ananas",
+        "Kavun",
+        "İncir",
+        "Nar",
+        "Vişne",
+        "Kayısı",
+        "Erik",
+        "Mandalina"
+      ]
+    },
+    {
+      "ad": "Hayvan",
+      "uyeler": [
+        "Kedi",
+        "Köpek",
+        "Kuş",
+        "Balık",
+        "Tavşan",
+        "At",
+        "İnek",
+        "Koyun",
+        "Aslan",
+        "Kartal",
+        "Kaplan",
+        "Zebra",
+        "Zürafa",
+        "Fil",
+        "Ayı",
+        "Kurt",
+        "Tilki",
+        "Geyik"
+      ]
+    },
+    {
+      "ad": "Renk",
+      "uyeler": [
+        "Kırmızı",
+        "Mavi",
+        "Yeşil",
+        "Sarı",
+        "Turuncu",
+        "Mor",
+        "Beyaz",
+        "Siyah",
+        "Pembe",
+        "Gri",
+        "Kahverengi",
+        "Lacivert",
+        "Bordo",
+        "Turkuaz",
+        "Haki"
+      ]
+    },
+    {
+      "ad": "Ülke",
+      "uyeler": [
+        "Türkiye",
+        "Almanya",
+        "Fransa",
+        "İtalya",
+        "Japonya",
+        "Brezilya",
+        "Mısır",
+        "İspanya",
+        "Kanada",
+        "Hindistan",
+        "Norveç",
+        "Yunanistan",
+        "Güney Kore",
+        "Meksika",
+        "Arjantin"
+      ]
+    },
+    {
+      "ad": "Spor",
+      "uyeler": [
+        "Futbol",
+        "Basketbol",
+        "Voleybol",
+        "Tenis",
+        "Yüzme",
+        "Boks",
+        "Atletizm",
+        "Güreş",
+        "Okçuluk",
+        "Bisiklet",
+        "Hentbol",
+        "Masa Tenisi",
+        "Kayak",
+        "Jimnastik",
+        "Judo"
+      ]
+    },
+    {
+      "ad": "Meslek",
+      "uyeler": [
+        "Doktor",
+        "Öğretmen",
+        "Mühendis",
+        "Avukat",
+        "Hemşire",
+        "Mimar",
+        "Pilot",
+        "Aşçı",
+        "Polis",
+        "İtfaiyeci",
+        "Marangoz",
+        "Terzi",
+        "Veteriner",
+        "Eczacı",
+        "Yazar"
+      ]
+    },
+    {
+      "ad": "Müzik Aleti",
+      "uyeler": [
+        "Gitar",
+        "Piyano",
+        "Keman",
+        "Davul",
+        "Flüt",
+        "Bağlama",
+        "Klarnet",
+        "Trompet",
+        "Çello",
+        "Saksafon",
+        "Kanun",
+        "Ney",
+        "Tambur",
+        "Arp",
+        "Akordeon"
+      ]
+    },
+    {
+      "ad": "Gök Cismi",
+      "uyeler": [
+        "Güneş",
+        "Ay",
+        "Dünya",
+        "Mars",
+        "Jüpiter",
+        "Satürn",
+        "Venüs",
+        "Merkür",
+        "Neptün",
+        "Uranüs",
+        "Kutup Yıldızı",
+        "Kuyruklu Yıldız",
+        "Meteor",
+        "Asteroit",
+        "Kara Delik"
+      ]
+    },
+    {
+      "ad": "Şehir",
+      "uyeler": [
+        "İstanbul",
+        "Ankara",
+        "İzmir",
+        "Bursa",
+        "Antalya",
+        "Trabzon",
+        "Eskişehir",
+        "Gaziantep",
+        "Konya",
+        "Adana",
+        "Diyarbakır",
+        "Samsun",
+        "Mardin",
+        "Kayseri",
+        "Çanakkale"
+      ]
+    },
+    {
+      "ad": "Giyim",
+      "uyeler": [
+        "Ceket",
+        "Gömlek",
+        "Pantolon",
+        "Tişört",
+        "Kazak",
+        "Hırka",
+        "Çorap",
+        "Etek",
+        "Mont",
+        "Kaban",
+        "Atkı",
+        "Bere",
+        "Eldiven",
+        "Kravat",
+        "Yelek"
+      ]
+    },
+    {
+      "ad": "Tatlı",
+      "uyeler": [
+        "Baklava",
+        "Künefe",
+        "Sütlaç",
+        "Kazandibi",
+        "Revani",
+        "Kemalpaşa",
+        "Profiterol",
+        "Tiramisu",
+        "Muhallebi",
+        "Lokum",
+        "Helva",
+        "Kadayıf",
+        "Supangle",
+        "Aşure",
+        "Güllaç"
+      ]
+    }
+  ]
+}

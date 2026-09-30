@@ -1,0 +1,125 @@
+{
+  "surum": "1.0.0",
+  "guncelleme": "2026-09-30",
+  "modlar": {
+    "hikaye": [
+      {
+        "ad": "Kim",
+        "liste": [
+          "Emekli bir deniz feneri bekçisi",
+          "Hafızasını kaybetmiş bir martı",
+          "Kendini dedektif sanan bir kedi",
+          "Yüz yaşındaki bir satranç ustası",
+          "Utangaç bir ejderha",
+          "Zamanda yolculuk yapan bir simitçi",
+          "Konuşmayı yeni öğrenmiş bir robot",
+          "Sesini kaybetmiş bir opera sanatçısı",
+          "Yolunu şaşırmış bir astronot",
+          "Rüyalarını satan bir çocuk",
+          "Kötü kalpli olmaya çalışan iyi bir cadı",
+          "Son vapuru kaçıran bir hayalet",
+          "Haritası olmayan bir kaşif",
+          "Ünlü olmak isteyen bir karınca",
+          "Kaybettiği şemsiyesini arayan bir dev",
+          "Emekli bir süper kahraman",
+          "Her şeyi tersinden yapan bir aşçı",
+          "Uyumayı unutmuş bir baykuş"
+        ]
+      },
+      {
+        "ad": "Nerede",
+        "liste": [
+          "ıssız bir adada",
+          "gece yarısı kapanan bir kütüphanede",
+          "buluttan yapılmış bir şehirde",
+          "Kapalıçarşı'nın gizli bir koridorunda",
+          "bozulmuş bir asansörde",
+          "Mars'taki ilk bakkalda",
+          "kar altında kalmış bir köyde",
+          "terk edilmiş bir lunaparkta",
+          "dev bir balinanın karnında",
+          "hiç durmayan bir trende",
+          "zamanın donduğu bir çay bahçesinde",
+          "bir çocuğun çizdiği resmin içinde",
+          "ters dönmüş bir gökdelende",
+          "bütün saatlerin geri aktığı bir kasabada",
+          "Boğaz'ın dibindeki bir sarayda"
+        ]
+      },
+      {
+        "ad": "Ne yapıyor",
+        "liste": [
+          "satranç turnuvası düzenliyor",
+          "kayıp bir mektubun sahibini arıyor",
+          "dünyanın en büyük böreğini pişiriyor",
+          "bir sırrı saklamaya çalışıyor",
+          "yeni bir dil icat ediyor",
+          "eski bir düşmanıyla barışmaya çalışıyor",
+          "bir yarışmayı kazanmak zorunda",
+          "kimsenin görmediği bir rengi arıyor",
+          "bir orkestra kuruyor",
+          "ay tutulmasını durdurmaya çalışıyor",
+          "kendi gölgesiyle pazarlık ediyor",
+          "bir düğünü kurtarmaya çalışıyor",
+          "unutulmuş bir şarkıyı hatırlamaya çalışıyor",
+          "bir bahçe kurmaya uğraşıyor",
+          "kayıp bir kediyi eve götürüyor"
+        ]
+      },
+      {
+        "ad": "Ama",
+        "liste": [
+          "ama saat her on dakikada bir geri sarıyor.",
+          "ama yalnızca şarkı söyleyerek konuşabiliyor.",
+          "ama kimse onun var olduğuna inanmıyor.",
+          "ama elindeki tek ipucu bir kuru üzüm.",
+          "ama her yalan söylediğinde boyu kısalıyor.",
+          "ama güneş batmadan bitirmesi gerekiyor.",
+          "ama en yakın dostu aslında rakibi.",
+          "ama yerçekimi her gün yön değiştiriyor.",
+          "ama bütün kapılar yalnızca bilmeceyle açılıyor.",
+          "ama cebinde yalnızca üç lira var.",
+          "ama her adımında bir anısını unutuyor.",
+          "ama bunu yapan herkes kurbağaya dönüşüyor.",
+          "ama rüzgâr onun sırlarını herkese fısıldıyor.",
+          "ama kimseye dokunmadan başarması şart."
+        ]
+      }
+    ],
+    "cizim": [
+      {
+        "ad": "Konu",
+        "liste": [
+          "Şapkalı bir fil",
+          "Uçan bir kütüphane",
+          "Denizaltıda yaşayan bir tavuk",
+          "Çay demleyen bir robot",
+          "Bulut toplayan bir çocuk",
+          "Kaykay süren bir kaplumbağa",
+          "Ağaç evde yaşayan bir balina",
+          "Işık saçan bir mantar",
+          "Bisiklet süren bir kardan adam",
+          "Gözlüklü bir ay",
+          "Kanatlı bir simit",
+          "Kitap okuyan bir ahtapot",
+          "Yıldız toplayan bir tilki",
+          "Balon satan bir penguen"
+        ]
+      },
+      {
+        "ad": "Nerede",
+        "liste": [
+          "bir çay bardağının içinde",
+          "yağmurlu bir İstanbul sokağında",
+          "bir fincan kahvenin köpüğünde",
+          "mantarlarla dolu bir ormanda",
+          "renkli bir mercan resifinde",
+          "gece yarısı açık bir pastanede",
+          "eski bir saat kulesinin tepesinde",
+          "kitap sayfalarından yapılmış bir gemide",
+          "sabun köpüğünün içinde"
+        ]
+      }
+    ]
+  }
+}
