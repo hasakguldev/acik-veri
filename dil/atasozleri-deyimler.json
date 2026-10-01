@@ -1,707 +1,1220 @@
 {
-  "surum": "1.0.0",
+  "surum": "2.0.0",
   "guncelleme": "2026-09-30",
   "aciklama": "Türkçe yaygın atasözleri ve deyimler veri seti",
+  "kaynak": "Havuz, belliolur/belliolmaz deposunda elle derlenmiş kelime ve atasözü listelerinden toplanır (anagram, kelime merdiveni, sözel hafıza, kripto cümle havuzları ve araç kataloğu metinleri). TDK Güncel Türkçe Sözlük madde başlıkları yalnız \"gerçek kelime mi\" süzgeci olarak kullanılır, kelime seçimi o listeden yapılmaz.",
+  "lisans": "Bu veri seti belliolur/belliolmaz deposunun lisansı altındadır. Süzgeç olarak kullanılan TDK madde başlıkları veri setine dahil değildir.",
   "kayitlar": [
     {
       "id": 1,
       "metin": "Damlaya damlaya göl olur",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 21
     },
     {
       "id": 2,
       "metin": "Ağaç yaşken eğilir",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 16
     },
     {
       "id": 3,
       "metin": "Bir elin nesi var iki elin sesi var",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 8,
       "harfSayisi": 28
     },
     {
       "id": 4,
       "metin": "Sakla samanı gelir zamanı",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 22
     },
     {
       "id": 5,
       "metin": "Gülme komşuna gelir başına",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 23
     },
     {
       "id": 6,
       "metin": "Taşıma su ile değirmen dönmez",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 25
     },
     {
       "id": 7,
       "metin": "Yuvarlanan taş yosun tutmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 24
     },
     {
       "id": 8,
       "metin": "Acele işe şeytan karışır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 21
     },
     {
       "id": 9,
       "metin": "Ateş olmayan yerden duman çıkmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 28
     },
     {
       "id": 10,
       "metin": "Dost kara günde belli olur",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 22
     },
     {
       "id": 11,
       "metin": "El elden üstündür",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 15
     },
     {
       "id": 12,
       "metin": "Güneş balçıkla sıvanmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 21
     },
     {
       "id": 13,
       "metin": "İşleyen demir pas tutmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 21
     },
     {
       "id": 14,
       "metin": "Komşu komşunun külüne muhtaçtır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 28
     },
     {
       "id": 15,
       "metin": "Mum dibine ışık vermez",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 19
     },
     {
       "id": 16,
       "metin": "Nerede hareket orada bereket",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 25
     },
     {
       "id": 17,
       "metin": "Tatlı dil yılanı deliğinden çıkarır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 31
     },
     {
       "id": 18,
       "metin": "Üzüm üzüme baka baka kararır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 24
     },
     {
       "id": 19,
       "metin": "Zaman her şeyin ilacıdır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 21
     },
     {
       "id": 20,
       "metin": "Bal tutan parmağını yalar",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 22
     },
     {
       "id": 21,
       "metin": "Her yokuşun bir inişi vardır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 24
     },
     {
       "id": 22,
       "metin": "Ak akçe kara gün içindir",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 20
     },
     {
       "id": 23,
       "metin": "Besle kargayı oysun gözünü",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 23
     },
     {
       "id": 24,
       "metin": "Dağ dağa kavuşmaz insan insana kavuşur",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 6,
       "harfSayisi": 33
     },
     {
       "id": 25,
       "metin": "Emek olmadan yemek olmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 21
     },
     {
       "id": 26,
       "metin": "Gözden ırak olan gönülden de ırak olur",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 7,
       "harfSayisi": 32
     },
     {
       "id": 27,
       "metin": "İki cambaz bir ipte oynamaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 23
     },
     {
       "id": 28,
       "metin": "İti an çomağı hazırla",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 18
     },
     {
       "id": 29,
       "metin": "Kaçan balık büyük olur",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 19
     },
     {
       "id": 30,
       "metin": "Körle yatan şaşı kalkar",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 20
     },
     {
       "id": 31,
       "metin": "Mart kapıdan baktırır kazma kürek yaktırır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 6,
       "harfSayisi": 37
     },
     {
       "id": 32,
       "metin": "Ne ekersen onu biçersin",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 20
     },
     {
       "id": 33,
       "metin": "Öfke ile kalkan zararla oturur",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 26
     },
     {
       "id": 34,
       "metin": "Rüzgar eken fırtına biçer",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 22
     },
     {
       "id": 35,
       "metin": "Sabreden derviş muradına ermiş",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 27
     },
     {
       "id": 36,
       "metin": "Son gülen iyi güler",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 16
     },
     {
       "id": 37,
       "metin": "Sütten ağzı yanan yoğurdu üfleyerek yer",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 6,
       "harfSayisi": 34
     },
     {
       "id": 38,
       "metin": "Tavşan dağa küsmüş dağın haberi olmamış",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 6,
       "harfSayisi": 34
     },
     {
       "id": 39,
       "metin": "Vakit nakittir",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 2,
       "harfSayisi": 13
     },
     {
       "id": 40,
       "metin": "Yalancının mumu yatsıya kadar yanar",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 31
     },
     {
       "id": 41,
       "metin": "Zorla güzellik olmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 18
     },
     {
       "id": 42,
       "metin": "Aç ayı oynamaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 12
     },
     {
       "id": 43,
       "metin": "Bakarsan bağ olur bakmazsan dağ olur",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 6,
       "harfSayisi": 31
     },
     {
       "id": 44,
       "metin": "Can boğazdan gelir",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 16
     },
     {
       "id": 45,
       "metin": "Çivi çiviyi söker",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 15
     },
     {
       "id": 46,
       "metin": "Denize düşen yılana sarılır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 24
     },
     {
       "id": 47,
       "metin": "Derdini söylemeyen derman bulamaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 30
     },
     {
       "id": 48,
       "metin": "Ev alma komşu al",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 13
     },
     {
       "id": 49,
       "metin": "Görünen köy kılavuz istemez",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 24
     },
     {
       "id": 50,
       "metin": "Hatasız kul olmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 15
     },
     {
       "id": 51,
       "metin": "İğneyi kendine çuvaldızı başkasına batır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 36
     },
     {
       "id": 52,
       "metin": "Keskin sirke küpüne zarar",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 22
     },
     {
       "id": 53,
       "metin": "Meyve veren ağaç taşlanır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 22
     },
     {
       "id": 54,
       "metin": "Perşembenin gelişi çarşambadan bellidir",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 36
     },
     {
       "id": 55,
       "metin": "Su testisi su yolunda kırılır",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 5,
       "harfSayisi": 25
     },
     {
       "id": 56,
       "metin": "Acı patlıcanı kırağı çalmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 24
     },
     {
       "id": 57,
       "metin": "Birlikten kuvvet doğar",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 20
     },
     {
       "id": 58,
       "metin": "Can çıkmadıkça huy çıkmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 22
     },
     {
       "id": 59,
       "metin": "Çok havlayan köpek ısırmaz",
-      "tur": "atasozu",
+      "tur": "Atasözü",
       "kelimeSayisi": 4,
       "harfSayisi": 23
     },
     {
       "id": 60,
-      "metin": "Göz boyamak",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 10
+      "metin": "Darı unundan baklava incir ağacından oklava olmaz",
+      "tur": "Atasözü",
+      "kelimeSayisi": 7,
+      "harfSayisi": 43
     },
     {
       "id": 61,
-      "metin": "Kulak kabartmak",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 14
+      "metin": "Deliye her gün bayram",
+      "tur": "Atasözü",
+      "kelimeSayisi": 4,
+      "harfSayisi": 18
     },
     {
       "id": 62,
-      "metin": "Pabucu dama atılmak",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 17
+      "metin": "Deniz dalgasız kapı halkasız olmaz",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 30
     },
     {
       "id": 63,
-      "metin": "Ağzı kulaklarına varmak",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 21
+      "metin": "Deveye hendek atlatmaktan zordur",
+      "tur": "Atasözü",
+      "kelimeSayisi": 4,
+      "harfSayisi": 29
     },
     {
       "id": 64,
-      "metin": "Baltayı taşa vurmak",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 17
+      "metin": "Doğru söyleyeni dokuz köyden kovarlar",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 33
     },
     {
       "id": 65,
-      "metin": "Burnunun dikine gitmek",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 20
+      "metin": "Dökme su ile değirmen dönmez",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 24
     },
     {
       "id": 66,
-      "metin": "Çam devirmek",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 11
+      "metin": "El elin eşeğini türkü çağırarak arar",
+      "tur": "Atasözü",
+      "kelimeSayisi": 6,
+      "harfSayisi": 31
     },
     {
       "id": 67,
-      "metin": "Dili çözülmek",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 12
+      "metin": "Eşeğe altın semer vursalar eşek yine eşektir",
+      "tur": "Atasözü",
+      "kelimeSayisi": 7,
+      "harfSayisi": 38
     },
     {
       "id": 68,
-      "metin": "Etekleri zil çalmak",
-      "tur": "deyim",
+      "metin": "Gül dikensiz olmaz",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
-      "harfSayisi": 17
+      "harfSayisi": 16
     },
     {
       "id": 69,
-      "metin": "Gözden düşmek",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 12
-    },
-    {
-      "id": 70,
-      "metin": "Hapı yutmak",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 10
-    },
-    {
-      "id": 71,
-      "metin": "İçi içine sığmamak",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 16
-    },
-    {
-      "id": 72,
-      "metin": "Kabak tadı vermek",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 15
-    },
-    {
-      "id": 73,
-      "metin": "Lafı ağzına tıkmak",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 16
-    },
-    {
-      "id": 74,
-      "metin": "Masal okumak",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 11
-    },
-    {
-      "id": 75,
-      "metin": "Nal toplamak",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 11
-    },
-    {
-      "id": 76,
-      "metin": "Ocağına düşmek",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 13
-    },
-    {
-      "id": 77,
-      "metin": "Pireyi deve yapmak",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 16
-    },
-    {
-      "id": 78,
-      "metin": "Samur kürk giymek",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 15
-    },
-    {
-      "id": 79,
-      "metin": "Tereyağından kıl çeker gibi",
-      "tur": "deyim",
-      "kelimeSayisi": 4,
-      "harfSayisi": 24
-    },
-    {
-      "id": 80,
-      "metin": "Yelkenleri suya indirmek",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 22
-    },
-    {
-      "id": 81,
-      "metin": "Zıvanadan çıkmak",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 15
-    },
-    {
-      "id": 82,
-      "metin": "Ayıkla pirincin taşını",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 20
-    },
-    {
-      "id": 83,
-      "metin": "Başı göğe ermek",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 13
-    },
-    {
-      "id": 84,
-      "metin": "Can kulağıyla dinlemek",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 20
-    },
-    {
-      "id": 85,
-      "metin": "Çantada keklik",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 13
-    },
-    {
-      "id": 86,
-      "metin": "Damarına basmak",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 14
-    },
-    {
-      "id": 87,
-      "metin": "El üstünde tutmak",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 15
-    },
-    {
-      "id": 88,
-      "metin": "Feleğin çemberinden geçmek",
-      "tur": "deyim",
-      "kelimeSayisi": 3,
-      "harfSayisi": 24
-    },
-    {
-      "id": 89,
-      "metin": "Göze girmek",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 10
-    },
-    {
-      "id": 90,
-      "metin": "Haddini bilmek",
-      "tur": "deyim",
-      "kelimeSayisi": 2,
-      "harfSayisi": 13
-    },
-    {
-      "id": 91,
-      "metin": "İğne atsan yere düşmez",
-      "tur": "deyim",
-      "kelimeSayisi": 4,
-      "harfSayisi": 19
-    },
-    {
-      "id": 92,
-      "metin": "Kulağına küpe olmak",
-      "tur": "deyim",
+      "metin": "Hamama giren terler",
+      "tur": "Atasözü",
       "kelimeSayisi": 3,
       "harfSayisi": 17
     },
     {
-      "id": 93,
-      "metin": "Laf aramızda",
-      "tur": "deyim",
+      "id": 70,
+      "metin": "Her horoz kendi çöplüğünde öter",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 27
+    },
+    {
+      "id": 71,
+      "metin": "Her koyun kendi bacağından asılır",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 29
+    },
+    {
+      "id": 72,
+      "metin": "İki karpuz bir koltuğa sığmaz",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 25
+    },
+    {
+      "id": 73,
+      "metin": "İyilik yap denize at balık bilmezse Halık bilir",
+      "tur": "Atasözü",
+      "kelimeSayisi": 8,
+      "harfSayisi": 40
+    },
+    {
+      "id": 74,
+      "metin": "Kaza geliyorum demez",
+      "tur": "Atasözü",
+      "kelimeSayisi": 3,
+      "harfSayisi": 18
+    },
+    {
+      "id": 75,
+      "metin": "Köpeksiz köy bulmuş değneksiz geziyor",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 33
+    },
+    {
+      "id": 76,
+      "metin": "Minareyi çalan kılıfını hazırlar",
+      "tur": "Atasözü",
+      "kelimeSayisi": 4,
+      "harfSayisi": 29
+    },
+    {
+      "id": 77,
+      "metin": "Ne doğrarsan aşına o çıkar kaşığına",
+      "tur": "Atasözü",
+      "kelimeSayisi": 6,
+      "harfSayisi": 30
+    },
+    {
+      "id": 78,
+      "metin": "Pire için yorgan yakılmaz",
+      "tur": "Atasözü",
+      "kelimeSayisi": 4,
+      "harfSayisi": 22
+    },
+    {
+      "id": 79,
+      "metin": "Sinek küçüktür ama mide bulandırır",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 30
+    },
+    {
+      "id": 80,
+      "metin": "Tencere yuvarlanmış kapağını bulmuş",
+      "tur": "Atasözü",
+      "kelimeSayisi": 4,
+      "harfSayisi": 32
+    },
+    {
+      "id": 81,
+      "metin": "Yatan aslandan gezen tilki yeğdir",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 29
+    },
+    {
+      "id": 82,
+      "metin": "Zenginin malı züğürdün çenesini yorar",
+      "tur": "Atasözü",
+      "kelimeSayisi": 5,
+      "harfSayisi": 33
+    },
+    {
+      "id": 83,
+      "metin": "El açmak",
+      "tur": "Deyim",
       "kelimeSayisi": 2,
-      "harfSayisi": 11
+      "harfSayisi": 7
+    },
+    {
+      "id": 84,
+      "metin": "Can atmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 8
+    },
+    {
+      "id": 85,
+      "metin": "Göz açmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 8
+    },
+    {
+      "id": 86,
+      "metin": "Yol almak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 8
+    },
+    {
+      "id": 87,
+      "metin": "Taş atmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 8
+    },
+    {
+      "id": 88,
+      "metin": "El koymak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 8
+    },
+    {
+      "id": 89,
+      "metin": "İz sürmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 8
+    },
+    {
+      "id": 90,
+      "metin": "İç çekmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 8
+    },
+    {
+      "id": 91,
+      "metin": "Dert yanmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 10
+    },
+    {
+      "id": 92,
+      "metin": "Pot kırmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 9
+    },
+    {
+      "id": 93,
+      "metin": "Dil dökmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 9
     },
     {
       "id": 94,
-      "metin": "Maymun iştahlı",
-      "tur": "deyim",
+      "metin": "Baş çekmek",
+      "tur": "Deyim",
       "kelimeSayisi": 2,
-      "harfSayisi": 13
+      "harfSayisi": 9
     },
     {
       "id": 95,
-      "metin": "Nuh der peygamber demez",
-      "tur": "deyim",
-      "kelimeSayisi": 4,
-      "harfSayisi": 20
+      "metin": "Kan kusmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 9
     },
     {
       "id": 96,
-      "metin": "Ödü patlamak",
-      "tur": "deyim",
+      "metin": "Boy atmak",
+      "tur": "Deyim",
       "kelimeSayisi": 2,
-      "harfSayisi": 11
+      "harfSayisi": 8
     },
     {
       "id": 97,
-      "metin": "Pili bitmek",
-      "tur": "deyim",
+      "metin": "Göz boyamak",
+      "tur": "Deyim",
       "kelimeSayisi": 2,
       "harfSayisi": 10
     },
     {
       "id": 98,
-      "metin": "Saman alevi gibi parlamak",
-      "tur": "deyim",
-      "kelimeSayisi": 4,
-      "harfSayisi": 22
+      "metin": "Kulak kabartmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 14
     },
     {
       "id": 99,
-      "metin": "Taşı sıksa suyunu çıkarır",
-      "tur": "deyim",
+      "metin": "Pabucu dama atılmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 17
+    },
+    {
+      "id": 100,
+      "metin": "Ağzı kulaklarına varmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 21
+    },
+    {
+      "id": 101,
+      "metin": "Baltayı taşa vurmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 17
+    },
+    {
+      "id": 102,
+      "metin": "Burnunun dikine gitmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 20
+    },
+    {
+      "id": 103,
+      "metin": "Çam devirmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 104,
+      "metin": "Dili çözülmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 12
+    },
+    {
+      "id": 105,
+      "metin": "Etekleri zil çalmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 17
+    },
+    {
+      "id": 106,
+      "metin": "Gözden düşmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 12
+    },
+    {
+      "id": 107,
+      "metin": "Hapı yutmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 10
+    },
+    {
+      "id": 108,
+      "metin": "İçi içine sığmamak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 16
+    },
+    {
+      "id": 109,
+      "metin": "Kabak tadı vermek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 15
+    },
+    {
+      "id": 110,
+      "metin": "Lafı ağzına tıkmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 16
+    },
+    {
+      "id": 111,
+      "metin": "Masal okumak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 112,
+      "metin": "Nal toplamak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 113,
+      "metin": "Ocağına düşmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 13
+    },
+    {
+      "id": 114,
+      "metin": "Pireyi deve yapmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 16
+    },
+    {
+      "id": 115,
+      "metin": "Samur kürk giymek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 15
+    },
+    {
+      "id": 116,
+      "metin": "Tereyağından kıl çeker gibi",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 24
+    },
+    {
+      "id": 117,
+      "metin": "Yelkenleri suya indirmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 22
+    },
+    {
+      "id": 118,
+      "metin": "Zıvanadan çıkmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 15
+    },
+    {
+      "id": 119,
+      "metin": "Ayıkla pirincin taşını",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 20
+    },
+    {
+      "id": 120,
+      "metin": "Başı göğe ermek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 13
+    },
+    {
+      "id": 121,
+      "metin": "Can kulağıyla dinlemek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 20
+    },
+    {
+      "id": 122,
+      "metin": "Çantada keklik",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 13
+    },
+    {
+      "id": 123,
+      "metin": "Damarına basmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 14
+    },
+    {
+      "id": 124,
+      "metin": "El üstünde tutmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 15
+    },
+    {
+      "id": 125,
+      "metin": "Feleğin çemberinden geçmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 24
+    },
+    {
+      "id": 126,
+      "metin": "Göze girmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 10
+    },
+    {
+      "id": 127,
+      "metin": "Haddini bilmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 13
+    },
+    {
+      "id": 128,
+      "metin": "İğne atsan yere düşmez",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 19
+    },
+    {
+      "id": 129,
+      "metin": "Kulağına küpe olmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 17
+    },
+    {
+      "id": 130,
+      "metin": "Laf aramızda",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 131,
+      "metin": "Maymun iştahlı",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 13
+    },
+    {
+      "id": 132,
+      "metin": "Nuh der peygamber demez",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 20
+    },
+    {
+      "id": 133,
+      "metin": "Ödü patlamak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 134,
+      "metin": "Pili bitmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 10
+    },
+    {
+      "id": 135,
+      "metin": "Saman alevi gibi parlamak",
+      "tur": "Deyim",
       "kelimeSayisi": 4,
       "harfSayisi": 22
     },
     {
-      "id": 100,
+      "id": 136,
+      "metin": "Taşı sıksa suyunu çıkarır",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 22
+    },
+    {
+      "id": 137,
       "metin": "Vur patlasın çal oynasın",
-      "tur": "deyim",
+      "tur": "Deyim",
       "kelimeSayisi": 4,
       "harfSayisi": 21
+    },
+    {
+      "id": 138,
+      "metin": "Ağzında bakla ıslanmamak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 22
+    },
+    {
+      "id": 139,
+      "metin": "Ateş püskürmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 13
+    },
+    {
+      "id": 140,
+      "metin": "Başının etini yemek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 17
+    },
+    {
+      "id": 141,
+      "metin": "Bin dereden su getirmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 20
+    },
+    {
+      "id": 142,
+      "metin": "Burun kıvırmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 13
+    },
+    {
+      "id": 143,
+      "metin": "Can damarına basmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 17
+    },
+    {
+      "id": 144,
+      "metin": "Çalmadan oynamak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 15
+    },
+    {
+      "id": 145,
+      "metin": "Dara düşmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 10
+    },
+    {
+      "id": 146,
+      "metin": "Deli divane olmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 15
+    },
+    {
+      "id": 147,
+      "metin": "Dillere destan olmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 18
+    },
+    {
+      "id": 148,
+      "metin": "Dünya gözüyle görmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 18
+    },
+    {
+      "id": 149,
+      "metin": "Ekmeğini taştan çıkarmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 22
+    },
+    {
+      "id": 150,
+      "metin": "Gözü arkada kalmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 16
+    },
+    {
+      "id": 151,
+      "metin": "Hava atmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 9
+    },
+    {
+      "id": 152,
+      "metin": "İki ayağını bir pabuca sokmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 5,
+      "harfSayisi": 25
+    },
+    {
+      "id": 153,
+      "metin": "İpe un sermek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 11
+    },
+    {
+      "id": 154,
+      "metin": "Kabuğuna çekilmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 16
+    },
+    {
+      "id": 155,
+      "metin": "Karnı zil çalmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 14
+    },
+    {
+      "id": 156,
+      "metin": "Kılı kırk yarmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 14
+    },
+    {
+      "id": 157,
+      "metin": "Limon sıkmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 158,
+      "metin": "Mırın kırın etmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 15
+    },
+    {
+      "id": 159,
+      "metin": "Nabza göre şerbet vermek",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 21
+    },
+    {
+      "id": 160,
+      "metin": "Ocağı sönmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 161,
+      "metin": "Öküzün altında buzağı aramak",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 25
+    },
+    {
+      "id": 162,
+      "metin": "Pabuç bırakmamak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 15
+    },
+    {
+      "id": 163,
+      "metin": "Rengi atmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 10
+    },
+    {
+      "id": 164,
+      "metin": "Sinekten yağ çıkarmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 19
+    },
+    {
+      "id": 165,
+      "metin": "Suyu ısınmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 166,
+      "metin": "Şeytanın bacağını kırmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 22
+    },
+    {
+      "id": 167,
+      "metin": "Tası tarağı toplamak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 18
+    },
+    {
+      "id": 168,
+      "metin": "Tepesi atmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 2,
+      "harfSayisi": 11
+    },
+    {
+      "id": 169,
+      "metin": "Ununu eleyip eleğini asmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 23
+    },
+    {
+      "id": 170,
+      "metin": "Üstüne soğuk su içmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 18
+    },
+    {
+      "id": 171,
+      "metin": "Vız gelip tırıs gitmek",
+      "tur": "Deyim",
+      "kelimeSayisi": 4,
+      "harfSayisi": 19
+    },
+    {
+      "id": 172,
+      "metin": "Yağlı kapı bulmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 15
+    },
+    {
+      "id": 173,
+      "metin": "Zilzurna sarhoş olmak",
+      "tur": "Deyim",
+      "kelimeSayisi": 3,
+      "harfSayisi": 19
     }
   ]
 }
