@@ -6,6 +6,9 @@ on:
     - cron: '0 0 * * 6'
   workflow_dispatch: # Manuel tetikleme
 
+permissions:
+  contents: write
+
 jobs:
   update-history:
     runs-on: ubuntu-latest
