@@ -1,15 +1,15 @@
 {
-  "son_guncelleme": "2026-10-13T20:07:41Z",
+  "son_guncelleme": "2026-10-14T11:25:26Z",
   "kaynak": "Yahoo Finance",
   "kurlar": {
-    "USDTRY": 49.3589,
-    "EURTRY": 55.3124,
-    "GBPTRY": 65.4227,
-    "GOLD": 4187.5,
-    "SILVER": 59.485,
-    "BTC": 83190.6016,
-    "BIST100": 12250.6797,
-    "GRAM_ALTIN": 6645.25,
-    "GRAM_GUMUS": 94.4
+    "USDTRY": 49.3875,
+    "EURTRY": 55.3149,
+    "GBPTRY": 65.5082,
+    "GOLD": 4160.8999,
+    "SILVER": 58.73,
+    "BTC": 83329.6562,
+    "BIST100": 12214.0703,
+    "GRAM_ALTIN": 6606.86,
+    "GRAM_GUMUS": 93.25
   }
 }
