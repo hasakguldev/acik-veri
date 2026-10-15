@@ -26,11 +26,26 @@ Alan adı hiçbir yerde sabit yazılmaz; tek bir yapılandırma değişkeninden 
 | Lise tercih listesi | `lgs/light/schools.json` | 337 KB |
 | Yetenek sınavı okulları | `lgs/light/yetenek.json` | 35 KB |
 | Vergi / SGK / harç parametreleri | `parametreler/<yil>.json` | 2,3 KB |
+| İl listesi, il → ilçe açılır listesi | `adres/iller.json`, `adres/ilceler.json` | 5 KB, 54 KB |
+| Bir ilin mahalleleri (seçim ekranı) | `adres/mahalleler/<plaka>.json` | 2 – 400 KB |
+| Tüm ülke (sunucuda içe aktarma) | `adres/tum.json` | 5,6 MB |
 | Katalog, sürüm, hangi veri var | `manifest.json` | 2 KB |
 
 > **Kural:** Liste ve filtreleme için **daima hafif indeksi** kullanın. Tam
 > dosyalar yalnızca tek bir programın ayrıntısı gerektiğinde, tembel olarak
 > çekilmelidir.
+
+---
+
+### Adres verisi (`adres/`)
+
+- Kullanıcıya önce il, sonra ilçe gösterin; mahalle dosyasını yalnız il seçilince
+  çekin (`mahalleler/<plaka>.json`). Tüm ülke dosyası tarayıcı için büyüktür.
+- Seçimleri **kimlikle** saklayın (`34-kartal-atalar`), yanına adı da yazın: PTT bir
+  mahalleyi yeniden adlandırırsa kimlik değişir, eski seçim adla gösterilebilir.
+- Üretimde `@main` yerine bir commit'e sabitleyin
+  (`.../acik-veri@<sha>/adres/...`); aylık güncelleme o zaman yalnız siz sürümü
+  yükselttiğinizde gelir.
 
 ---
 

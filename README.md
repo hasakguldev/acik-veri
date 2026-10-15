@@ -19,6 +19,7 @@
   - [1. YKS Üniversite Yerleştirme ve Sıralama Verileri (`yks/`)](#1-yks-%C3%BCniversite-yerle%C5%9Ftirme-ve-s%C4%B1ralama-verileri-yks)
   - [2. LGS Lise Taban Puanları ve Tercih Verileri (`lgs/`)](#2-lgs-lise-taban-puanlar%C4%B1-ve-tercih-verileri-lgs)
   - [3. Resmî Mevzuat ve Finansal Parametreler (`parametreler/`)](#3-resm%C3%AE-mevzuat-ve-finansal-parametreler-parametreler)
+  - [5. Türkiye İl, İlçe ve Mahalle Listesi (`adres/`)](#5-türkiye-il-ilçe-ve-mahalle-listesi-adres)
 - [💻 Kod Örnekleri (Hızlı Entegrasyon)](#-kod-%C3%B6rnekleri-h%C4%B1zl%C4%B1-entegrasyon)
   - [JavaScript / TypeScript / React](#javascript--typescript--react)
   - [Python (Pandas / Requests)](#python-pandas--requests)
@@ -92,6 +93,25 @@ TCMB EVDS ve Yahoo Finance üzerinden otomatik güncellenen canlı ve tarihsel d
 |---|---|---|---|
 | **Canlı Piyasa Kurları** | USD/TRY, EUR/TRY, GBP/TRY, Ons/Gram Altın, Ons/Gram Gümüş, BTC/USD, BIST100 | **Günde 10 Kez (Mesai Saatleri / Saat Başı)** | [`finans/canli-kurlar.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/finans/canli-kurlar.json) |
 | **Tarihsel Fiyat & TÜFE Arşivi** | 1980-2026 kesintisiz zincirlenmiş TÜFE (2003=100), Dolar, Euro, Gram Altın, Gram Gümüş, Benzin, BTC, BIST100 | **Haftalık (Her Cumartesi Gece)** | [`finans/tarihsel-fiyatlar.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/finans/tarihsel-fiyatlar.json) |
+
+---
+
+### 5. Türkiye İl, İlçe ve Mahalle Listesi (`adres/`)
+PTT A.Ş. posta kodu listesinden üretilen **81 il, 973 ilçe ve 73.299 mahalle/köy**. Her kayıt kararlı bir kimlik ve posta kodu taşır; teslimat bölgesi seçimi, adres formları ve il → ilçe → mahalle açılır listeleri için hazırdır. Liste her ay PTT'den otomatik yenilenir (`.github/workflows/adres-guncelle.yml`).
+
+| Veri Seti | Kapsam | Boyut | Doğrudan CDN Bağlantısı (JSON) |
+|---|---|---|---|
+| **İller** | 81 il; plaka kodu, ilçe ve mahalle sayısı | 5 KB | [`adres/iller.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/adres/iller.json) |
+| **İlçeler** | İl koduna göre 973 ilçe (`{"34": [{id, ad, mahalleSayisi}]}`) | 54 KB | [`adres/ilceler.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/adres/ilceler.json) |
+| **Bir ilin mahalleleri** | İlin tüm ilçe ve mahalle/köyleri; tembel yükleme için | 2–400 KB | [`adres/mahalleler/34.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/adres/mahalleler/34.json) |
+| **Tüm ülke** | Bütün iller tek dosyada (sunucu tarafı içe aktarma için) | 5,6 MB | [`adres/tum.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/adres/tum.json) |
+| **Metaveri** | Kaynak, kaynak tarihi, sayılar, kimlik kuralı | 1 KB | [`adres/meta.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/adres/meta.json) |
+
+Mahalle satırları dizi biçimindedir: `["34-kartal-atalar", "Atalar Mahallesi", "mahalle", "34862"]` → `[id, ad, tur, pk]`. `tur`: `mahalle`, `koy` veya `diger` (yayla, mezra).
+
+**Kimlik kuralı:** il = plaka (`"34"`), ilçe = `"34-kartal"`, mahalle = `"34-kartal-atalar"`; köyler `-koyu` ekiyle, bir köye/beldeye bağlı mahalleler bağlı yerin adıyla (`"02-besni-cakmak-akdurak-koyu"`). Kimlik addan türetildiği için yeniden adlandırılan bir mahallenin kimliği de değişir; seçimleri saklarken kimlikle birlikte adı da saklayın.
+
+Yeniden üretmek için: `python scripts/build_adres.py --ptt pk_list.zip` ([PTT posta kodu sayfası](https://postakodu.ptt.gov.tr)).
 
 ---
 

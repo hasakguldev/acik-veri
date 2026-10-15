@@ -1,0 +1,47 @@
+name: Adres (İl/İlçe/Mahalle) Listesini Güncelle
+
+on:
+  schedule:
+    # Her ayın 3'ü UTC 03:30 (Türkiye 06:30)
+    - cron: '30 3 3 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-adres:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu Klonla
+        uses: actions/checkout@v4
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gereksinimleri Yükle
+        run: pip install openpyxl
+
+      - name: PTT Posta Kodu Listesini İndir
+        # İndirme başarısız olursa iş durur; mevcut veri değişmez.
+        run: curl -fsSL --retry 3 --retry-delay 20 -A "Mozilla/5.0 (acik-veri)" -o /tmp/pk_list.zip https://postakodu.ptt.gov.tr/Dosyalar/pk_list.zip
+
+      - name: Adres Veri Setini Üret ve Doğrula
+        run: |
+          python scripts/build_adres.py --ptt /tmp/pk_list.zip
+          python scripts/verify_repo.py
+
+      - name: Değişiklikleri Git'e Ekle ve Push Et
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add adres manifest.json
+          # Yalnız meta tarihi değiştiyse (veri aynıysa) commit atılmaz.
+          if git diff --staged --quiet -- adres/mahalleler adres/iller.json adres/ilceler.json adres/tum.json; then
+            echo "Adres verisinde değişiklik yok."
+          else
+            git commit -m "🤖 Otomatik Güncelleme: PTT adres listesi [skip ci]" && git push
+          fi

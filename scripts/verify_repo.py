@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import os, json
 
-base = r'C:\Users\HP\proje\acik-veri'
+_yerel = r'C:\Users\HP\proje\acik-veri'
+base = _yerel if os.path.isdir(_yerel) else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def dir_size(path):
     total = 0
@@ -57,6 +58,30 @@ print(f"3. Parametreler ({len(pfiles)} dosya, {psize:.1f} KB):")
 for pf in pfiles:
     print(f"   - {pf}")
 print()
+
+# Adres (il / ilçe / mahalle)
+adir = os.path.join(base, 'adres')
+with open(os.path.join(adir, 'meta.json'), 'r', encoding='utf-8') as f:
+    ameta = json.load(f)
+with open(os.path.join(adir, 'iller.json'), 'r', encoding='utf-8') as f:
+    aller = json.load(f)
+kimlikler = set()
+toplam = 0
+for il in aller:
+    with open(os.path.join(adir, 'mahalleler', f"{il['kod']}.json"), 'r', encoding='utf-8') as f:
+        ilv = json.load(f)
+    assert len(ilv['ilceler']) == il['ilceSayisi'], f"{il['kod']}: ilçe sayısı tutmuyor"
+    for ilce in ilv['ilceler']:
+        assert ilce['id'] not in kimlikler, f"Yinelenen kimlik: {ilce['id']}"
+        kimlikler.add(ilce['id'])
+        for m in ilce['mahalleler']:
+            assert m[0] not in kimlikler, f"Yinelenen kimlik: {m[0]}"
+            kimlikler.add(m[0])
+            toplam += 1
+assert len(aller) == 81, 'Adres: 81 il beklenir'
+assert toplam == ameta['counts']['toplam'], 'Adres: meta sayısı tutmuyor'
+print(f"4. Adres (il/ilçe/mahalle) — kaynak {ameta['source']} ({ameta['sourceDate']}):")
+print(f"   {ameta['counts']['il']} il, {ameta['counts']['ilce']} ilçe, {toplam} mahalle/köy; kimlikler eşsiz\n")
 
 # Toplam
 total_bytes = 0
