@@ -14,7 +14,9 @@ Ne yapar:
      `ek: {quota, placed, minScore, maxScore}` ekler (genel ek kontenjan).
   3. Başarı sırası ölçülmemiş yıllara kopyalanmış minRank değerlerini
      temizler (ÖSYM bu tablolarda sıra yayımlamaz).
-  4. departments.json ve meta.json dosyalarını yeniden üretir.
+  4. Adında il yazmayan üniversitelerin programlarına ili
+     scripts/veri/universite_sehir.json'dan yazar (ÖSYM'nin ili önceliklidir).
+  5. departments.json ve meta.json dosyalarını yeniden üretir.
 
 Ardından hafif indeks yeniden üretilmelidir:
   python scripts/build_light_index.py
@@ -40,6 +42,7 @@ from convert_yks import parse_program_details, parse_university_city, SCORE_TYPE
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 YKS = os.path.join(KOK, 'yks')
 PUAN_TURLERI = ['tyt', 'say', 'ea', 'soz', 'dil']
+SEHIR_DOSYASI = os.path.join(KOK, 'scripts', 'veri', 'universite_sehir.json')
 
 
 def sayi(v):
@@ -187,6 +190,23 @@ def main():
     ek_yalniz = [k for k in ek if k not in ana]
     if ek_yalniz:
         print(f'  ! Ek tabloda olup ana tabloda olmayan {len(ek_yalniz)} program atlandı')
+
+    # Adında il yazmayan üniversitelerin ilini doldur
+    with open(SEHIR_DOSYASI, encoding='utf-8') as f:
+        univ_sehir = json.load(f)['sehirler']
+    bilinmeyen = set()
+    for p in programlar.values():
+        if not p.get('city'):
+            sehir = univ_sehir.get(p.get('university'))
+            if sehir:
+                p['city'] = sehir
+                sayac['sehir_dolduruldu'] += 1
+            else:
+                bilinmeyen.add(p.get('university'))
+    if bilinmeyen:
+        print(f'  ! İli bilinmeyen {len(bilinmeyen)} üniversite ({SEHIR_DOSYASI} dosyasına ekleyin):')
+        for u in sorted(bilinmeyen, key=str):
+            print(f'      {u}')
 
     # Sıra kopyalarını temizle, geçmişi sırala, latest'i kur
     for p in programlar.values():

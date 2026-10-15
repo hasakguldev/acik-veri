@@ -131,7 +131,7 @@ Hazır uygulama: `public/js/core/acikVeri.js` (Sitematik).
 | `Infinity` JSON'da yok | Vergi dilimlerinin son basamağı `"limit": null` | Bilinen üst-sınır alanlarında `null` → `Infinity` çevirisi yapın |
 | Anahtar adı farkı | `sgk.isciPayi` (uzak) ≠ `sgk.iscipayi` (yerel) | Normalizasyon katmanında eşleme haritası tutun |
 | Uzak parametreler alt küme | 26 anahtar var, tüketicide ~70 | Uzak veri yereli **değiştirmez, üzerine yazar**; eksik anahtarlar korunur |
-| Şehir alanı boş olabilir | Bazı programlarda `city` null | Arayüzde `—` gösterin, filtrede boşları dışlayın |
+| Şehir alanı (Ekim 2026 öncesi) | Eski sürümde ~12.900 programda `city` null idi | v2.7.0 ile her programda dolu; eski önbellek/yedek veri için `—` gösterimini koruyun |
 | Kapanmış / dolmamış program | 2025 tabanı 2026 tabanıymış gibi görünür | `lastYear` ve `scoreYear` karşılaştırın (yukarıdaki tablo) |
 | Puan yılı ≠ sıra yılı | 2026 taban puanının yanında 2024 sırası | `scoreYear` / `rankYear` sütunlarını okuyun; ikisini tek yıl gibi göstermeyin |
 | Yurt dışı programlar KKTC kovasında | `type: 2` hem KKTC hem yurt dışı | Şehir `KKTC-` ile başlıyorsa KKTC, değilse yurt dışı |

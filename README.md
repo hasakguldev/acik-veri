@@ -53,7 +53,7 @@ Geleneksel olarak ÖSYM ve MEB verileri yüzlerce sayfalık PDF veya karmaşık 
 | **Dil (DİL)** | 4 Yıllık Mütercim-Tercümanlık, Dil/Edebiyat Programları | **724** Program | [`yks/programs_dil.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_dil.json) |
 | **Ön Lisans (TYT)** | 2 Yıllık Meslek Yüksekokulu (MYO) Programları | **9.971** Program | [`yks/programs_tyt.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_tyt.json) |
 | **Bölüm Kataloğu** | Türkiye'deki tüm üniversite bölümlerinin özet istatistikleri | **957** Bölüm | [`yks/departments.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/departments.json) |
-| **Metaveri** | 228 Üniversite, 40 Şehir ve Program Sayıları | Meta | [`yks/meta.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/meta.json) |
+| **Metaveri** | 229 Üniversite, 81 İl + 11 KKTC/Yurt Dışı Şehri ve Program Sayıları | Meta | [`yks/meta.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/meta.json) |
 
 ---
 

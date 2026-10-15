@@ -1,6 +1,6 @@
 # 🎓 YKS Üniversite Taban Puanları, Başarı Sıraları & Kontenjan Veri Seti (2022-2026)
 
-Bu dizin, ÖSYM YKS (Yükseköğretim Kurumları Sınavı) merkezi yerleştirme verilerini içerir. Türkiye'deki 228 devlet, vakıf ve KKTC üniversitesinin tüm lisans ve ön lisans programları 5 yıllık başarı sırası ve taban puan geçmişiyle normalize edilmiştir.
+Bu dizin, ÖSYM YKS (Yükseköğretim Kurumları Sınavı) merkezi yerleştirme verilerini içerir. Türkiye'deki 229 devlet, vakıf ve KKTC üniversitesinin tüm lisans ve ön lisans programları 5 yıllık başarı sırası ve taban puan geçmişiyle normalize edilmiştir.
 
 ## 📊 Puan Türlerine Göre Dosyalar ve CDN Bağlantıları
 
@@ -12,14 +12,14 @@ Bu dizin, ÖSYM YKS (Yükseköğretim Kurumları Sınavı) merkezi yerleştirme 
 | **DİL** | İngiliz Dili, Mütercim-Tercümanlık, Dilbilim | **724** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_dil.json` |
 | **TYT** | 2 Yıllık Ön Lisans / Meslek Yüksekokulları | **9.971** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_tyt.json` |
 | **Bölümler** | 957 Kanonik Bölüm Özeti (Min-Max Puanlar) | **957** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/departments.json` |
-| **Metaveri** | 228 Üniversite ve 40 Şehir Kataloğu | Meta | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/meta.json` |
+| **Metaveri** | 229 Üniversite, 81 İl + 11 KKTC/Yurt Dışı Şehri Kataloğu | Meta | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/meta.json` |
 
 ## 🔍 Veri Alanları Açıklaması
 
 - `code`: ÖSYM 9 haneli benzersiz program kodu (Örn: `106510077`)
 - `univType`: Üniversite Türü (`DEVLET` | `VAKIF` | `KKTC` | `YABANCI`)
 - `university`: Üniversite Adı
-- `city`: Üniversitenin Bulunduğu İl
+- `city`: Üniversitenin Bulunduğu İl (her programda dolu; ÖSYM adında il yazmayan üniversitelerde `scripts/veri/universite_sehir.json`dan)
 - `faculty`: Fakülte veya Yüksekokul Adı
 - `program`: Bölüm / Program Adı
 - `scoreType`: Puan Türü (`SAY`, `EA`, `SOZ`, `DIL`, `TYT`)
