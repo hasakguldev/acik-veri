@@ -53,10 +53,12 @@ Tam veriden **%75-90 küçüktür**.
   "fields": ["code","u","c","p","f","sch","lang","edu","type",
              "minScore","minRank","quota","prevScore","prevRank",
              "scoreYear","prevScoreYear","rankYear","prevRankYear",
-             "proj","trend"],
+             "proj","trend",
+             "lastYear","lastQuota","lastPlaced","ekQuota","ekPlaced","ekMin"],
   "rows": [
     ["106510077", 0, 0, 0, 0, "none", "en", "formal", 0,
-     443.23, 46890, 80, 442.53, 40125, 2026, 2025, 2024, 2022, 46890, "flat"]
+     443.23, 46890, 80, 442.53, 40125, 2026, 2025, 2024, 2022, 46890, "flat",
+     2026, 80, 80, 1, 1, 450.12]
   ]
 }
 ```
@@ -72,7 +74,7 @@ satırın puanı ile sırası **farklı yıllara** ait olabilir:
 
 | Sütun | Anlamı |
 |---|---|
-| `scoreYear` | `minScore` / `quota` hangi yıla ait |
+| `scoreYear` | `minScore` / `quota` hangi yıla ait (taban puanı olan en güncel yıl) |
 | `prevScoreYear` | `prevScore` hangi yıla ait |
 | `rankYear` | `minRank` hangi yıla ait |
 | `prevRankYear` | `prevRank` hangi yıla ait |
@@ -81,6 +83,17 @@ satırın puanı ile sırası **farklı yıllara** ait olabilir:
 
 Arayüzde yıl etiketini **daima bu sütunlardan** basın. `year` alanı yalnızca
 indeksin genel yılıdır; satır bazında `scoreYear` bağlayıcıdır.
+
+Son altı sütun (Ekim 2026'da eklendi, eski istemciler görmezden gelebilir):
+
+| Sütun | Anlamı |
+|---|---|
+| `lastYear` | Programın kontenjan verdiği en son yıl. `lastYear < indeks year` → program o yıl **açılmadı** (kapandı ya da kodu değişti); tercih listesinde önermeyin ya da işaretleyin |
+| `lastQuota` / `lastPlaced` | `lastYear` yılının genel kontenjanı ve yerleşen sayısı. `lastYear > scoreYear` → program o yıl açıldı ama **hiç dolmadı** (taban puan oluşmadı); `minScore` önceki yılındır |
+| `ekQuota` / `ekPlaced` / `ekMin` | `lastYear` yılının **ek yerleştirme** genel ek kontenjanı, yerleşen ve en küçük puanı (`ekMin` null → ek yerleştirmede de puan oluşmadı) |
+
+Hiç taban puanı olmayan programlar (yalnız tam dosyada; ör. hiç dolmamış KKTC
+uyruklu kontenjanları) hafif indekse **girmez**; `minScore` her satırda doludur.
 
 LGS indeksi aynı mantıkta: `dicts.{city,district,school,type,field}` ve
 `fields: ["code","c","d","s","t","f","cat","minScore","quota","lang","boarding"]`.
@@ -119,6 +132,7 @@ Hazır uygulama: `public/js/core/acikVeri.js` (Sitematik).
 | Anahtar adı farkı | `sgk.isciPayi` (uzak) ≠ `sgk.iscipayi` (yerel) | Normalizasyon katmanında eşleme haritası tutun |
 | Uzak parametreler alt küme | 26 anahtar var, tüketicide ~70 | Uzak veri yereli **değiştirmez, üzerine yazar**; eksik anahtarlar korunur |
 | Şehir alanı boş olabilir | Bazı programlarda `city` null | Arayüzde `—` gösterin, filtrede boşları dışlayın |
+| Kapanmış / dolmamış program | 2025 tabanı 2026 tabanıymış gibi görünür | `lastYear` ve `scoreYear` karşılaştırın (yukarıdaki tablo) |
 | Puan yılı ≠ sıra yılı | 2026 taban puanının yanında 2024 sırası | `scoreYear` / `rankYear` sütunlarını okuyun; ikisini tek yıl gibi göstermeyin |
 | Yurt dışı programlar KKTC kovasında | `type: 2` hem KKTC hem yurt dışı | Şehir `KKTC-` ile başlıyorsa KKTC, değilse yurt dışı |
 
@@ -127,7 +141,8 @@ Hazır uygulama: `public/js/core/acikVeri.js` (Sitematik).
 ## 6. Veri güncelleme akışı
 
 ```bash
-python scripts/convert_yks.py          # ham veri → tam JSON
+python scripts/update_yks_osym.py --year 2026 --t3 … --t4 … --ek-t3 … --ek-t4 …
+                                       # ÖSYM puan tabloları → tam JSON (birleşik dosyalar)
 python scripts/build_light_index.py    # tam JSON → hafif indeks
 python scripts/verify_repo.py          # tutarlılık denetimi
 git commit -am "veri: 2027 yerleştirme sonuçları" && git push

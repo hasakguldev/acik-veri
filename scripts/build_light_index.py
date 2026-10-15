@@ -83,26 +83,35 @@ def yks_indeksi(puan_turu: str):
     d_univ, d_city, d_prog, d_fac = Sozluk(), Sozluk(), Sozluk(), Sozluk()
     satirlar = []
     yil = None
+    atlanan = 0
 
     for p in programlar:
         gecmis = p.get("history") or []
-        son = p.get("latest") or (gecmis[0] if gecmis else {})
-        if yil is None:
-            yil = son.get("year")
+        son_yil = gecmis[0] if gecmis else {}
+        if son_yil.get("year") is not None:
+            yil = max(yil or 0, son_yil["year"])
 
-        # --- taban puan: en güncel yıl + ondan önceki ölçüm -------------------
+        # --- taban puan: puanı olan en güncel yıl + ondan önceki ölçüm --------
+        # Bir program son yılda açılıp hiç dolmamış olabilir (puan yok); o zaman
+        # taban puan bir önceki yılın ölçümüdür ve scoreYear bunu söyler.
+        son = next((h for h in gecmis if h.get("minScore") is not None), None)
+        if son is None:
+            atlanan += 1  # hiç taban puanı olmayan program listeye girmez
+            continue
         puan_yil = son.get("year")
         onceki = None
         for h in gecmis:
             if h is son or h.get("year") == puan_yil:
                 continue
-            if h.get("minScore") is not None:
+            if h.get("minScore") is not None and h.get("year") < puan_yil:
                 onceki = h
                 break
+        ek = son_yil.get("ek") or {}
 
         # --- başarı sırası: puandan bağımsız izlenir --------------------------
-        # Kaynakta 2024 sırası 2025 ve 2026'ya da kopyalanmıştır; aynı değeri
-        # iki ayrı yıl gibi göstermemek için sıra serisi, DEĞERİ değişen en
+        # Eski kaynakta 2024 sırası 2025 ve 2026'ya da kopyalanmıştı
+        # (update_yks_osym.py bu kopyaları siler); yine de aynı değeri iki
+        # ayrı yıl gibi göstermemek için sıra serisi, DEĞERİ değişen en
         # yakın iki ölçümden kurulur ve her ikisinin de yılı satıra yazılır.
         sira_kayitlari = [h for h in gecmis if h.get("minRank") is not None]
         sira = sira_kayitlari[0] if sira_kayitlari else None
@@ -143,6 +152,12 @@ def yks_indeksi(puan_turu: str):
             onceki_sira.get("year") if onceki_sira else None,
             p.get("projectedRank"),
             p.get("rankTrend"),
+            son_yil.get("year"),
+            son_yil.get("quota"),
+            son_yil.get("placed"),
+            ek.get("quota"),
+            ek.get("placed"),
+            yuvarla(ek.get("minScore"), 3),
         ])
 
     veri = {
@@ -160,6 +175,7 @@ def yks_indeksi(puan_turu: str):
             "minScore", "minRank", "quota", "prevScore", "prevRank",
             "scoreYear", "prevScoreYear", "rankYear", "prevRankYear",
             "proj", "trend",
+            "lastYear", "lastQuota", "lastPlaced", "ekQuota", "ekPlaced", "ekMin",
         ],
         "rows": satirlar,
     }
@@ -169,7 +185,8 @@ def yks_indeksi(puan_turu: str):
     kaynak_boyut = kaynak.stat().st_size
     print(f"  yks/light/{puan_turu}.json  {len(satirlar):>6} program  "
           f"{kaynak_boyut/1048576:>6.2f} MB → {boyut/1048576:>5.2f} MB  "
-          f"(%{100 - boyut*100/kaynak_boyut:.0f} küçüldü)")
+          f"(%{100 - boyut*100/kaynak_boyut:.0f} küçüldü)"
+          + (f"  · puansız {atlanan} program dışarıda" if atlanan else ""))
     return {"file": f"light/{puan_turu}.json", "count": len(satirlar), "bytes": boyut}
 
 

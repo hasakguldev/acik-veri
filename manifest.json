@@ -1,12 +1,12 @@
 {
-  "version": "2.6.0",
-  "updatedAt": "2026-09-29",
+  "version": "2.7.0",
+  "updatedAt": "2026-10-15",
   "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
   "datasets": {
     "yks": {
       "name": "YKS Üniversite Yerleştirme Verileri (Birleşik Model)",
-      "description": "ÖSYM YKS merkezi yerleştirme taban/tavan puanları, kontenjanlar, 5 yıllık sıralama geçmişi (2022-2026) ve bölüm istatistikleri",
+      "description": "ÖSYM YKS merkezi yerleştirme ve ek yerleştirme taban/tavan puanları, kontenjanlar, 5 yıllık sıralama geçmişi (2022-2026) ve bölüm istatistikleri",
       "model": "unique-program-history-array",
       "yearsIncluded": [
         2022,
@@ -28,7 +28,7 @@
         "departments.json"
       ],
       "light": {
-        "description": "Sözlük kodlamalı hafif indeks — tercih ve karşılaştırma araçları için (tam veriden ~%86 küçük). Satır başına scoreYear/rankYear etiketleri, öngörülen sıra (proj) ve trend taşır.",
+        "description": "Sözlük kodlamalı hafif indeks — tercih ve karşılaştırma araçları için (tam veriden ~%86 küçük). Satır başına scoreYear/rankYear etiketleri, öngörülen sıra (proj) ve trend; son açılış yılı (lastYear), son yıl kontenjan/yerleşen ve ek yerleştirme sütunları (ekQuota/ekPlaced/ekMin) taşır.",
         "basePath": "yks/light/",
         "format": "dict-encoded-rows",
         "files": [

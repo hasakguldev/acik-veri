@@ -6,11 +6,11 @@ Bu dizin, ÖSYM YKS (Yükseköğretim Kurumları Sınavı) merkezi yerleştirme 
 
 | Puan Türü | Kapsanan Alanlar | Program Sayısı | JSON CDN URL |
 |---|---|---|---|
-| **SAY** | Tıp, Diş Hekimliği, Mühendislik, Mimarlık, Fen | **5.757** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_say.json` |
-| **EA** | Hukuk, Psikoloji, İşletme, İktisat, PDR | **4.178** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_ea.json` |
-| **SÖZ** | İlahiyat, İletişim, Özel Eğitim, Tarih, Coğrafya | **1.980** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_soz.json` |
-| **DİL** | İngiliz Dili, Mütercim-Tercümanlık, Dilbilim | **709** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_dil.json` |
-| **TYT** | 2 Yıllık Ön Lisans / Meslek Yüksekokulları | **9.862** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_tyt.json` |
+| **SAY** | Tıp, Diş Hekimliği, Mühendislik, Mimarlık, Fen | **6.044** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_say.json` |
+| **EA** | Hukuk, Psikoloji, İşletme, İktisat, PDR | **4.271** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_ea.json` |
+| **SÖZ** | İlahiyat, İletişim, Özel Eğitim, Tarih, Coğrafya | **2.024** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_soz.json` |
+| **DİL** | İngiliz Dili, Mütercim-Tercümanlık, Dilbilim | **724** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_dil.json` |
+| **TYT** | 2 Yıllık Ön Lisans / Meslek Yüksekokulları | **9.971** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_tyt.json` |
 | **Bölümler** | 957 Kanonik Bölüm Özeti (Min-Max Puanlar) | **957** | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/departments.json` |
 | **Metaveri** | 228 Üniversite ve 40 Şehir Kataloğu | Meta | `https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/meta.json` |
 
@@ -27,6 +27,8 @@ Bu dizin, ÖSYM YKS (Yükseköğretim Kurumları Sınavı) merkezi yerleştirme 
 - `language`: Öğretim Dili ISO Kodu (`tr`, `en`, `de`, `fr` vb.)
 - `eduType`: Öğretim Türü (`formal` = Örgün, `distance` = Açık/Uzaktan, `evening` = İkinci Öğretim)
 - `latest`: En son yerleştirme yılına ait kontenjan, yerleşen, taban puan ve sıralama
-- `history`: 2026, 2025, 2024, 2023 ve 2022 yıllarına ait sıralı geçmiş dizisi
+- `history`: 2026, 2025, 2024, 2023 ve 2022 yıllarına ait sıralı geçmiş dizisi (en yeni başta). Bir yılda kontenjan açılıp hiç yerleşen olmadıysa o yılın `minScore`/`maxScore` değeri `null`dur.
+- `history[].ek`: O yılın **ek yerleştirme** sonucu (genel ek kontenjan): `{quota, placed, minScore, maxScore}`. Şu an 2026 için dolu.
+- `history[].minRank`: Yalnız başarı sırasının gerçekten ölçüldüğü yıllarda doludur (şu an 2022–2024); ÖSYM puan tablolarında sıra yayımlanmaz.
 - `rankTrend`: Başarı sırası trendi (`up` = Yükseliyor/Zorlaşıyor, `down` = Düşüyor, `flat` = Yatay)
 - `projectedRank`: Tahmini başarı sırası beklentisi

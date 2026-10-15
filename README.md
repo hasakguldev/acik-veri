@@ -47,11 +47,11 @@ Geleneksel olarak ÖSYM ve MEB verileri yüzlerce sayfalık PDF veya karmaşık 
 
 | Veri Seti | Kapsam | Kayıt Sayısı | Doğrudan CDN Bağlantısı (JSON) |
 |---|---|---|---|
-| **Sayısal (SAY)** | 4 Yıllık Mühendislik, Tıp, Fen Lisans Programları | **5.757** Program | [`yks/programs_say.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_say.json) |
-| **Eşit Ağırlık (EA)** | 4 Yıllık Hukuk, İİBF, Psikoloji Lisans Programları | **4.178** Program | [`yks/programs_ea.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_ea.json) |
-| **Sözel (SÖZ)** | 4 Yıllık İletişim, Tarih, İlahiyat Lisans Programları | **1.980** Program | [`yks/programs_soz.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_soz.json) |
-| **Dil (DİL)** | 4 Yıllık Mütercim-Tercümanlık, Dil/Edebiyat Programları | **709** Program | [`yks/programs_dil.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_dil.json) |
-| **Ön Lisans (TYT)** | 2 Yıllık Meslek Yüksekokulu (MYO) Programları | **9.862** Program | [`yks/programs_tyt.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_tyt.json) |
+| **Sayısal (SAY)** | 4 Yıllık Mühendislik, Tıp, Fen Lisans Programları | **6.044** Program | [`yks/programs_say.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_say.json) |
+| **Eşit Ağırlık (EA)** | 4 Yıllık Hukuk, İİBF, Psikoloji Lisans Programları | **4.271** Program | [`yks/programs_ea.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_ea.json) |
+| **Sözel (SÖZ)** | 4 Yıllık İletişim, Tarih, İlahiyat Lisans Programları | **2.024** Program | [`yks/programs_soz.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_soz.json) |
+| **Dil (DİL)** | 4 Yıllık Mütercim-Tercümanlık, Dil/Edebiyat Programları | **724** Program | [`yks/programs_dil.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_dil.json) |
+| **Ön Lisans (TYT)** | 2 Yıllık Meslek Yüksekokulu (MYO) Programları | **9.971** Program | [`yks/programs_tyt.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/programs_tyt.json) |
 | **Bölüm Kataloğu** | Türkiye'deki tüm üniversite bölümlerinin özet istatistikleri | **957** Bölüm | [`yks/departments.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/departments.json) |
 | **Metaveri** | 228 Üniversite, 40 Şehir ve Program Sayıları | Meta | [`yks/meta.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/yks/meta.json) |
 
