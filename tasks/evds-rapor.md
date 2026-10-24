@@ -1,6 +1,6 @@
 # TCMB EVDS Tarihsel Fiyat Serileri Veri Çekme ve Zincirleme Raporu
 
-**Rapor Tarihi:** 2026-10-17 04:08:49
+**Rapor Tarihi:** 2026-10-24 04:22:43
 
 ## 1. Kimlik Doğrulama Yöntemi
 - **Çalışan Yöntem:** `key` HTTP Başlığı (Header) — `headers={'key': API_KEY}`
