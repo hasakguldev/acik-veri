@@ -1,6 +1,6 @@
 # TCMB EVDS Tarihsel Fiyat Serileri Veri Çekme ve Zincirleme Raporu
 
-**Rapor Tarihi:** 2026-10-24 04:22:43
+**Rapor Tarihi:** 2026-10-31 05:18:44
 
 ## 1. Kimlik Doğrulama Yöntemi
 - **Çalışan Yöntem:** `key` HTTP Başlığı (Header) — `headers={'key': API_KEY}`
@@ -15,7 +15,7 @@
 | `altin` | Gram Altın | `TP.MK.D.AOF.Y + TP.ALTINPIYASA.AGORT03` | 1995-07 | 2026-10 | 376 ay | Doğrudan YTL / Türetilmiş |
 | `gumus` | Gram Gümüş | `TP.GUMUSPIYASA.KAP05 / KAP02` | 2018-07 | 2026-10 | 100 ay | Doğrudan YTL / Türetilmiş |
 | `benzin` | Benzin | `TP.TUKFIY2025.07222` | 2005-01 | 2026-09 | 261 ay | Doğrudan YTL / Türetilmiş |
-| `tufe` | TÜFE | `TP.FG.J0 (Zincirlenmiş)` | 1982-01 | 2026-08 | 536 ay | Doğrudan YTL / Türetilmiş |
+| `tufe` | TÜFE | `TP.FG.J0 (Zincirlenmiş)` | 1982-01 | 2026-01 | 529 ay | Doğrudan YTL / Türetilmiş |
 | `btc` | Bitcoin | `BTC-USD (Yahoo Finance)` | 2014-09 | 2026-10 | 146 ay | Doğrudan YTL / Türetilmiş |
 | `bist100` | Borsa İstanbul 100 | `XU100.IS (Yahoo Finance)` | 1997-07 | 2026-10 | 352 ay | Doğrudan YTL / Türetilmiş |
 
