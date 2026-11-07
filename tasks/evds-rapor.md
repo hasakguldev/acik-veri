@@ -1,6 +1,6 @@
 # TCMB EVDS Tarihsel Fiyat Serileri Veri Çekme ve Zincirleme Raporu
 
-**Rapor Tarihi:** 2026-10-31 05:18:44
+**Rapor Tarihi:** 2026-11-07 05:45:30
 
 ## 1. Kimlik Doğrulama Yöntemi
 - **Çalışan Yöntem:** `key` HTTP Başlığı (Header) — `headers={'key': API_KEY}`
@@ -10,14 +10,14 @@
 ## 2. Kullanılan Seriler ve Tarih Aralıkları
 | Seri | Ad | EVDS Kodları / Yöntem | Başlangıç | Bitiş | Veri Noktası | 10^6 Bölme? |
 |---|---|---|---|---|---|---|
-| `usd` | ABD Doları | `TP.DK.USD.S.YTL` | 1980-01 | 2026-10 | 562 ay | Doğrudan YTL / Türetilmiş |
-| `eur` | Euro | `TP.DK.EUR.S.YTL` | 1999-01 | 2026-10 | 334 ay | Doğrudan YTL / Türetilmiş |
-| `altin` | Gram Altın | `TP.MK.D.AOF.Y + TP.ALTINPIYASA.AGORT03` | 1995-07 | 2026-10 | 376 ay | Doğrudan YTL / Türetilmiş |
-| `gumus` | Gram Gümüş | `TP.GUMUSPIYASA.KAP05 / KAP02` | 2018-07 | 2026-10 | 100 ay | Doğrudan YTL / Türetilmiş |
-| `benzin` | Benzin | `TP.TUKFIY2025.07222` | 2005-01 | 2026-09 | 261 ay | Doğrudan YTL / Türetilmiş |
+| `usd` | ABD Doları | `TP.DK.USD.S.YTL` | 1980-01 | 2026-11 | 563 ay | Doğrudan YTL / Türetilmiş |
+| `eur` | Euro | `TP.DK.EUR.S.YTL` | 1999-01 | 2026-11 | 335 ay | Doğrudan YTL / Türetilmiş |
+| `altin` | Gram Altın | `TP.MK.D.AOF.Y + TP.ALTINPIYASA.AGORT03` | 1995-07 | 2026-11 | 377 ay | Doğrudan YTL / Türetilmiş |
+| `gumus` | Gram Gümüş | `TP.GUMUSPIYASA.KAP05 / KAP02` | 2018-07 | 2026-11 | 101 ay | Doğrudan YTL / Türetilmiş |
+| `benzin` | Benzin | `TP.TUKFIY2025.07222` | 2005-01 | 2026-10 | 262 ay | Doğrudan YTL / Türetilmiş |
 | `tufe` | TÜFE | `TP.FG.J0 (Zincirlenmiş)` | 1982-01 | 2026-01 | 529 ay | Doğrudan YTL / Türetilmiş |
-| `btc` | Bitcoin | `BTC-USD (Yahoo Finance)` | 2014-09 | 2026-10 | 146 ay | Doğrudan YTL / Türetilmiş |
-| `bist100` | Borsa İstanbul 100 | `XU100.IS (Yahoo Finance)` | 1997-07 | 2026-10 | 352 ay | Doğrudan YTL / Türetilmiş |
+| `btc` | Bitcoin | `BTC-USD (Yahoo Finance)` | 2014-09 | 2026-11 | 147 ay | Doğrudan YTL / Türetilmiş |
+| `bist100` | Borsa İstanbul 100 | `XU100.IS (Yahoo Finance)` | 1997-07 | 2026-11 | 353 ay | Doğrudan YTL / Türetilmiş |
 
 ## 3. Gram Altın Türetme Metodolojisi
 - **Problem:** EVDS'teki doğrudan TL/gram altın serisi (`TP.ALTINPIYASA.KAP05`) yalnızca Aralık 2018'den başlamaktadır.
