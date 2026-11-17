@@ -1,6 +1,6 @@
 {
-  "version": "2.8.0",
-  "updatedAt": "2026-10-16",
+  "version": "2.9.0",
+  "updatedAt": "2026-11-17",
   "description": "Türkiye eğitim, sınav, finans ve mevzuat verilerini içeren merkezi açık veri deposu.",
   "cdn": "https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main",
   "datasets": {
@@ -76,9 +76,9 @@
       "name": "Yasal ve Mali Parametreler",
       "description": "Asgari ücret, vergi dilimleri, SGK tavanı, kıdem tazminatı tavanı, MTV, KDV, faiz oranları vb.",
       "years": [
-        "2025"
+        "2026"
       ],
-      "latestYear": "2025",
+      "latestYear": "2026",
       "source": "Resmî Gazete, GİB, SGK, TCMB",
       "basePath": "parametreler/",
       "files": [

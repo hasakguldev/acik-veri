@@ -1,174 +1,249 @@
 {
-  "donem": "2025/2026",
-  "guncelleme": "2026-09-29",
-  "kaynakNotu": "Oranlar ve tutarlar resmî tebliğler, TCMB/BDDK verileri ve kanuni tarifelere dayanır.",
-
+  "donem": "2026",
+  "guncelleme": "2026-11-17",
+  "kaynakNotu": "Oranlar ve tutarlar resmî tebliğler, Resmî Gazete, TCMB/BDDK ve Diyanet duyurularına dayanır. 2026 harç, MTV ve damga vergisi tutarları %18,95 artış oranıyla güncellenmiştir (25,49 olan yeniden değerleme oranı bu kalemlerde 18,95 ile sınırlandırıldı). Kıdem tazminatı tavanı 1 Temmuz–31 Aralık 2026 dönemi içindir. Akaryakıt fiyatı 15 Kasım 2026 İstanbul (Avrupa Yakası) pompa fiyatıdır.",
   "asgariUcret": {
-    "brut": 26005.50,
-    "net": 22104.67,
-    "gunlukBrut": 866.85,
-    "isverenMaliyeti": 30621.47
+    "brut": 33030.0,
+    "net": 28075.5,
+    "gunlukBrut": 1101.0,
+    "isverenMaliyeti": 38892.83
   },
-
   "sgk": {
     "isciPayi": 0.14,
     "issizlikIsci": 0.01,
     "isverenPayi": 0.205,
     "issizlikIsveren": 0.02,
-    "tabanAylik": 26005.50,
-    "tavanAylik": 195041.40,
-    "gunlukTaban": 866.85,
-    "gunlukTavan": 6501.38
+    "tabanAylik": 33030.0,
+    "tavanAylik": 297270.0,
+    "gunlukTaban": 1101.0,
+    "gunlukTavan": 9909.0
   },
-
   "damgaVergisiOrani": 0.00759,
-  "damgaVergisiTavani": 24237338.30,
-
+  "damgaVergisiTavani": 28830313.91,
   "gelirVergisiTarifesi": {
     "ucret": [
-      { "limit": 158000, "rate": 0.15 },
-      { "limit": 330000, "rate": 0.20 },
-      { "limit": 1200000, "rate": 0.27 },
-      { "limit": 4300000, "rate": 0.35 },
-      { "limit": null, "rate": 0.40 }
+      {
+        "limit": 190000,
+        "rate": 0.15
+      },
+      {
+        "limit": 400000,
+        "rate": 0.2
+      },
+      {
+        "limit": 1500000,
+        "rate": 0.27
+      },
+      {
+        "limit": 5300000,
+        "rate": 0.35
+      },
+      {
+        "limit": null,
+        "rate": 0.4
+      }
     ],
     "diger": [
-      { "limit": 158000, "rate": 0.15 },
-      { "limit": 330000, "rate": 0.20 },
-      { "limit": 800000, "rate": 0.27 },
-      { "limit": 4300000, "rate": 0.35 },
-      { "limit": null, "rate": 0.40 }
+      {
+        "limit": 190000,
+        "rate": 0.15
+      },
+      {
+        "limit": 400000,
+        "rate": 0.2
+      },
+      {
+        "limit": 1000000,
+        "rate": 0.27
+      },
+      {
+        "limit": 5300000,
+        "rate": 0.35
+      },
+      {
+        "limit": null,
+        "rate": 0.4
+      }
     ]
   },
-
   "kurumlarVergisiOrani": 0.25,
-  "kurumlarVergisiFinansal": 0.30,
-  "kidemTazminatiTavani": 53919.68,
-
+  "kurumlarVergisiFinansal": 0.3,
+  "kidemTazminatiTavani": 73729.87,
   "issizlikMaasi": {
-    "oran": 0.40,
-    "tavanOrani": 0.80,
-    "tabanTutar": 10402.20,
-    "tavanTutar": 20804.40,
+    "oran": 0.4,
+    "tavanOrani": 0.8,
+    "tabanTutar": 13212.0,
+    "tavanTutar": 26424.0,
     "damga": 0.00759
   },
-
-  "kdvOranlari": [1, 10, 20],
+  "kdvOranlari": [
+    1,
+    10,
+    20
+  ],
   "tapuHarciOrani": 0.02,
   "degerliKonutVergisiIstisna": 15709000,
-
-  "gecikmeZammiAylik": 0.045,
+  "gecikmeZammiAylik": 0.037,
   "yasalFaizYillik": 0.24,
   "ticariTemerrutFaizi": 0.4875,
-  "yenidenDegerlemeOrani": 0.4383,
-
+  "yenidenDegerlemeOrani": 0.2549,
   "krediKarti": {
     "aylikAkdiFaiz": 0.0425,
     "aylikGecikmeFaizi": 0.0455,
     "nakitAvansFaizi": 0.0425,
-    "asgariOdemeOrani": { "limitAlti": 0.20, "limitUstu": 0.40 },
+    "asgariOdemeOrani": {
+      "limitAlti": 0.2,
+      "limitUstu": 0.4
+    },
     "asgariOdemeLimitSiniri": 50000
   },
-
   "aracMuayene": {
-    "otomobilMinibusKamyonet": 2621.80,
-    "motosikletMotorluBisikletTraktor": 1335.60,
-    "otobusKamyonCekiciTanker": 3544.80,
+    "otomobilMinibusKamyonet": 3288.0,
+    "motosikletMotorluBisikletTraktor": 1674.0,
+    "otobusKamyonCekiciTanker": 4446.0,
     "gecikmeAylikOrani": 0.05
   },
-
-  "zekat": { "nisapAltinGr": 80.18, "nisapGumusGr": 561.00, "oran": 0.025 },
-  "fitre": { "varsayilanTutar": 180 },
-
+  "zekat": {
+    "nisapAltinGr": 80.18,
+    "nisapGumusGr": 561.0,
+    "oran": 0.025
+  },
+  "fitre": {
+    "varsayilanTutar": 240
+  },
   "altinTurleri": {
-    "gram24": { "ad": "24 Ayar Gram Altın", "ayar": 24, "agirlikGr": 1.00, "safCarpan": 1.0000 },
-    "gram22": { "ad": "22 Ayar Gram Altın", "ayar": 22, "agirlikGr": 1.00, "safCarpan": 0.9167 },
-    "ceyrek": { "ad": "Çeyrek Altın", "ayar": 22, "agirlikGr": 1.75, "safCarpan": 1.6042 },
-    "yarim": { "ad": "Yarım Altın", "ayar": 22, "agirlikGr": 3.50, "safCarpan": 3.2083 },
-    "tam": { "ad": "Tam Ziynet Altın", "ayar": 22, "agirlikGr": 7.00, "safCarpan": 6.4167 },
-    "cumhuriyetAta": { "ad": "Cumhuriyet / Ata Lira", "ayar": 22, "agirlikGr": 7.216, "safCarpan": 6.6147 },
-    "resatHamit": { "ad": "Reşat / Hamit Altını", "ayar": 22, "agirlikGr": 7.20, "safCarpan": 6.6000 },
-    "burmaBilezik20": { "ad": "20 Gram Burma Bilezik (22 Ayar)", "ayar": 22, "agirlikGr": 20.00, "safCarpan": 18.3333 },
-    "duzBilezik10": { "ad": "10 Gram Düz Bilezik (22 Ayar)", "ayar": 22, "agirlikGr": 10.00, "safCarpan": 9.1667 },
-    "gremse": { "ad": "Gremse Altın (10 Çeyrek)", "ayar": 22, "agirlikGr": 17.50, "safCarpan": 16.0417 }
-  },
-
-  "taksi": {
-    "acilis": 54.50,
-    "kmUcreti": 38.50,
-    "minUcret": 175.00,
-    "beklemeSaat": 280.00
-  },
-
-  "yurtdisiCikisHarci": 1000.00,
-  "imeiKayitHarci": 45614.00,
-
-  "pasaport": {
-    "cikisHarciPulu": 1000.00,
-    "defterBedeli": 1137.00,
-    "harclar": {
-      "6ay": 2359.00,
-      "1yil": 3448.00,
-      "2yil": 5631.00,
-      "3yil": 8000.00,
-      "3artiYil": 11274.00
+    "gram24": {
+      "ad": "24 Ayar Gram Altın",
+      "ayar": 24,
+      "agirlikGr": 1.0,
+      "safCarpan": 1.0
     },
-    "toplamMaliyet": {
-      "6ay": 3496.00,
-      "1yil": 4585.00,
-      "2yil": 6768.00,
-      "3yil": 9137.00,
-      "3artiYil": 12411.00
+    "gram22": {
+      "ad": "22 Ayar Gram Altın",
+      "ayar": 22,
+      "agirlikGr": 1.0,
+      "safCarpan": 0.9167
+    },
+    "ceyrek": {
+      "ad": "Çeyrek Altın",
+      "ayar": 22,
+      "agirlikGr": 1.75,
+      "safCarpan": 1.6042
+    },
+    "yarim": {
+      "ad": "Yarım Altın",
+      "ayar": 22,
+      "agirlikGr": 3.5,
+      "safCarpan": 3.2083
+    },
+    "tam": {
+      "ad": "Tam Ziynet Altın",
+      "ayar": 22,
+      "agirlikGr": 7.0,
+      "safCarpan": 6.4167
+    },
+    "cumhuriyetAta": {
+      "ad": "Cumhuriyet / Ata Lira",
+      "ayar": 22,
+      "agirlikGr": 7.216,
+      "safCarpan": 6.6147
+    },
+    "resatHamit": {
+      "ad": "Reşat / Hamit Altını",
+      "ayar": 22,
+      "agirlikGr": 7.2,
+      "safCarpan": 6.6
+    },
+    "burmaBilezik20": {
+      "ad": "20 Gram Burma Bilezik (22 Ayar)",
+      "ayar": 22,
+      "agirlikGr": 20.0,
+      "safCarpan": 18.3333
+    },
+    "duzBilezik10": {
+      "ad": "10 Gram Düz Bilezik (22 Ayar)",
+      "ayar": 22,
+      "agirlikGr": 10.0,
+      "safCarpan": 9.1667
+    },
+    "gremse": {
+      "ad": "Gremse Altın (10 Çeyrek)",
+      "ayar": 22,
+      "agirlikGr": 17.5,
+      "safCarpan": 16.0417
     }
   },
-
+  "taksi": {
+    "acilis": 54.5,
+    "kmUcreti": 38.5,
+    "minUcret": 175.0,
+    "beklemeSaat": 280.0
+  },
+  "yurtdisiCikisHarci": 1189.5,
+  "imeiKayitHarci": 54258.0,
+  "pasaport": {
+    "cikisHarciPulu": 1189.5,
+    "defterBedeli": 1351.0,
+    "harclar": {
+      "6ay": 2806.5,
+      "1yil": 4103.0,
+      "2yil": 6698.5,
+      "3yil": 9516.0,
+      "3artiYil": 13410.4
+    },
+    "toplamMaliyet": {
+      "6ay": 4157.5,
+      "1yil": 5454.0,
+      "2yil": 8049.5,
+      "3yil": 10867.0,
+      "3artiYil": 14761.4
+    }
+  },
   "ehliyet": {
     "harclar": {
-      "aSinifi": 1882.90,
-      "bSinifi": 5678.60,
-      "diger": 9455.50
+      "aSinifi": 2239.95,
+      "bSinifi": 6754.6,
+      "diger": 11247.32
     },
-    "degerliKagitBedeli": 1420.00,
-    "vakifPayi": 339.00,
+    "degerliKagitBedeli": 1690.0,
+    "vakifPayi": 425.0,
     "toplamMaliyet": {
-      "aSinifi": 3641.90,
-      "bSinifi": 7437.60,
-      "diger": 11214.50
+      "aSinifi": 4354.95,
+      "bSinifi": 8869.6,
+      "diger": 13362.32
     }
   },
-
   "kimlikKarti": {
-    "dogumDegistirme": 185.00,
-    "kayip": 370.00
+    "dogumDegistirme": 185.0,
+    "kayip": 370.0
   },
-
   "trafikCezalari": {
-    "emniyetKemeri": 993.00,
-    "kirmiziIsik": 2167.00,
-    "hizSiniriAsimi1030": 2167.00,
-    "hizSiniriAsimi3050": 4512.00,
-    "hizSiniriAsimi50Ustu": 9267.00,
-    "alkolluArac1": 9267.00,
-    "ehliyetsizArac": 18679.00,
-    "cepTelefonu": 2167.00,
-    "muayenesizArac": 2167.00,
-    "parkYasagi": 993.00,
+    "emniyetKemeri": 993.0,
+    "kirmiziIsik": 2167.0,
+    "hizSiniriAsimi1030": 2167.0,
+    "hizSiniriAsimi3050": 4512.0,
+    "hizSiniriAsimi50Ustu": 9267.0,
+    "alkolluArac1": 9267.0,
+    "ehliyetsizArac": 18679.0,
+    "cepTelefonu": 2167.0,
+    "muayenesizArac": 2167.0,
+    "parkYasagi": 993.0,
     "erkenOdemeIndirimOrani": 0.25
   },
-
   "mtvOrnekleri": {
-    "1_3yas_1300alti": 4834.00,
-    "1_3yas_1301_1600": 8421.00,
-    "1_3yas_1601_1800": 14885.00,
-    "1_3yas_1801_2000": 23454.00
+    "1_3yas_1300alti": 5750.0,
+    "1_3yas_1301_1600": 10016.0,
+    "1_3yas_1601_1800": 17705.0,
+    "1_3yas_1801_2000": 27898.0
   },
-
   "yakit": {
-    "benzin": 52.40,
-    "motorin": 54.80,
-    "lpg": 28.50,
-    "elektrik": 6.50
+    "benzin": 71.2,
+    "motorin": 95.2,
+    "lpg": 50.7,
+    "elektrik": 6.5
   },
-
-  "sigara": { "paketFiyati": 100 }
+  "sigara": {
+    "paketFiyati": 100
+  },
+  "harcArtisOrani": 0.1895
 }

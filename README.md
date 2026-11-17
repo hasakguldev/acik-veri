@@ -1,5 +1,5 @@
 # 🇹🇷 Türkiye Açık Veri Havuzu (`acik-veri`)
-### YKS Üniversite Taban Puanları & Sıralamaları, LGS Lise Tercih Kılavuzu ve Resmî Mevzuat Parametreleri (2025/2026)
+### YKS Üniversite Taban Puanları & Sıralamaları, LGS Lise Tercih Kılavuzu ve Resmî Mevzuat Parametreleri (2026)
 
 [![GitHub License](https://img.shields.io/badge/Lisans-CC%20BY%204.0-blue.svg)](LICENSE)
 [![jsDelivr CDN](https://img.shields.io/badge/CDN-jsDelivr%20Aktif-green.svg)](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/)
@@ -82,7 +82,7 @@ Türkiye'de hesaplama araçları, bordro motorları ve muhasebe yazılımları i
 
 | Parametre Grubu | Kapsam | Bağlantı |
 |---|---|---|
-| **2025/2026 Mevzuatı** | Asgari Ücret (Net/Brüt), Gelir Vergisi Dilimleri (GVK 103), SGK Tavanı, Kıdem Tazminatı Tavanı, Pasaport Harçları & Yurt Dışı Çıkış Harcı Pulu, Ehliyet Harçları, IMEI Kayıt Harcı, Trafik Cezaları, Araç Muayene, MTV | [`parametreler/2025.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/parametreler/2025.json) |
+| **2026 Mevzuatı** | Asgari Ücret (Net/Brüt), Gelir Vergisi Dilimleri (GVK 103), SGK Tavanı, Kıdem Tazminatı Tavanı, Pasaport Harçları & Yurt Dışı Çıkış Harcı Pulu, Ehliyet Harçları, IMEI Kayıt Harcı, Trafik Cezaları, Araç Muayene, MTV | [`parametreler/2025.json`](https://cdn.jsdelivr.net/gh/hasakguldev/acik-veri@main/parametreler/2025.json) |
 
 ---
 
